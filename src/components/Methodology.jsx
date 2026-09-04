@@ -1,0 +1,7 @@
+import { ArrowUpRight, ClipboardList, GitCompareArrows, SearchCheck, SlidersHorizontal } from 'lucide-react'
+
+const steps = [['01', 'Website discovery', 'A representative set of official ministry domains is identified.'], ['02', 'Page selection', 'Key public-facing pages are selected for a consistent review.'], ['03', 'Technical measurements', 'Observable signals are measured with passive, non-destructive checks.'], ['04', 'Scoring & comparison', 'Findings are weighted, combined and presented side by side.']]
+const icons = [SearchCheck, ClipboardList, SlidersHorizontal, GitCompareArrows]
+export default function Methodology() {
+  return <section id="methodology" className="method-section section-pad"><div className="section-kicker">04 / Methodology</div><div className="method-head"><h2>Measured with<br /><span>purpose.</span></h2><p>A lightweight, repeatable process that makes the index easy to understand and improve upon.</p></div><div className="method-steps">{steps.map(([number, title, desc], index) => { const Icon = icons[index]; return <div className="method-step" key={number}><div className="step-icon"><Icon size={20} /></div><div><span className="step-number">{number}</span><h3>{title}</h3><p>{desc}</p></div></div> })}</div><div className="method-note"><span>Testing is passive and non-destructive.</span><a href="#results">See the results <ArrowUpRight size={16} /></a></div></section>
+}

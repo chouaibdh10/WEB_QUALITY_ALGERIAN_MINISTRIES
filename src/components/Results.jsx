@@ -1,0 +1,12 @@
+import { ArrowUpRight, ChevronRight, Search, SlidersHorizontal } from 'lucide-react'
+import { useMemo } from 'react'
+
+const filters = [['all', 'All'], ['security', 'Security'], ['performance', 'Performance'], ['accessibility', 'Accessibility'], ['mobile', 'Mobile']]
+export default function Results({ ministries, query, setQuery, filter, setFilter, onSelect }) {
+  const filtered = useMemo(() => ministries.filter((ministry) => {
+    const matchesQuery = `${ministry.name} ${ministry.domain}`.toLowerCase().includes(query.toLowerCase())
+    if (filter === 'all') return matchesQuery
+    return matchesQuery && ministry.scores[filter] !== undefined
+  }), [ministries, query, filter])
+  return <section id="results" className="results-section section-pad"><div className="results-heading"><div><div className="section-kicker">03 / The leaderboard</div><h2>The public web,<br /><span>in view.</span></h2></div><div className="results-summary"><strong>{ministries.length}</strong><span>ministries<br />reviewed</span></div></div><div className="results-toolbar"><div className="search-wrap"><Search size={18} /><input aria-label="Search ministries" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search ministries or domains" /></div><div className="filter-wrap"><SlidersHorizontal size={16} />{filters.map(([value, label]) => <button className={filter === value ? 'active' : ''} key={value} onClick={() => setFilter(value)}>{label}</button>)}</div></div><div className="table-wrap"><table><thead><tr><th>Rank</th><th>Ministry</th><th>Domain</th><th>Score</th><th>Status</th><th /></tr></thead><tbody>{filtered.map((ministry) => <tr key={ministry.domain} onClick={() => onSelect(ministry)}><td><span className="rank">{String(ministry.rank).padStart(2, '0')}</span></td><td><strong>{ministry.name}</strong></td><td><span className="domain">{ministry.domain}</span></td><td><strong className="table-score">{ministry.score}<small>/100</small></strong></td><td><span className={`status status-${ministry.status.toLowerCase()}`}><i />{ministry.status}</span></td><td><button className="row-action" aria-label={`View ${ministry.name} details`}><ArrowUpRight size={17} /></button></td></tr>)}{filtered.length === 0 && <tr><td className="empty-state" colSpan="6">No ministries match this search.</td></tr>}</tbody></table></div><div className="table-hint"><span>Placeholder dataset for academic presentation</span><span>Click a row to inspect the score <ChevronRight size={15} /></span></div></section>
+}

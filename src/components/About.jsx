@@ -1,0 +1,5 @@
+import { ArrowUpRight, CheckCircle2 } from 'lucide-react'
+
+export default function About({ compact = false }) {
+  return <section id={compact ? 'about' : 'evaluation'} className={`about-section section-pad ${compact ? 'about-compact' : ''}`}><div className="section-kicker">{compact ? 'The project' : '01 / The index'}</div><div className="about-layout"><div><h2>{compact ? <>An academic lens on <span>public digital quality.</span></> : <>A clear score for a<br /><span>better public web.</span></>}</h2></div><div className="about-copy"><p>The project evaluates public-facing Algerian ministry websites using a transparent score from 0 to 100. It focuses on observable website quality rather than internal systems.</p><div className="about-points"><div><CheckCircle2 size={18} /><span>Transparent scoring framework</span></div><div><CheckCircle2 size={18} /><span>Passive, non-destructive testing</span></div></div>{!compact && <a href="#methodology" className="text-link">Learn about the method <ArrowUpRight size={16} /></a>}</div></div></section>
+}
