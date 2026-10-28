@@ -1,0 +1,602 @@
+{
+  "energy-renewable-energies": {
+    "title": "Energy and Renewable Energies",
+    "reviewedAt": "2026-10-21T07:34:41.953219+00:00",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independently reviewed Public Works government directory associates energy.gov.dz with the ministry; the captured ministry identity and observed HTTPS entry agree. This verifies host association, not government endorsement of this evaluation.",
+        "evidence": [
+          "report.json#ownership",
+          "energy-renewable-energies-discovery.json#source"
+        ]
+      },
+      "content.contact": {
+        "points": 0.5,
+        "reason": "The sampled contact page gives the ministry postal address, but its own Phone and Fax fields are empty and no ministry email is shown in that contact block. Named affiliated bodies have fuller channels; those are not substituted for the ministry. Partial contact information, no submission/delivery claim.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "Sampled homepage news and events display explicit publication dates, including July 2026 items. Displayed dates are credited; the October clock and page copyright are not treated as proof of current news or content accuracy.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "The observed navigation exposes a dedicated Preoccupation citizen enquiry form with energy category, customer type and location controls. This establishes a useful enquiry entry, not a complete citizen-service catalogue or completed transaction, so only partial directory credit is awarded.",
+        "evidence": [
+          "manual-followup.json#records.citizen-enquiry.dom.forms",
+          "manual-followup.json#records.citizen-enquiry.dom.text"
+        ]
+      },
+      "accessibility.form-access": {
+        "points": 0,
+        "reason": "The enquiry form has unlabelled required select controls (state, municipality, customers, energies and pattern): the captured controls have no associated label or aria-label. Normal-browser axe confirms select-name failures and the unlabelled file attachment. This concrete label defect prevents issue-set credit; validation/errors and form delivery were not exercised.",
+        "evidence": [
+          "manual-followup.json#records.citizen-enquiry.dom.forms",
+          "manual-followup.json#records.citizen-enquiry.axe.select-name"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "The reviewed normal-browser sample confirms an unnamed language select and iframes without title or accessible-name attributes. These programmatic-name defects are corroborated by the corresponding axe checks. This is a verified sampled issue set, not a comprehensive WCAG certification.",
+        "evidence": [
+          "manual-followup.json#records.homepage.axe.select-name",
+          "manual-followup.json#records.contact.axe.frame-title"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Ministry contact fields are incomplete",
+        "detail": "The ministry address is present, but its Phone and Fax fields are empty. Affiliated-body contacts do not replace direct ministry channels."
+      },
+      {
+        "title": "Citizen enquiry controls need labels",
+        "detail": "Associate visible labels with the required select controls and attachment input. Name the language selector and embedded frames."
+      },
+      {
+        "title": "Viewport requests restricted zoom",
+        "detail": "The sampled viewport includes maximum-scale=1. Remove this restriction and verify actual zoom, reflow and assistive-technology behavior; those complete checks remain unmeasured."
+      }
+    ],
+    "notes": [
+      "Recovery collection amendment: standards-aware robots parsing with original fallback response retained. Earlier guarded navigation failures remain private evidence and do not establish a site outage.",
+      "A separate normal-browser follow-up rendered all three pages; the enquiry navigation timed out before DOMContentLoaded but its captured content and controls remain explicit. No form was submitted."
+    ]
+  },
+  "environment-quality-of-life": {
+    "title": "Environment and Quality of Life",
+    "reviewedAt": "2026-10-21T07:36:08.309677+00:00",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "The reviewed contact page provides a postal address, info@me.gov.dz and telephone numbers 023495950/023495764. These establish visible contact channels; no message was sent and delivery is not certified.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 2,
+        "reason": "The sampled electronic-services page lists distinct named procedures, including hazardous-waste transport, classified-facility permits, collection approvals and environmental-study-office accreditation, with destination links. This credits the directory content only, not successful submission or full endpoint availability.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.service-information.dom.links"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The captured homepage shows explicitly dated news items, including 20 October 2026. This credits visible publication dates, not an assertion that the complete site is current or accurate.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "accessibility.form-access": {
+        "points": 0,
+        "reason": "The shared newsletter email input your-email has no associated label, aria-label or placeholder in the normal-browser form inventory. The matching axe label check confirms no alternative name. This concrete label defect prevents sampled form-access credit; validation and submission were not tested.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.forms",
+          "manual-followup.json#records.homepage.axe.label"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "The reviewed mobile-menu toggle button has no visible accessible text, aria-label, aria-labelledby, title or associated label, as corroborated by the normal-browser button-name checks. The newsletter label defect is also verified. These sampled defects prevent issue-set credit, without claiming a comprehensive WCAG audit.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.buttons",
+          "manual-followup.json#records.homepage.axe.button-name"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Name the mobile menu control",
+        "detail": "The captured menu toggle lacks a programmatic accessible name. Add an appropriate accessible label and verify the complete keyboard/menu interaction."
+      },
+      {
+        "title": "Label the newsletter email field",
+        "detail": "The shared newsletter email input has no associated or alternative label. Connect a visible label to the control."
+      },
+      {
+        "title": "A substantive service directory is present",
+        "detail": "Named environmental procedures and permit categories are listed. Their end-to-end transactions and detailed eligibility/document requirements were not completed in this sample."
+      }
+    ],
+    "notes": [
+      "Default Node chain construction failed; recovery supplied only independently root-verified public intermediates. Successful recovered trust does not certify complete server chain delivery or universal client compatibility.",
+      "The services page contains a personal-data handling notice referring to Law 18-07. Its existence is recorded; no legal/privacy compliance, consent behavior or secure submission certification is inferred.",
+      "Guarded contact rendering timed out, while the separate normal-browser follow-up rendered all three declared pages. Numerical widths alone were not used to award responsive or mobile usability points."
+    ]
+  },
+  "foreign-affairs": {
+    "title": "Foreign Affairs",
+    "reviewedAt": "2026-10-21T07:37:20.339009+00:00",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The reviewed independent Public Works government directory links the Foreign Affairs host. Captured institutional identity and the trusted observed entry agree; this establishes domain association, not endorsement of this evaluation.",
+        "evidence": [
+          "report.json#ownership",
+          "foreign-affairs-discovery.json#source"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The captured contact page provides a postal address and telephone numbers plus a named enquiry form with name, email, phone, subject and message labels. No message, captcha or delivery workflow was submitted.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "The homepage exposes legalisation information and representation directories, and the declared service page renders the legalisation/apostille information. This is a useful bounded service entry, not a reviewed complete ministry catalogue; partial credit only.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.links",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.procedures": {
+        "points": 2,
+        "reason": "The sampled legalisation page distinguishes document/sector situations, describes postal and in-person routes, lists prerequisites and stated charges, and gives regional-office locations. This credits the presence and clarity of procedure instructions, not independent confirmation of legal accuracy, fee currency or successful service delivery.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.documents": {
+        "points": 1,
+        "reason": "The procedure text includes prerequisites and links to Arabic/French payment forms and an apostille guide. Instructions and named downloads are present, but the PDFs were not opened or tested for accessibility/version correctness, so only partial document availability credit is awarded.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.service-information.dom.links"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The reviewed homepage includes explicitly dated announcements and news. Displayed publication dates receive credit; dates embedded in instructions do not certify current legal requirements or complete website currency.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "The visible shared .navbar-toggler button has no text or aria-label in the DOM inventory; normal-browser axe confirms no aria-labelledby, title or other accessible name. This concrete repeated menu-control naming defect prevents sampled issue-set credit; comprehensive WCAG review remains incomplete.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.buttons",
+          "manual-followup.json#records.contact.axe.button-name"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Document procedure information is substantive",
+        "detail": "The sample explains postal and in-person legalisation routes with prerequisites and regional contacts. Linked forms and full service delivery remain untested."
+      },
+      {
+        "title": "Name the shared mobile menu toggle",
+        "detail": "The visible navigation toggle lacks a programmatic accessible name across the sample."
+      }
+    ],
+    "notes": [
+      "Recovery robots parsing processed the HTML fallback and retained any valid directives. No intentional crawler ban or site outage is inferred from the earlier strict-format rejection.",
+      "The separate normal-browser follow-up rendered all three declared pages. Width and initial Tab-path captures do not establish full keyboard navigation, responsive usability or complete-process accessibility.",
+      "Published procedural statements describe observed website content; legal accuracy, current fees, downloadable-file validity and transaction success were not independently certified."
+    ]
+  },
+  "hydrocarbons": {
+    "title": "Hydrocarbons",
+    "reviewedAt": "2026-10-21T07:38:47.961861+00:00",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "The captured contact page supplies a ministry postal address and telephone numbers plus an addressed contact form with recipient, name, email and message fields. No message, upload or captcha was submitted and delivery is not certified.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.service-list": {
+        "points": 2,
+        "reason": "The reviewed Services Numériques page contains a structured directory with sector/operator, service name, purpose and destination URL, including MARKABATIDZ, TASSAREEH and Naftal services. Credit concerns named service-directory content only; the external platforms and transactions were not tested.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.service-information.dom.links"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "Homepage news and project items display explicit dates, including the 20 October 2026 item. Dates establish displayed publication dating, not complete content accuracy or currency. The legacy 2019 footer copyright is not treated as a news date.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "accessibility.form-access": {
+        "points": 0,
+        "reason": "The shared advanced-search rubrique select has no associated label or aria-label in the normal-browser form inventory. Corresponding select-name checks confirm the absence of alternative naming. Despite many correctly labelled contact controls, this concrete sampled form-name defect prevents full issue-set credit; form validation/errors were not exercised.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.forms",
+          "manual-followup.json#records.contact.axe.select-name"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "The normal-browser sample corroborates the unnamed shared search-category select. The verified programmatic-name defect prevents sampled WCAG issue-set credit. Counts alone were not converted into a compliance percentage and no complete WCAG claim is made.",
+        "evidence": [
+          "manual-followup.json#records.homepage.axe.select-name",
+          "manual-followup.json#records.homepage.dom.forms"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Useful digital-service directory is present",
+        "detail": "The sample identifies service operators, purposes and destination URLs. Availability and completion of those external services remain untested."
+      },
+      {
+        "title": "Label the shared search-category selector",
+        "detail": "Associate a programmatic label with the rubrique select; the sampled contact form otherwise has numerous explicit labels."
+      },
+      {
+        "title": "Clarify legacy institutional branding",
+        "detail": "The captured title refers to Hydrocarbons and Mines, while navigation/contact text and the footer retain Energy ministry wording. Explain the current scope so users know which institution handles their request."
+      }
+    ],
+    "notes": [
+      "The earlier HTML robots fallback was a collector format restriction; the recovery parser processed valid directives without bypassing explicit exclusions.",
+      "All six guarded captures timed out. The separate normal-browser follow-up rendered the three exact declared URLs; those failures remain retained and do not support outage, mobile reflow or resource-completeness conclusions.",
+      "Mines is not assigned a duplicate score from this shared/legacy site. Its dedicated official-domain verification remains a separate unresolved entry."
+    ]
+  },
+  "industry": {
+    "title": "Industry",
+    "reviewedAt": "2026-10-21T07:41:01.764575+00:00",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independently reviewed National Education government useful-links directory associates industrie.gov.dz with the ministry. The captured ministry identity and trusted entry agree; this verifies host association, not endorsement.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The captured homepage and citizen-enquiry page provide a postal address, phone numbers 023487001/023487033 and contact@industrie.gov.dz, plus an explicitly addressed enquiry form. No enquiry or delivery verification was submitted.",
+        "evidence": [
+          "manual-followup.json#records.citizen-enquiry.dom.text",
+          "manual-followup.json#records.citizen-enquiry.dom.forms"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "The homepage names the ministry portal, enterprise space, listening cell and vehicle-agents/manufacturers platform, with actual links. The selected activity-list page rendered only a heading and search prompt, so a complete service/activity catalogue is not established; partial entry-directory credit only.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.links",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The captured homepage news displays publication dates including 19, 18 and 17 October 2026. This credits visible publication dating and does not certify every item’s currency or accuracy.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "The normal-browser sample confirms an embedded iframe with neither title nor aria-label/aria-labelledby; the frame-title checks show no alternative accessible name. This verified repeated frame-name defect prevents sampled issue-set credit without constituting a comprehensive WCAG audit.",
+        "evidence": [
+          "manual-followup.json#records.homepage.axe.frame-title",
+          "manual-followup.json#records.citizen-enquiry.axe.frame-title"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Citizen enquiry fields have explicit labels",
+        "detail": "The captured listening-cell form labels the required identity, contact, location, destination, subject and detail controls. Submission, validation errors and recovery were not tested."
+      },
+      {
+        "title": "Give the embedded frame an accessible name",
+        "detail": "The sampled iframe lacks a title or alternative programmatic name."
+      },
+      {
+        "title": "Activity-directory coverage is incomplete",
+        "detail": "The selected activity page exposed a heading and search prompt in the captures. The dynamic activity dataset and keyword-search behavior were not established; no functional failure or complete catalogue is inferred."
+      }
+    ],
+    "notes": [
+      "Recovery Node collection supplied only independently root-verified public intermediates after default chain construction failed. Complete server-delivered certificate chains and all-client compatibility are not certified.",
+      "The citizen-enquiry normal-browser navigation exceeded its DOMContentLoaded timeout, but its captured form and institutional content are retained. The activity-list sample has little rendered text and does not support complete directory/functionality credit.",
+      "No mobile reflow, full keyboard navigation, form validation, external-platform completion or privacy-law compliance is inferred from basic rendering."
+    ]
+  },
+  "justice": {
+    "title": "Justice",
+    "reviewedAt": "2026-10-21T07:42:14.924826+00:00",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independent Foreign Affairs government directory links the Justice ministry legacy host; the retained trusted redirect/host association and captured institutional identity support the current declared ministry entry. This verifies association, not endorsement.",
+        "evidence": [
+          "report.json#ownership",
+          "report.json#httpRedirect"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The contact sample gives ministry postal address, general and purpose-specific email channels, phone/fax numbers and the 1078 hotline, plus a contact form. No message, phone call or delivery verification was made.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.service-list": {
+        "points": 2,
+        "reason": "The homepage exposes a named citizen-service catalogue, including nationality, criminal-record documents, case-status information and civil-record correction. The sampled modernisation page describes these digital services in more detail. Credit is for the directory/information content, not proven service execution.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The captured homepage includes dated announcements, including the 19 October 2026 tender item. This credits explicit publication dates, not the accuracy or current status of every service. The 2020 footer copyright is not used as a freshness measure.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "accessibility.form-access": {
+        "points": 0,
+        "reason": "The contact form controls your-adress, your-subject and your-message have neither associated labels nor aria-labels in the captured DOM inventory. The corresponding axe label checks confirm no alternative name or placeholder. This verified multi-control label defect prevents sampled form-access credit; no validation/submission was performed.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.forms",
+          "manual-followup.json#records.contact.axe.label"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "The normal-browser contact form corroborates multiple controls without programmatic labels, including address, subject and message. These concrete accessible-name defects prevent sampled issue-set credit. Other keyboard, assistive-technology and complete-process checks remain unmeasured.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.forms",
+          "manual-followup.json#records.contact.axe.label"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Substantive citizen-service information is present",
+        "detail": "The sample identifies nationality, criminal-record, civil-record correction and case-status services. Actual applications and complete service delivery were not exercised."
+      },
+      {
+        "title": "Connect labels to contact form controls",
+        "detail": "The captured address, subject and message controls lack programmatic labels. Visible nearby text alone does not establish an associated label."
+      },
+      {
+        "title": "Narrow-screen overflow needs review",
+        "detail": "The normal-browser captures recorded document width 383 at a 320 CSS-pixel viewport across the three pages. The inspected contact screenshot also clips the language area. Full reflow/orientation behavior remains unmeasured rather than inferred from widths alone."
+      }
+    ],
+    "notes": [
+      "Recovered HTTPS trust used only independently root-verified public intermediates. Earlier default Node chain failures remain retained; universal client compatibility and full server chain delivery are not certified.",
+      "No form was submitted and no criminal-record, nationality or other citizen transaction was completed. A visible privacy-notice link does not certify privacy-law compliance.",
+      "The normal-browser sample rendered all three declared pages. Initial Tab paths and screenshots are supporting evidence, not full keyboard/menu or assistive-technology certification."
+    ]
+  },
+  "national-defence": {
+    "title": "National Defence",
+    "reviewedAt": "2026-10-21T07:45:50.481457+00:00",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independently reviewed Foreign Affairs government directory associates mdn.dz with the ministry. The observed trusted ministry entry and institutional identity agree; this verifies host association, not endorsement.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 0.5,
+        "reason": "The sampled institution page gives a ministry postal address and telephone number 021.71.15.15. Its E-Mail field is blank in the resource-constrained capture; a complete online feedback route is not established. Partial contact credit only, without a call or delivery test.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "The institution sample names the ministry and armed-forces components and links military-status legal texts. A complete reviewed mission statement and organisation explanation is not established in the captured text, so only partial institutional-information credit is awarded.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text",
+          "manual-followup.json#records.institution.dom.links"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage sample contains explicit news dates, including 20.10.2026. This credits visible publication dating and does not establish complete accuracy/currency of the website.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "security.csp": {
+        "points": null,
+        "reason": "No enforced CSP response header was captured, but explicit robots exclusions prevented CSS/JS loading. This constrained DOM cannot establish the complete meta-policy state of an unrestricted visitor page. The combined-policy criterion remains N/M rather than inferring absence.",
+        "evidence": [
+          "report.json#pages.http.headers",
+          "report.json#robots",
+          "manual-followup.json#scope"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Resource exclusions constrain this evaluation",
+        "detail": "The published robots rules disallow CSS and JavaScript paths. Those exclusions remain enforced. Visitor performance, reflow, full accessibility and rendering completeness are not inferred from the stripped captures."
+      },
+      {
+        "title": "Publication dates and institutional contacts are visible",
+        "detail": "The permitted text sample shows dated news, an address and a telephone number. Its email field is blank in the constrained capture."
+      }
+    ],
+    "notes": [
+      "Explicit Defence CSS/JS robots exclusions are honored in DOM observations and follow-up. Timing preflight declines the declared runs; no stylesheet-free speed score is awarded.",
+      "No accessibility, responsive-layout, full service-process or resource-absence passes/failures are inferred from missing blocked resources. A normal browser user may receive a different complete rendering.",
+      "Recovered HTTPS trust uses root-verified public intermediates; this does not certify complete server chain delivery, all-client compatibility or full TLS configuration."
+    ]
+  },
+  "youth": {
+    "title": "Youth",
+    "reviewedAt": "2026-10-21T07:49:03.931329+00:00",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "The captured contact page provides a named contact form, a ministry-domain email address and a postal address. The displayed phone number 023 00 00 00 was not verified; full credit here concerns the visible email/form contact entry, not telephone authenticity, successful submission or delivery.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "The sampled structure page names central administration units, directorates and sub-directorates with functional labels. A complete mission statement and explanation of institutional responsibilities was not sampled, so only partial organisation-information credit is awarded.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 2,
+        "reason": "The homepage groups five named digital platforms, including youth activities, young leaders, camps, hackathon and partnership, with purpose descriptions and destination links. This credits the displayed service directory only; external platforms, eligibility and completed transactions remain untested.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.homepage.dom.links"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The captured homepage exposes explicit publication dates on news and official-document entries. These are content dates, not the live clock or copyright; no accuracy or complete-currency claim is made.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "technical.metadata": {
+        "points": 0.5,
+        "reason": "All three sampled pages have distinct useful Arabic titles, but repeat the same generic official-ministry meta description instead of page-specific summaries. The six guarded metadata inventories were reviewed; this known metadata limitation receives partial credit.",
+        "evidence": [
+          "report.json#pages.observations"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Useful platform directory and contact labels are present",
+        "detail": "The homepage explains several ministry platforms, and the contact fields have explicit labels. External transactions and form delivery were not tested."
+      },
+      {
+        "title": "Use page-specific meta descriptions",
+        "detail": "Contact and organisation pages repeat the homepage’s generic ministry description."
+      },
+      {
+        "title": "Verify the published telephone number",
+        "detail": "The displayed number is 023 00 00 00. Its authenticity/reachability was not established; the report does not certify it."
+      }
+    ],
+    "notes": [
+      "Original HTTP robots preflight returned 503 and stopped before target observations. The stopped attempt is preserved; after a three-minute cooldown, this separate frozen HTTPS-only sample used the independently retrieved HTTPS robots policy. HTTP enforcement remains N/M.",
+      "No clean accessibility pass is inferred from the mobile axe scan reporting no violations; full keyboard, assistive-technology and process checks remain incomplete.",
+      "Institutional identity alone is not independent domain verification; ownership remains explicitly unverified in this pilot.",
+      "All 18 declared Lighthouse attempts returned a 703-byte main document with HTTP 200 and failed the frozen representative-document validity check. These responses are excluded, not timed as successful ministry pages. The separate normal-browser follow-up had rendered the three declared pages; the discrepancy remains a collection limitation, without inferring a site-wide outage or an established cause."
+    ]
+  },
+  "interior-local-authorities-transport": {
+    "title": "Interior, Local Authorities and Transport",
+    "reviewedAt": "2026-10-21T07:49:03.931329+00:00",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The reviewed independent Foreign Affairs government directory associates the Interior host with the ministry. The successful trusted French contact and administrative-procedure samples support that association; legacy portfolio wording does not imply endorsement of this evaluation.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 0.5,
+        "reason": "The captured contact page provides an address, telephone and labelled enquiry controls, but its displayed contact email is the generic external address contact@gmail.com and was not independently associated with the ministry. Partial contact-information credit only; no message, call or delivery verification was made.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "The administrative-procedure archive lists passport, driving-licence and vehicle-registration entries with actual links, but mixes service information and ministry news. This establishes useful procedure entry points rather than a fully reviewed structured service catalogue; partial credit only.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.service-information.dom.links"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The sampled procedure archive displays publication dates, including June 2026 and March 2025 entries. These establish displayed dating, not current legal accuracy or complete website freshness.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "accessibility.form-access": {
+        "points": 0,
+        "reason": "The required contact message textarea textarea-1 has no associated label, aria-label or placeholder in the captured form inventory. The matching normal-browser axe label check confirms no alternative accessible name. This critical primary-message-field defect prevents sampled form-access credit; validation/submission was not exercised.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.forms",
+          "manual-followup.json#records.contact.axe.label"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "The normal-browser contact sample verifies the required message editor lacks a programmatic label. This concrete critical field-name defect prevents sampled issue-set credit; the empty homepage capture and other incomplete observations are not treated as accessibility failures.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.forms",
+          "manual-followup.json#records.contact.axe.label"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Verify the ministry contact email",
+        "detail": "The captured contact page publishes contact@gmail.com. Confirm the intended official address; no association or delivery is certified."
+      },
+      {
+        "title": "Label the required message editor",
+        "detail": "The captured primary message textarea has no programmatic label, despite a visible Message prompt."
+      },
+      {
+        "title": "Homepage rendering was not established",
+        "detail": "The declared French homepage produced an empty normal-browser capture, while contact and procedure text rendered. This is an operator collection limitation, not an outage or site-wide failure conclusion."
+      }
+    ],
+    "notes": [
+      "The original root redirected to a sparse English landing page. The frozen sample uses observed French navigation URLs with separately verified HTTPS equivalents; both discoveries are retained.",
+      "All guarded captures timed out. In the separate follow-up, the French homepage was empty and the contact/procedure navigations exceeded the DOMContentLoaded timeout while yielding retained substantive text. Missing evidence is not a zero.",
+      "Default Node chain construction failed; only independently root-verified public intermediates were supplied. Full server chain delivery, universal client compatibility, transactions and privacy-law compliance remain unmeasured."
+    ]
+  }
+}

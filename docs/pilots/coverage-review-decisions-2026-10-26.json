@@ -1,0 +1,479 @@
+{
+  "sports": {
+    "technical.site-search": {
+      "points": 2,
+      "reason": "Submitted the benign keyword through a previously observed GET search action and field, without guessing a route. The supplementary document returned HTTP 200 and displayed relevant matching content, including the ministry organization chart and ministry-news results. The implementing evaluator reviewed the result headings/text. This awards only the observed query, not every search term or destination.",
+      "evidence": [
+        "coverage-supplementary-2026-10-26.json#records.search"
+      ]
+    },
+    "mobile.reflow": {
+      "points": 2,
+      "reason": "Reviewed the retained normal-browser core-page screenshots at 320/390 CSS px alongside the additional 320/390/844 px dimension records. The sampled header, primary text and relevant contact/service/organization content reflow within the viewport and remain visually usable in the captured states. This is a manual layout review, not an award from width alone. Third-party embed exclusions are not treated as intrinsic layout defects or completed service tests.",
+      "evidence": [
+        "manual-followup.json#records.viewports",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "content.identity": {
+      "points": 1,
+      "reason": "The May 2026 Turkish Ministry of Trade government directory independently links the sampled ministry domain. Full directory pages, actual PDF hyperlink targets and retained ministry identity were reviewed. This satisfies the frozen independent-government-link criterion; it does not certify legal registration, current availability or a complete evaluation. Distinct legacy domains were not treated as equivalent.",
+      "evidence": [
+        "government-directory-review-2026-10-28.json",
+        "turkiye-trade-algeria-may-2026.pdf",
+        "directory-layout.xml"
+      ]
+    }
+  },
+  "industry": {
+    "technical.site-search": {
+      "points": 2,
+      "reason": "Submitted the benign keyword through a previously observed GET search action and field, without guessing a route. The supplementary document returned HTTP 200 and displayed relevant matching content, including ministry labour-day activities, water-treatment cooperation and inter-ministry coordination news. The implementing evaluator reviewed the result headings/text. This awards only the observed query, not every search term or destination.",
+      "evidence": [
+        "coverage-supplementary-2026-10-26.json#records.search"
+      ]
+    },
+    "accessibility.alt": {
+      "points": 0.5,
+      "reason": "The representative homepage and enquiry header image header_ar_m.jpg lack alternatives, alongside several homepage graphics. The DOM shows the visible header inside an unnamed link and axe corroborates image-alt findings. Partial credit records the repeated branding/graphic omission; some other homepage images and surrounding content remain named.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.images",
+        "completion-page-checks-2026-10-21.json#records.axe"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The representative homepage title identifies the ministry and the citizen-enquiry title identifies its listening cell, but both captured documents omit a meta description. Partial credit records these meaningful titles with a verified metadata omission. The excluded third page is not treated as a website failure or a successful metadata check.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.title",
+        "completion-page-checks-2026-10-21.json#records.dom.description"
+      ]
+    },
+    "content.service-function": {
+      "points": 2,
+      "reason": "The retained homepage-linked service URL returns representative HTTP 200 content. The listening-cell page explains its complaint purpose and renders associated labels, required indicators, recipient and province selectors, subject/message fields, and a submit control. DOM and the retained narrow-viewport screenshot were manually reviewed. This awards only the frozen non-destructive pre-submission availability criterion. No data was entered, CAPTCHA solved, service submitted, response received or complete process tested. The rejected map embed is separate from the form.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.citizen-enquiry.dom.forms",
+        "independent-citizen-enquiry-390.png",
+        "manual-followup.json"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 1,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The complaint form fields fit with readable persistent labels, but both phone and email are generic text inputs rather than telephone/email types, reducing mobile input assistance. Partial credit records this input-mode friction, corroborated by the field inventory; no submitted-result claim is made. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed. A separate fresh DOM check confirms that these generic phone/email text inputs also have no inputmode override.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png",
+        "input-mode-review-2026-10-28.json"
+      ]
+    }
+  },
+  "interior-local-authorities-transport": {
+    "technical.site-search": {
+      "points": 2,
+      "reason": "Submitted the benign keyword through a previously observed GET search action and field, without guessing a route. The supplementary document returned HTTP 200 and displayed relevant matching content, including ministry appointments and public-security announcements. The implementing evaluator reviewed the result headings/text. This awards only the observed query, not every search term or destination.",
+      "evidence": [
+        "coverage-supplementary-2026-10-26.json#records.search"
+      ]
+    }
+  },
+  "foreign-affairs": {
+    "technical.site-search": {
+      "points": 0,
+      "reason": "The observed GET search endpoint returned HTTP 500 with ministry branding and an explicit application-error message for the benign ministry keyword. This agrees with the retained earlier search failure. The two rejected POSTs target Google analytics collection, not a search API; no first-party search request was rejected by the collector. Zero is limited to this verified query failure, not all site availability. Generic Web Page Blocked responses elsewhere were excluded from scoring.",
+      "evidence": [
+        "coverage-supplementary-2026-10-26.json#records.search",
+        "completion-search-check-2026-10-21.json"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable persistent labels, email/telephone input types, a message area and submit control within each tested viewport. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "national-education": {
+    "mobile.reflow": {
+      "points": 2,
+      "reason": "Reviewed the retained normal-browser core-page screenshots at 320/390 CSS px alongside the additional 320/390/844 px dimension records. The sampled header, primary text and relevant contact/service/organization content reflow within the viewport and remain visually usable in the captured states. This is a manual layout review, not an award from width alone. Third-party embed exclusions are not treated as intrinsic layout defects or completed service tests.",
+      "evidence": [
+        "manual-followup.json#records.viewports",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable persistent labels, name/email/subject inputs, a message area and a visible submit control within each tested viewport. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "internal-trade-market-regulation": {
+    "mobile.reflow": {
+      "points": 2,
+      "reason": "Reviewed the retained normal-browser core-page screenshots at 320/390 CSS px alongside the additional 320/390/844 px dimension records. The sampled header, primary text and relevant contact/service/organization content reflow within the viewport and remain visually usable in the captured states. This is a manual layout review, not an award from width alone. Third-party embed exclusions are not treated as intrinsic layout defects or completed service tests.",
+      "evidence": [
+        "manual-followup.json#records.viewports",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable named placeholders, an email field, recipient selector, message area and submit control within each tested viewport. Ancillary sign-in, search and survey controls were not operated. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "public-works-basic-infrastructure": {
+    "mobile.reflow": {
+      "points": 2,
+      "reason": "Reviewed the retained normal-browser core-page screenshots at 320/390 CSS px alongside the additional 320/390/844 px dimension records. The sampled header, primary text and relevant contact/service/organization content reflow within the viewport and remain visually usable in the captured states. This is a manual layout review, not an award from width alone. Third-party embed exclusions are not treated as intrinsic layout defects or completed service tests.",
+      "evidence": [
+        "manual-followup.json#records.viewports",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable name/email/message labels, an email input, CAPTCHA entry and submit control within each tested viewport. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "environment-quality-of-life": {
+    "mobile.reflow": {
+      "points": 2,
+      "reason": "Reviewed the retained normal-browser core-page screenshots at 320/390 CSS px alongside the additional 320/390/844 px dimension records. The sampled header, primary text and relevant contact/service/organization content reflow within the viewport and remain visually usable in the captured states. This is a manual layout review, not an award from width alone. Third-party embed exclusions are not treated as intrinsic layout defects or completed service tests.",
+      "evidence": [
+        "manual-followup.json#records.viewports",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "content.identity": {
+      "points": 1,
+      "reason": "The May 2026 Turkish Ministry of Trade government directory independently links the sampled ministry domain. Full directory pages, actual PDF hyperlink targets and retained ministry identity were reviewed. This satisfies the frozen independent-government-link criterion; it does not certify legal registration, current availability or a complete evaluation. Distinct legacy domains were not treated as equivalent.",
+      "evidence": [
+        "government-directory-review-2026-10-28.json",
+        "turkiye-trade-algeria-may-2026.pdf",
+        "directory-layout.xml"
+      ]
+    }
+  },
+  "youth": {
+    "mobile.reflow": {
+      "points": 2,
+      "reason": "Reviewed the retained normal-browser core-page screenshots at 320/390 CSS px alongside the additional 320/390/844 px dimension records. The sampled header, primary text and relevant contact/service/organization content reflow within the viewport and remain visually usable in the captured states. This is a manual layout review, not an award from width alone. Third-party embed exclusions are not treated as intrinsic layout defects or completed service tests.",
+      "evidence": [
+        "manual-followup.json#records.viewports",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "The retained mobile screenshots show the unsubmitted contact form fitting the narrow viewport, with readable name, phone, email and message labels and a visible submit button. The DOM corroborates associated labels, required-state indicators and appropriate tel/email input types; actual Tab records reach those controls. Full credit is limited to initial mobile form usability. Submission, validation errors, response delivery and recovery were not tested.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.contact.dom.forms",
+        "manual-followup.json#records"
+      ]
+    },
+    "content.service-function": {
+      "points": 2,
+      "reason": "The sampled contact request page is reachable as an observed homepage-linked URL and renders a usable unsubmitted form, associated labels, required indicators and a submit control. This satisfies the frozen non-destructive pre-submission availability criterion. No message was sent, and no successful back-end delivery or complete-service claim is made.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.contact.dom.forms",
+        "manual-followup.json#records"
+      ]
+    },
+    "content.identity": {
+      "points": 1,
+      "reason": "The May 2026 Turkish Ministry of Trade government directory independently links the sampled ministry domain. Full directory pages, actual PDF hyperlink targets and retained ministry identity were reviewed. This satisfies the frozen independent-government-link criterion; it does not certify legal registration, current availability or a complete evaluation. Distinct legacy domains were not treated as equivalent.",
+      "evidence": [
+        "government-directory-review-2026-10-28.json",
+        "turkiye-trade-algeria-may-2026.pdf",
+        "directory-layout.xml"
+      ]
+    }
+  },
+  "moudjahidine-rights-holders": {
+    "mobile.reflow": {
+      "points": 1,
+      "reason": "The retained narrow screenshots and dimension records show the shared interface fits, but the organization chart is reduced to a very small raster diagram within the mobile column. Partial credit records the extra enlargement needed for that institutional-information task. This is usability friction, not an automatic WCAG failure for intrinsically two-dimensional content.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "content.identity": {
+      "points": 1,
+      "reason": "The May 2026 Turkish Ministry of Trade government directory independently links the sampled ministry domain. Full directory pages, actual PDF hyperlink targets and retained ministry identity were reviewed. This satisfies the frozen independent-government-link criterion; it does not certify legal registration, current availability or a complete evaluation. Distinct legacy domains were not treated as equivalent.",
+      "evidence": [
+        "government-directory-review-2026-10-28.json",
+        "turkiye-trade-algeria-may-2026.pdf",
+        "directory-layout.xml"
+      ]
+    }
+  },
+  "religious-affairs-wakfs": {
+    "mobile.reflow": {
+      "points": 1,
+      "reason": "Navigation, the fatwa form and organization-page text fit the sampled mobile viewports. The retained organization screenshot reduces its detailed chart to small raster text, requiring further enlargement to read. Partial credit records that task-specific friction; no automatic WCAG violation is inferred from a two-dimensional chart.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "content.service-function": {
+      "points": 2,
+      "reason": "The retained homepage-linked service URL returns representative HTTP 200 content. The e-fatwa page renders associated labels, required indicators, province and gender selectors, email/question fields, a CAPTCHA field and a submit control. DOM and the retained narrow-viewport screenshot were manually reviewed. This awards only the frozen non-destructive pre-submission availability criterion. No data was entered, CAPTCHA solved, service submitted, response received or complete process tested. Excluded statistics, analytics and social-sharing requests are not a form submission.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.service-information.dom.forms",
+        "independent-service-information-390.png",
+        "manual-followup.json"
+      ]
+    },
+    "content.identity": {
+      "points": 1,
+      "reason": "The May 2026 Turkish Ministry of Trade government directory independently links the sampled ministry domain. Full directory pages, actual PDF hyperlink targets and retained ministry identity were reviewed. This satisfies the frozen independent-government-link criterion; it does not certify legal registration, current availability or a complete evaluation. Distinct legacy domains were not treated as equivalent.",
+      "evidence": [
+        "government-directory-review-2026-10-28.json",
+        "turkiye-trade-algeria-may-2026.pdf",
+        "directory-layout.xml"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The fatwa form shows readable labels, province/gender selectors, an email field, question area, CAPTCHA entry and submit control within each tested viewport. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "foreign-trade-export-promotion": {
+    "mobile.reflow": {
+      "points": 1,
+      "reason": "The viewport dimensions fit, but the retained 320px homepage hero and institutional legal text are forced into very narrow, excessively wrapped columns. The enquiry portal reflows more clearly. Partial credit records actual observed layout/readability friction that a no-overflow check alone would miss.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "content.identity": {
+      "points": 1,
+      "reason": "The May 2026 Turkish Ministry of Trade government directory independently links the sampled ministry domain. Full directory pages, actual PDF hyperlink targets and retained ministry identity were reviewed. This satisfies the frozen independent-government-link criterion; it does not certify legal registration, current availability or a complete evaluation. Distinct legacy domains were not treated as equivalent.",
+      "evidence": [
+        "government-directory-review-2026-10-28.json",
+        "turkiye-trade-algeria-may-2026.pdf",
+        "directory-layout.xml"
+      ]
+    }
+  },
+  "labour-employment-social-security": {
+    "mobile.reflow": {
+      "points": 1,
+      "reason": "The core pages fit the recorded widths, but the retained narrow legislation screenshot places the document text in a small column with frequent line wrapping and extensive scrolling. Partial credit recognizes usable contact/news layout while recording this task-specific layout friction. No blocking failure is claimed.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records.viewports"
+      ]
+    },
+    "accessibility.alt": {
+      "points": 0.5,
+      "reason": "The representative homepage has four visible video-preview images without alt attributes. Their enclosing links contain descriptive video titles, so those titles preserve context; the redundant previews should still use explicit decorative alt=\"\" rather than leaving alt absent. DOM image inventory and the exact axe image-alt targets corroborate this localized omission. Partial credit, not a complete image-alternative certification.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.images",
+        "completion-page-checks-2026-10-21.json#records.axe"
+      ]
+    },
+    "accessibility.form-access": {
+      "points": 1,
+      "reason": "The representative complaint form contains a visible email field and two radio controls without associated labels, ARIA names or placeholders. The DOM field inventory and three exact axe label findings agree; other fields have associated Arabic labels. Partial credit records these localized naming omissions. Submission, server-side validation, error announcements and recovery remain untested; no full form-accessibility claim is made.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.contact.dom.forms",
+        "completion-page-checks-2026-10-21.json#records.contact.axe"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 1,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The complaint form fits, but 180px-wide controls and four approximately 360px-tall textareas create an excessively narrow, long input task at 320px. The screenshots corroborate the cramped form and large gaps between successive fields. Partial credit records layout friction; it does not turn the untested submission into a failure. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "higher-education": {
+    "technical.crawlability": {
+      "points": 1,
+      "reason": "The retained HTTPS sitemap response is HTTP 200 and parses as an XML sitemapindex with child entries under the ministry host. HTTPS robots policy was parsed and the declared public pages were collectable; the separate HTTP-origin robots retrieval problem is retained. This establishes sampled configuration availability, not actual search-engine indexing or completeness.",
+      "evidence": [
+        "report.json#sitemap",
+        "report.json#robots"
+      ]
+    }
+  },
+  "relations-parliament": {
+    "accessibility.alt": {
+      "points": 0.5,
+      "reason": "The legislative-work page displays the loaded journal-officiel-dz.png graphic without an alt attribute or an explicit presentational role, corroborated by the image inventory and image-alt rule. Partial credit records this localized gazette-image omission rather than treating every ministry image as inaccessible.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.images",
+        "completion-page-checks-2026-10-21.json#records.axe"
+      ]
+    }
+  },
+  "energy-renewable-energies": {
+    "accessibility.alt": {
+      "points": 0.5,
+      "reason": "The sampled citizen-enquiry form displays the loaded first-party /captcha/default image without an alt attribute. The DOM records a visible 120 by 36 px challenge image and axe confirms the missing alternative. Partial credit records the missing challenge-purpose alternative; no claim is made about successful CAPTCHA completion or a submitted enquiry.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.images",
+        "completion-page-checks-2026-10-21.json#records.axe"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 1,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The form fields fit, but name/address/phone/email prompts rely on placeholders and both phone and email use generic text inputs. The screenshot and DOM corroborate the loss of persistent field guidance and lack of mobile input-type assistance. Partial credit records initial-form usability friction; CAPTCHA and submission remain untested. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed. A separate fresh DOM check confirms that these generic phone/email text inputs also have no inputmode override.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png",
+        "input-mode-review-2026-10-28.json"
+      ]
+    }
+  },
+  "hydrocarbons": {
+    "accessibility.alt": {
+      "points": 0,
+      "reason": "The representative homepage repeatedly displays consultation/news graphics without alt attributes or accessible equivalents in the captured image inventory; eleven image-alt findings corroborate these omissions. Missing-alternative branding images recur on service/contact pages as well. The repeated non-text omissions justify zero for the sampled alternative-text criterion; decorative placeholders alone are not the basis.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.images",
+        "completion-page-checks-2026-10-21.json#records.axe"
+      ]
+    },
+    "content.identity": {
+      "points": 1,
+      "reason": "The May 2026 Turkish Ministry of Trade government directory independently links the sampled ministry domain. Full directory pages, actual PDF hyperlink targets and retained ministry identity were reviewed. This satisfies the frozen independent-government-link criterion; it does not certify legal registration, current availability or a complete evaluation. Distinct legacy domains were not treated as equivalent.",
+      "evidence": [
+        "government-directory-review-2026-10-28.json",
+        "turkiye-trade-algeria-may-2026.pdf",
+        "directory-layout.xml"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable persistent labels, recipient/person-type controls, an email input, message area, attachment/CAPTCHA entries and submit control within each tested viewport. Radio-target spacing and completion are separate checks. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "hydraulics": {
+    "content.identity": {
+      "points": 1,
+      "reason": "The May 2026 Turkish Ministry of Trade government directory independently links the sampled ministry domain. Full directory pages, actual PDF hyperlink targets and retained ministry identity were reviewed. This satisfies the frozen independent-government-link criterion; it does not certify legal registration, current availability or a complete evaluation. Distinct legacy domains were not treated as equivalent.",
+      "evidence": [
+        "government-directory-review-2026-10-28.json",
+        "turkiye-trade-algeria-may-2026.pdf",
+        "directory-layout.xml"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable labels and appropriately typed telephone/email fields, sector selector, message area, attachment and submit control within each tested viewport. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "finance": {
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The complaint form remains readable and its visible labels, email input, selectors, message area, attachment control and submit button fit each tested viewport. Whole-page overflow is recorded separately; these form fields remain within the viewport. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "housing-spatial-planning": {
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The sampled comment form shows readable labels, appropriately typed email/URL fields, a message area and a submit control within each tested viewport. This covers the comment interface, not a housing application service. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "justice": {
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable visible labels, appropriately typed email/telephone inputs, subject/message fields and submit control within each tested viewport. The page has overflow elsewhere, but the form fields stay within the recorded viewport. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "tourism-handicrafts": {
+    "mobile.mobile-forms": {
+      "points": 2,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable persistent labels, an email input, subject/message fields and submit control within each tested viewport. Small whole-page overflow is recorded separately; the form itself fits. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  },
+  "pharmaceutical-industry": {
+    "mobile.mobile-forms": {
+      "points": 1,
+      "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. At 320 CSS px, the name, email and subject fields are 355px wide and extend to approximately x=390, visibly clipping their right ends in the screenshot. The 390/844px states fit. Partial credit records this verified narrow-screen form defect, not a failed submission. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+      "evidence": [
+        "mobile-form-review-2026-10-28.json",
+        "mobile-form-320-2026-10-28.png",
+        "mobile-form-390-2026-10-28.png",
+        "mobile-form-844-2026-10-28.png"
+      ]
+    }
+  }
+}

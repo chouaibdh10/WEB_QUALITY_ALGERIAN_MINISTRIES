@@ -1,7 +1,50 @@
-import { ArrowUpRight, ClipboardList, GitCompareArrows, SearchCheck, SlidersHorizontal } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
+import { usePreferences } from '../Preferences'
+import { contentMessages } from '../contentMessages'
 
-const steps = [['01', 'Website discovery', 'A representative set of official ministry domains is identified.'], ['02', 'Page selection', 'Key public-facing pages are selected for a consistent review.'], ['03', 'Technical measurements', 'Observable signals are measured with passive, non-destructive checks.'], ['04', 'Scoring & comparison', 'Findings are weighted, combined and presented side by side.']]
-const icons = [SearchCheck, ClipboardList, SlidersHorizontal, GitCompareArrows]
+
 export default function Methodology() {
-  return <section id="methodology" className="method-section section-pad"><div className="section-kicker">04 / Methodology</div><div className="method-head"><h2>Measured with<br /><span>purpose.</span></h2><p>A lightweight, repeatable process that makes the index easy to understand and improve upon.</p></div><div className="method-steps">{steps.map(([number, title, desc], index) => { const Icon = icons[index]; return <div className="method-step" key={number}><div className="step-icon"><Icon size={20} /></div><div><span className="step-number">{number}</span><h3>{title}</h3><p>{desc}</p></div></div> })}</div><div className="method-note"><span>Testing is passive and non-destructive.</span><a href="#results">See the results <ArrowUpRight size={16} /></a></div></section>
+  const { language, number, reportHref, reportLanguage } = usePreferences()
+  const messages = contentMessages[language]
+  const t = messages.method
+  const documentLanguages = reportLanguage === 'fr' ? ['fr', 'en'] : ['en', 'fr']
+  return (
+    <section id="methodology" className="research-section research-methodology section-pad" aria-labelledby="methodology-title">
+      <div className="research-heading" data-reveal>
+        <div>
+          <p className="research-kicker">{t.kicker}</p>
+          <h2 id="methodology-title" className="research-title">{t.title[0]} <span>{t.title[1]}</span></h2>
+        </div>
+        <p className="research-intro">{t.intro}</p>
+      </div>
+      <ol className="research-steps" role="list">
+        {t.steps.map(([title, description], index) => (
+          <li className="research-step" key={title} data-reveal style={{ '--reveal-delay': `${(index % 4) * 90}ms` }}>
+            <span className="research-step-number" aria-hidden="true">{number(0)}{number(index + 1)}</span>
+            <div><h3>{title}</h3><p>{description}</p></div>
+          </li>
+        ))}
+      </ol>
+      <div className="research-readiness" data-reveal>
+        <div className="research-subheading">
+          <h3>{t.ready}</h3>
+          <p>{t.statusNote}</p>
+        </div>
+        <dl className="research-status-grid">
+          {t.statuses.map(([title, description]) => <div className="research-status-card" key={title}><dt>{title}</dt><dd>{description}</dd></div>)}
+        </dl>
+      </div>
+      <div className="research-rules">
+        {t.rules.map(([title, description]) => <article className="research-rule-card" key={title}><h3>{title}</h3><p>{description}</p></article>)}
+      </div>
+      <div className="research-report">
+        <p>{t.download}</p>
+        <div className="research-downloads">
+          {documentLanguages.map(documentLanguage => <a key={documentLanguage} className={`research-document-link ${documentLanguage === reportLanguage ? 'research-document-primary' : ''}`} href={documentLanguage === reportLanguage ? reportHref : `/reports/methodology-${documentLanguage}.pdf`} hrefLang={documentLanguage} target="_blank" rel="noopener noreferrer">
+            {messages.documents[documentLanguage]}<span className="research-sr-only"> ({messages.newTab})</span><ArrowUpRight size={20} aria-hidden="true" />
+          </a>)}
+        </div>
+      </div>
+    </section>
+  )
 }

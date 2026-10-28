@@ -1,0 +1,67 @@
+.pilot-evaluation { padding-block: 48px; border-bottom: 1px solid var(--line); }
+.pilot-heading { display:flex; justify-content:space-between; align-items:center; gap:28px; }
+.pilot-heading h2 { font-size:clamp(26px,3vw,40px); letter-spacing:-.04em; line-height:1.2; margin:16px 0; }
+.pilot-heading .button { flex-shrink:0; }
+.pilot-notice { padding:18px 22px; background:var(--mint); border-inline-start:3px solid var(--accent); font-size:14px; line-height:1.8; }
+.pilot-score { display:grid; grid-template-columns:1.3fr 1fr; gap:40px; padding:36px 0; border-bottom:1px solid var(--line); }
+.pilot-score > div > span, .pilot-context dt { color:var(--muted); font-size:12px; }
+.pilot-score strong { display:block; font-size:72px; letter-spacing:-.06em; font-weight:550; line-height:1.2; margin:12px 0; }
+.pilot-score strong small { font-size:35px; color:var(--muted); letter-spacing:-.04em; }
+.pilot-score p,.pilot-muted { color:var(--muted); font-size:13px; line-height:1.8; }
+.pilot-range { border-inline-start:1px solid var(--line); padding-inline-start:32px; }
+.pilot-range strong { font-size:36px; }
+.pilot-context { display:grid; grid-template-columns:1fr 2fr; gap:32px; padding:26px 0; }
+.pilot-context dd { margin:10px 0; font-size:12px; line-height:1.8; }
+.pilot-evaluation > h3 { font-size:22px; margin:40px 0 18px; letter-spacing:-.03em; }
+.pilot-categories { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+.pilot-categories > div { border:1px solid var(--line); padding:20px; background:var(--surface); }
+.pilot-categories h4 { font-size:13px; min-height:40px; margin:0 0 15px; line-height:1.5; }
+.pilot-categories strong { display:block; font-size:30px; font-weight:550; }
+.pilot-categories strong small { font-size:18px; color:var(--muted); }
+.pilot-categories > div > span { display:block; color:var(--muted); font-size:11px; margin:8px 0 18px; }
+.pilot-meter { height:3px; background:var(--line); }
+.pilot-meter i { display:block; height:100%; background:var(--accent); }
+.pilot-table-wrap { overflow:auto; border:1px solid var(--line); }
+.pilot-metrics { border-collapse:collapse; width:100%; min-width:740px; font-size:12px; }
+.pilot-metrics th,.pilot-metrics td { padding:14px 16px; border-bottom:1px solid var(--line); text-align:left; }
+.pilot-metrics thead { background:var(--surface-alt); }
+.pilot-criteria details { border-block-start:1px solid var(--line); }
+.pilot-criteria summary { cursor:pointer; padding:20px 4px; font-size:14px; }
+.pilot-criteria summary > span { margin-inline:10px; }
+.pilot-criteria summary > strong { float:right; }
+.pilot-criteria article { border:1px solid var(--line); background:var(--surface); padding:20px; margin-bottom:10px; }
+.pilot-criteria article > div { display:flex; justify-content:space-between; align-items:center; gap:18px; font-size:13px; }
+.pilot-criteria h4 { margin:15px 0 8px; font-size:15px; }
+.pilot-criteria p { color:var(--muted); font-size:13px; line-height:1.8; }
+.pilot-criteria small { color:var(--muted); font-size:10px; }
+.pilot-state { font-size:11px; padding:5px 9px; border:1px solid var(--line); border-radius:3px; }
+.pilot-state-zero { background:var(--surface-alt); font-weight:700; }
+.pilot-state-full { background:var(--mint); }
+.pilot-samples { list-style:none; padding:0; }
+.pilot-samples li { display:grid; grid-template-columns:100px minmax(0,1fr); gap:12px; border-bottom:1px solid var(--line); padding:14px 0; font-size:12px; line-height:1.7; }
+.pilot-samples a { display:flex; align-items:center; gap:8px; word-break:break-word; }
+.pilot-samples a svg { flex-shrink:0; }
+.pilot-protocol-link { display:inline-flex; align-items:center; gap:12px; margin-top:18px; font-size:13px; text-decoration:underline; text-underline-offset:4px; }
+.pilot-directory-link { display:block; font-size:11px; color:var(--accent); text-decoration:underline; text-underline-offset:4px; margin-top:7px; }
+@media(max-width:800px){.pilot-heading { flex-direction:column; align-items:flex-start; }.pilot-categories { grid-template-columns:repeat(2,minmax(0,1fr)); }.pilot-context { grid-template-columns:1fr; gap:8px; }}
+@media(max-width:500px){.pilot-score { grid-template-columns:1fr; gap:18px; }.pilot-range { border:0; padding:18px 0 0; border-top:1px solid var(--line); }.pilot-score strong { font-size:58px; }.pilot-range strong { font-size:32px; }.pilot-categories { grid-template-columns:1fr; }.pilot-categories h4 { min-height:0; }.pilot-samples li { grid-template-columns:1fr; gap:4px; }.pilot-criteria summary > strong { float:none; display:block; margin:10px 0 0 22px; }}
+.pilot-findings { border:1px solid var(--line); padding:24px; margin:24px 0; }
+.pilot-findings h3 { font-size:18px; margin:0 0 18px; }
+.pilot-findings ol { padding-inline-start:22px; margin:0; display:grid; gap:18px; }
+.pilot-findings strong { font-size:14px; }
+.pilot-findings p { margin:5px 0 0; color:var(--muted); font-size:13px; line-height:1.7; }
+.ministry-profile-has-pilot { padding-block-start:28px; }
+.ministry-profile-has-pilot .ministry-profile-back { margin-block-end:14px; }
+.ministry-profile-has-pilot .ministry-profile-heading { padding-block-end:24px; }
+.ministry-profile-has-pilot h1 { font-size:clamp(32px,4vw,56px); margin-block:14px 18px; }
+.ministry-profile-has-pilot .ministry-identity-large { width:72px; height:72px; }
+.ministry-profile-has-pilot .ministry-profile-notice { padding:12px 16px; font-size:12px; margin-block-start:16px; max-inline-size:none; border-radius:3px; }
+.ministry-profile-has-pilot .pilot-evaluation { padding-block-start:24px; }
+.ministry-profile-has-pilot .pilot-heading h2 { font-size:clamp(24px,2.5vw,32px); }
+.ministry-profile-has-pilot .pilot-notice { padding:12px 16px; font-size:12px; }
+.ministry-profile-has-pilot .pilot-score { padding-block:22px; }
+
+.ministry-profile-has-pilot .profile-identity-heading { margin-block:16px; gap:20px; }
+@media(max-width:600px){.ministry-profile-has-pilot .profile-identity-heading { flex-direction:row; align-items:center; gap:14px; }.ministry-profile-has-pilot .ministry-identity-large { width:56px; height:56px; }.ministry-profile-has-pilot h1 { font-size:32px; margin:0; }}
+
+.pilot-metric-range { display: block; margin-top: .25rem; font-size: .72rem; color: var(--muted); white-space: nowrap; }

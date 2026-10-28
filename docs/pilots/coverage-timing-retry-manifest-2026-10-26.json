@@ -1,0 +1,46 @@
+{
+  "preparedAt": "2026-10-26T08:59:08.201017+00:00",
+  "scope": "Separate sequential repetition of all three original MFA core URLs, all 18 declared attempts. No selection of favourable runs. Prior stopped attempts remain intact. A rate-limit stop leaves the sample incomplete. No other browser collection runs concurrently.",
+  "targets": [
+    {
+      "id": "foreign-affairs",
+      "root": "evidence/coverage-review-2026-10-26/foreign-affairs-timing-attempt-2",
+      "origins": [
+        "http://mfa.gov.dz",
+        "https://mfa.gov.dz",
+        "http://www.mfa.gov.dz",
+        "https://www.mfa.gov.dz"
+      ],
+      "httpEntry": "http://www.mfa.gov.dz/fr",
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mfa.gov.dz/fr",
+          "note": "Original declared core URL; successful trusted HTTP preflight on 26 October before timing."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mfa.gov.dz/fr/contact",
+          "note": "Original declared core URL; successful trusted HTTP preflight on 26 October before timing."
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.mfa.gov.dz/fr/services-for-algerians/legalisation-of-documents-1",
+          "note": "Original declared core URL; successful trusted HTTP preflight on 26 October before timing."
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mtpib.gov.dz/fr/liens-utiles-2/",
+        "checkedAt": "2026-10-21T07:21:31.777Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Pilot 1.5 evidence-gap retry",
+      "collectionAmendment": "coverage-review-2026-10-26.md",
+      "enforceResourceRobots": true
+    }
+  ],
+  "preservedPriorAttempt": "evidence/coverage-review-2026-10-26/foreign-affairs-timing",
+  "localCollectionCorrection": "Prior CLI attempts stopped before Chrome loading because per-page output directories were absent. Original errors are retained; the timing collector now creates directories explicitly. Current Chrome 156 is declared, rather than reusing the historical Chrome 153 metadata."
+}

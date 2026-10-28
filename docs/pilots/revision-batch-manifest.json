@@ -1,0 +1,67 @@
+{
+  "frozenAt": "2026-10-20T10:30:27.882057+00:00",
+  "targets": [
+    {
+      "id": "health",
+      "root": "evidence/revision-batch-2026-10-20-health",
+      "httpEntry": "http://www.sante.gov.dz/",
+      "origins": [
+        "https://sante.gov.dz",
+        "http://sante.gov.dz",
+        "https://www.sante.gov.dz",
+        "http://www.sante.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://sante.gov.dz/"
+        },
+        {
+          "type": "contact",
+          "url": "https://sante.gov.dz/contact/"
+        },
+        {
+          "type": "service-information",
+          "url": "https://sante.gov.dz/services-de-sante-et-la-reforme-hospitaliere/"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T10:30:27.882057+00:00",
+        "note": "Exact www host linked by Foreign Affairs; trusted redirect and rendered identity corroborated. No endorsement of this evaluation is implied."
+      }
+    },
+    {
+      "id": "culture-arts",
+      "root": "evidence/revision-batch-2026-10-20-culture-arts",
+      "httpEntry": "http://www.m-culture.gov.dz/",
+      "origins": [
+        "https://m-culture.gov.dz",
+        "http://m-culture.gov.dz",
+        "https://www.m-culture.gov.dz",
+        "http://www.m-culture.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.m-culture.gov.dz/index.php/ar/"
+        },
+        {
+          "type": "contact",
+          "url": "https://www.m-culture.gov.dz/index.php/ar/2016-11-21-10-40-49"
+        },
+        {
+          "type": "institution",
+          "url": "https://www.m-culture.gov.dz/index.php/ar/2016-11-21-12-54-05/%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D8%A9"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T10:30:27.882057+00:00",
+        "note": "Exact www host linked by Foreign Affairs; trusted redirect and rendered identity corroborated. No endorsement of this evaluation is implied."
+      }
+    }
+  ]
+}

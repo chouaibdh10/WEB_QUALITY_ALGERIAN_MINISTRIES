@@ -1,0 +1,47 @@
+{
+  "preparedAt": "2026-10-21T07:24:19.135728+00:00",
+  "scope": "Fresh recovery evidence only. Existing 23 reports preserved; Pilot 1.3 thresholds unchanged. Exact actually observed pages fixed before collection.",
+  "targets": [
+    {
+      "id": "youth",
+      "root": "evidence/recovery-campaign-2026-10-21/youth-https",
+      "origins": [
+        "http://mjeunesse.gov.dz",
+        "https://mjeunesse.gov.dz",
+        "http://www.mjeunesse.gov.dz",
+        "https://www.mjeunesse.gov.dz"
+      ],
+      "httpEntry": null,
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mjeunesse.gov.dz/",
+          "note": "Observed successful ministry entry; frozen before measurements."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mjeunesse.gov.dz/contact",
+          "note": "Selected actual discovery link: اتصل بنا"
+        },
+        {
+          "type": "institution",
+          "url": "https://www.mjeunesse.gov.dz/about/structure",
+          "note": "Selected actual discovery link: الهيكل التنظيمي"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "source": "https://www.mjeunesse.gov.dz/",
+        "checkedAt": "2026-10-21T07:23:18.197Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true,
+      "priorStoppedRoot": "evidence/recovery-campaign-2026-10-21/youth",
+      "frozenAt": "2026-10-21T07:43:35.168001+00:00",
+      "scopeNote": "Original HTTP-entry preflight received 503 on http://www.mjeunesse.gov.dz/robots.txt and stopped before any target observation. Preserve that attempt. After at least three minutes, a separate HTTPS-only sample is declared; no HTTP enforcement score can be awarded."
+    }
+  ]
+}

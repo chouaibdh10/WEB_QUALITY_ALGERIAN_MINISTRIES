@@ -1,0 +1,182 @@
+{
+  "housing-spatial-planning": {
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Manually compared all three retained 21 October representative page URLs with their actual canonical tags and the captured HTTP-entry redirect. Each page declares its corresponding same-site HTTPS canonical destination; the entry upgrades to HTTPS without a downgrade. Percent-encoding case differences do not change the destination. Housing's stable content-ID query URLs are not penalized for being query URLs. Full credit covers this declared sample, not arbitrary aliases, every parameter or verified search-engine indexing.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.canonical",
+        "report.json#httpRedirect"
+      ]
+    }
+  },
+  "vocational-training": {
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Manually compared all three retained 21 October representative page URLs with their actual canonical tags and the captured HTTP-entry redirect. Each page declares its corresponding same-site HTTPS canonical destination; the entry upgrades to HTTPS without a downgrade. Percent-encoding case differences do not change the destination. Full credit covers this declared sample, not arbitrary aliases, every parameter or verified search-engine indexing.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.canonical",
+        "report.json#httpRedirect"
+      ]
+    }
+  },
+  "sports": {
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Manually compared all three retained 21 October representative page URLs with their actual canonical tags and the captured HTTP-entry redirect. Each page declares its corresponding same-site HTTPS canonical destination; the entry upgrades to HTTPS without a downgrade. Percent-encoding case differences do not change the destination. Full credit covers this declared sample, not arbitrary aliases, every parameter or verified search-engine indexing.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.canonical",
+        "report.json#httpRedirect"
+      ]
+    }
+  },
+  "environment-quality-of-life": {
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Manually compared all three retained 21 October representative page URLs with their actual canonical tags and the captured HTTP-entry redirect. Each page declares its corresponding same-site HTTPS canonical destination; the entry upgrades to HTTPS without a downgrade. Percent-encoding case differences do not change the destination. Full credit covers this declared sample, not arbitrary aliases, every parameter or verified search-engine indexing.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.canonical",
+        "report.json#httpRedirect"
+      ]
+    },
+    "technical.links": {
+      "points": 2,
+      "reason": "Manually checked the declared bounded set of three retained core destinations: homepage and the two sampled service/contact/institution/news routes. The two inner destinations are actual cross-page anchors in another retained representative document, not inferred paths or self-fragment links; their destination captures returned HTTP 200 and rendered the expected page role. Full credit is limited to this explicit three-destination set. It is not an exhaustive crawl, a current-availability claim or a certification of downstream portals and form delivery.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.links",
+        "manual-followup.json#records.dom.links",
+        "report.json#pages"
+      ]
+    }
+  },
+  "justice": {
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Manually compared all three retained 21 October representative page URLs with their actual canonical tags and the captured HTTP-entry redirect. Each page declares its corresponding same-site HTTPS canonical destination; the entry upgrades to HTTPS without a downgrade. Percent-encoding case differences do not change the destination. Full credit covers this declared sample, not arbitrary aliases, every parameter or verified search-engine indexing.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.canonical",
+        "report.json#httpRedirect"
+      ]
+    }
+  },
+  "interior-local-authorities-transport": {
+    "technical.canonical": {
+      "points": 0.5,
+      "reason": "The retained representative homepage and contact documents load over HTTPS but advertise HTTP canonical URLs for those same pages. The captured HTTP entry itself redirects to HTTPS, so the canonical signal conflicts with observed transport enforcement. Partial credit records this specific inconsistency; it is not a claim that the browser actually downgraded. The excluded third page remains unverified.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.canonical",
+        "report.json#httpRedirect"
+      ]
+    }
+  },
+  "moudjahidine-rights-holders": {
+    "technical.links": {
+      "points": 1,
+      "reason": "Reviewed the bounded three-destination set and its actual cross-page anchors. The destinations return HTTP 200, but the declared services landing page has only its service heading before news/editor widgets, rather than substantive service content. The retained screenshot, DOM and existing procedure/listing review corroborate this soft destination defect. Partial credit records that local task-destination failure; the organization page and homepage remain reachable. No HTTP outage, exhaustive crawl or downstream service success is claimed.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.links",
+        "manual-followup.json#records.dom.links",
+        "report.json#pages",
+        "independent-service-information-390.png"
+      ]
+    }
+  },
+  "hydraulics": {
+    "technical.links": {
+      "points": 2,
+      "reason": "Manually checked the declared bounded set of three retained core destinations: homepage and the two sampled service/contact/institution/news routes. The two inner destinations are actual cross-page anchors in another retained representative document, not inferred paths or self-fragment links; their destination captures returned HTTP 200 and rendered the expected page role. Full credit is limited to this explicit three-destination set. It is not an exhaustive crawl, a current-availability claim or a certification of downstream portals and form delivery.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.links",
+        "manual-followup.json#records.dom.links",
+        "report.json#pages"
+      ]
+    }
+  },
+  "national-solidarity-family": {
+    "technical.links": {
+      "points": 2,
+      "reason": "Manually checked the declared bounded set of three retained core destinations: homepage and the two sampled service/contact/institution/news routes. The two inner destinations are actual cross-page anchors in another retained representative document, not inferred paths or self-fragment links; their destination captures returned HTTP 200 and rendered the expected page role. Full credit is limited to this explicit three-destination set. It is not an exhaustive crawl, a current-availability claim or a certification of downstream portals and form delivery.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.links",
+        "manual-followup.json#records.dom.links",
+        "report.json#pages"
+      ]
+    }
+  },
+  "hydrocarbons": {
+    "technical.links": {
+      "points": 2,
+      "reason": "Manually checked the declared bounded set of three retained core destinations: homepage and the two sampled service/contact/institution/news routes. The two inner destinations are actual cross-page anchors in another retained representative document, not inferred paths or self-fragment links; their destination captures returned HTTP 200 and rendered the expected page role. Full credit is limited to this explicit three-destination set. It is not an exhaustive crawl, a current-availability claim or a certification of downstream portals and form delivery.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.links",
+        "manual-followup.json#records.dom.links",
+        "report.json#pages"
+      ]
+    }
+  },
+  "youth": {
+    "technical.links": {
+      "points": 2,
+      "reason": "Manually checked the declared bounded set of three retained core destinations: homepage and the two sampled service/contact/institution/news routes. The two inner destinations are actual cross-page anchors in another retained representative document, not inferred paths or self-fragment links; their destination captures returned HTTP 200 and rendered the expected page role. Full credit is limited to this explicit three-destination set. It is not an exhaustive crawl, a current-availability claim or a certification of downstream portals and form delivery.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records.dom.links",
+        "manual-followup.json#records.dom.links",
+        "report.json#pages"
+      ]
+    }
+  },
+  "finance": {
+    "accessibility.semantics": {
+      "points": 0.5,
+      "reason": "Reviewed the fresh DOM heading outline and Chrome accessibility tree against the retained core-page structure. Meaningful activity/contact/service headings and native navigation regions exist, but the sampled pages lack a main landmark and expose multiple unnamed navigation regions without contextual labels; the contact/service outlines also jump from H1 to H3 sidebar sections. Partial credit records limited structural orientation. Missing main or skipped heading levels alone are not called automatic WCAG failures. Fresh resource exclusions remain recorded, and the same structural omissions are corroborated in the retained observations.",
+      "evidence": [
+        "structural-review-2026-10-28.json#records.dom.landmarks",
+        "structural-review-2026-10-28.json#records.ax",
+        "report.json#pages.observations"
+      ]
+    }
+  },
+  "communication": {
+    "accessibility.language-aria": {
+      "points": 0.5,
+      "reason": "The fresh sampled Arabic content agrees with the root ar declaration, and native/ARIA control names are exposed in the accessibility tree. However, several visible contact inputs carry aria-describedby references whose target elements do not exist in the captured DOM. Partial credit records these unresolved description references; correct labels are not treated as missing, and unmounted targets of closed menus/comboboxes are not the basis. This is a sampled ARIA-usage defect, not a complete WCAG or screen-reader conformance claim.",
+      "evidence": [
+        "structural-review-2026-10-28.json#records.dom.ariaNodes",
+        "structural-review-2026-10-28.json#records.ax"
+      ]
+    }
+  },
+  "labour-employment-social-security": {
+    "accessibility.language-aria": {
+      "points": 0.5,
+      "reason": "Reviewed the three fresh representative Arabic pages and their actual language declarations. The root ar declarations match the main content, but the visible contact-form wrapper overrides its Arabic labels, governorate options and instructions with lang=en-US. Partial credit records this specific incorrect language-of-parts override; no form was submitted and no complete screen-reader conformance is claimed.",
+      "evidence": [
+        "structural-review-2026-10-28.json#records.dom.languageSections",
+        "structural-review-2026-10-28.json#records.dom.lang",
+        "structural-review-2026-10-28.json#records.ax"
+      ]
+    }
+  },
+  "religious-affairs-wakfs": {
+    "accessibility.language-aria": {
+      "points": 0.5,
+      "reason": "Arabic root declarations match the principal sampled content, but six visible dropdown triggers on each core page are generic SPAN elements with no interactive role and tabindex=-1 while carrying aria-expanded and aria-haspopup. Manual inspection of the captured elements corroborates the aria-allowed-attr findings: the expanded state is attached to unsupported generic semantics. Partial credit records this ARIA implementation defect, not an inferred failure of every keyboard interaction or all assistive technology.",
+      "evidence": [
+        "structural-review-2026-10-28.json#records.dom.ariaNodes",
+        "structural-review-2026-10-28.json#records.axe",
+        "structural-review-2026-10-28.json#records.ax"
+      ]
+    }
+  },
+  "knowledge-economy-startups": {
+    "technical.metadata": {
+      "points": 1,
+      "reason": "Reviewed both declared representative English and Arabic landing pages. Their titles identify the ministry, and their localized descriptions accurately explain that the website is under development and launching soon. The metadata matches the actual page purpose and language. Full credit is limited to these two pages and does not establish domain ownership, service completeness or search-engine indexing.",
+      "evidence": [
+        "structural-review-2026-10-28.json#records.dom.title",
+        "structural-review-2026-10-28.json#records.dom.description",
+        "structural-review-2026-10-28.json#records.dom.lang",
+        "structural-review-2026-10-28.json#records.dom.text"
+      ]
+    }
+  }
+}

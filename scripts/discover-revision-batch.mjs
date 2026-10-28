@@ -1,0 +1,9 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import puppeteer from 'puppeteer-core';
+import {createCollector} from './quality/network.mjs';
+const root='evidence/revision-batch-discovery-2026-10-20';await mkdir(root,{recursive:true,mode:0o700});
+const browser=await puppeteer.launch({executablePath:'/usr/bin/google-chrome',headless:true,args:['--no-sandbox'],targetFilter:t=>t.type()!=='other'});
+for(const [id,host] of [['interior-local-authorities-transport','www.interieur.gov.dz'],['health','www.sante.gov.dz'],['culture-arts','www.m-culture.gov.dz']]){
+ const origins=[host,host.replace('www.','')].flatMap(h=>['http://'+h,'https://'+h]);const c=createCollector({origins,timeoutMs:20000});const record={id,host,at:new Date().toISOString()};
+ try {record.http=await c.request('https://'+host+'/');record.robots=c.robotsEvidence;if(record.http.status!==200)throw Error('No successful trusted homepage');await c.guard(record.http.finalUrl);const p=await browser.newPage();await p.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36');await p.setViewport({width:1365,height:768});await p.setRequestInterception(true);p.on('request',async r=>{if(!['GET','HEAD'].includes(r.method()))await r.abort();else await r.continue()});await p.goto('https://'+host+'/',{waitUntil:'domcontentloaded',timeout:35000});await new Promise(r=>setTimeout(r,2500));record.url=p.url();record.title=await p.title();record.links=await p.$$eval('a[href]',es=>es.map(e=>({text:e.innerText.trim().slice(0,160),url:e.href})).filter(e=>e.text));await p.screenshot({path:root+'/'+id+'.png'});record.body=await p.$eval('body',e=>e.innerText.slice(0,18000));await p.close();console.log(id,record.http.status,record.url,record.title,record.links.length)}catch(e){record.error=e.message;console.log(id,e.message)}await writeFile(root+'/'+id+'.json',JSON.stringify(record,null,2),{mode:0o600});
+}await browser.close();

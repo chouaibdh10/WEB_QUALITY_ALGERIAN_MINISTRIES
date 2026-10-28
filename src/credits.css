@@ -1,0 +1,40 @@
+.project-credits { margin-block:0 44px; }
+.credits-heading { display:flex; justify-content:space-between; align-items:baseline; gap:20px; padding-block-end:24px; }
+.credits-heading h3 { margin:0; font-size:26px; letter-spacing:-.8px; font-weight:550; }
+.credits-heading p { margin:0; font-size:13px; color:var(--muted); line-height:1.7; max-width:390px; }
+.credits-institutions { display:grid; grid-template-columns:1fr 1fr; border:1px solid var(--line); border-radius:6px; background:var(--surface); overflow:hidden; }
+.credits-institution { padding:32px; display:flex; flex-direction:column; align-items:flex-start; }
+.credits-institution + .credits-institution { border-inline-start:1px solid var(--line); }
+.credits-identity { width:100%; min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:24px; margin-bottom:24px; }
+.credits-identity img { object-fit:contain; flex-shrink:0; height:52px; width:45px; }
+.credits-identity .credits-estin { height:44px; width:120px; }
+html[data-theme=dark] .credits-estin { filter:brightness(0) invert(1); }
+.credits-identity span { color:var(--muted); font-size:11px; line-height:1.6; text-align:end; }
+.credits-institution h4 { margin:0 0 12px; font-size:21px; font-weight:550; letter-spacing:-.4px; }
+.credits-institution > p { margin:0 0 26px; font-size:14px; line-height:1.85; color:var(--muted); max-width:49ch; }
+.credits-institution > a { display:inline-flex; align-items:center; gap:12px; font-size:12px; font-weight:600; min-height:44px; margin-top:auto; }
+.credits-institution > a:hover { color:var(--accent); }
+.credits-people { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; padding-block:32px 0; }
+.credits-team { grid-column:span 2; }
+.credits-people h4 { min-height:20px; line-height:20px; margin:0 0 13px; font-size:11px; font-weight:500; color:var(--muted); }
+.credits-people ul { margin:0; padding:0; display:grid; grid-template-columns:1fr 1fr; list-style:none; gap:12px; }
+.credits-people li, .credits-supervisor-profile { margin:0; font-size:14px; line-height:1.5; display:flex; align-items:center; gap:14px; padding:16px; min-height:82px; border:1px solid var(--line); border-radius:5px; background:var(--surface); }
+.credits-avatar { display:inline-grid; place-items:center; width:42px; height:42px; flex-shrink:0; background:var(--mint); color:var(--ink); border-radius:50%; font-size:12px; font-weight:600; letter-spacing:.02em; direction:ltr; }
+.credits-supervisor-heading { display:flex; align-items:center; gap:9px; color:var(--muted); min-height:20px; margin-bottom:13px; }
+.credits-supervisor-heading h4 { margin:0; }
+.credits-supervisor-heading, .credits-supervisor-heading h4 { color:var(--accent); }
+.credits-supervisor-profile { background:var(--mint); border-inline-start:3px solid var(--accent); }
+.credits-supervisor-icon { display:grid; place-items:center; width:42px; height:42px; flex-shrink:0; border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--accent); }
+.credits-supervisor-profile p { margin:0; font-size:14px; font-weight:400; line-height:1.5; }
+
+html[dir=rtl] .credits-heading h3,html[dir=rtl] .credits-institution h4 { letter-spacing:0; }
+@media(max-width:700px) {
+ .credits-heading { flex-direction:column; gap:10px; }
+ .credits-institutions { grid-template-columns:1fr; }
+ .credits-institution { padding:26px; }
+ .credits-institution + .credits-institution { border-inline-start:0; border-top:1px solid var(--line); }
+ .credits-people { grid-template-columns:1fr; gap:24px; }
+ .credits-team { grid-column:auto; }
+ .credits-people ul { grid-template-columns:1fr; gap:10px; }
+}
+@media(max-width:380px) { .credits-identity { gap:14px; }.credits-people ul { grid-template-columns:1fr; } }

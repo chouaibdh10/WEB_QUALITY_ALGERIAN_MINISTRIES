@@ -1,0 +1,48 @@
+.inspection-scene { min-width:0; width:100%; max-width:620px; padding-block:12px; }
+.inspection-scene h2 { margin:0 0 5px; font-size:clamp(26px,2.8vw,38px); letter-spacing:-1.4px; line-height:1.2; }
+.inspection-subtitle { margin:0; font-size:12px; color:var(--muted); }
+.inspection-art { position:relative; height:285px; margin-block:8px 14px; isolation:isolate; background-image:radial-gradient(var(--line) .7px,transparent .7px); background-size:18px 18px; mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent); }
+.inspection-browser { position:absolute; top:38px; left:4%; width:76%; height:216px; background:#eaece1; color:#45513c; border:1px solid #c0c7b4; border-radius:9px; transform:perspective(900px) rotateY(12deg) rotateZ(-5deg); box-shadow:0 18px 35px #0002; overflow:hidden; }
+.inspection-browser-bar { display:flex; align-items:center; justify-content:space-between; padding:9px 12px; border-bottom:1px solid #c0c7b4; font-size:9px; }
+.inspection-browser-bar > span:first-child { letter-spacing:3px; }
+.inspection-wire-site { padding:15px 18px; }
+.wire-nav { display:flex; gap:10px; align-items:center; }
+.wire-nav i { width:19px; height:19px; background:#45513c; margin-right:auto; border-radius:3px; }
+.wire-nav b { width:28px; height:3px; background:#aab39c; }
+.wire-feature { display:flex; gap:20px; align-items:center; margin-block:20px; }
+.wire-feature > div { width:54%; }
+.wire-feature i { display:block; height:7px; margin-block:6px; background:#79876c; }
+.wire-feature i:nth-child(2) { width:80%; }
+.wire-feature i:nth-child(3) { width:60%; }
+.wire-feature b { display:block; width:45px; height:12px; background:#cadc9f; margin-top:10px; }
+.wire-feature > span { background:#d7ddca; flex:1; height:75px; display:grid; place-items:center; color:#7b886e; }
+.wire-columns { display:flex; gap:10px; }
+.wire-columns i { height:22px; flex:1; background:#d7ddca; border-top:2px solid #aab39c; }
+.inspection-schematic { position:absolute; bottom:6px; left:18px; font-size:8px; }
+.inspection-lens { position:absolute; width:194px; height:194px; top:30px; right:1%; border-radius:50%; padding:9px; background:repeating-conic-gradient(from 0deg,#9ba888 0deg 1deg,transparent 1deg 8deg); transform:rotate(0deg); animation:lens-arrive 900ms ease both; box-shadow:0 16px 32px #0003; }
+.inspection-lens::after { content:''; position:absolute; width:63px; height:11px; border:1px solid var(--line); background:var(--surface-alt); top:174px; left:163px; border-radius:3px; transform:rotate(48deg); transform-origin:left center; z-index:-1; }
+.inspection-lens-inner { height:100%; border:1px solid #c3e754; border-radius:50%; background:#202b1f; color:#e7f4cf; display:flex; flex-direction:column; justify-content:center; align-items:center; box-shadow:inset 0 0 0 6px #293724,inset 0 0 0 7px #4a5b37; }
+.inspection-lens-inner strong { font-size:53px; line-height:1.15; font-weight:500; letter-spacing:-3px; animation:metric-arrive .3s ease both; }
+.inspection-lens-inner > span:not(.lens-cross) { font-size:11px; }
+.lens-cross { font-size:16px; color:#a9bd88; line-height:1; margin:9px 0; }
+.inspection-guide { position:absolute; width:66%; height:135px; left:9%; top:90px; border:1px solid #84966a; border-radius:2px; }
+.inspection-guide span { position:absolute; width:6px; height:6px; background:#d7fa52; border:1px solid #405428; }
+.inspection-guide span:first-child { top:-3px; left:-3px; }.inspection-guide span:last-child { bottom:-3px; right:-3px; }
+.inspection-marker { position:absolute; top:246px; right:3%; padding:7px 11px; background:var(--surface); border:1px solid var(--line); border-radius:4px; font-size:10px; box-shadow:0 5px 15px #0001; display:flex; align-items:center; gap:7px; }
+.inspection-marker > span { width:5px; height:5px; background:var(--accent); border-radius:50%; }
+.inspection-controls { display:flex; gap:5px; padding:4px; border:1px solid var(--line); border-radius:7px; background:var(--surface); }
+.inspection-controls button { flex:1; display:flex; align-items:center; justify-content:center; gap:6px; min-height:42px; padding:7px; border:0; border-radius:4px; background:transparent; color:var(--muted); cursor:pointer; font:500 11px var(--font-body); transition:background .2s,color .2s; }
+.inspection-controls button[aria-pressed=true] { background:var(--mint); color:var(--ink); }
+.inspection-controls button:hover { color:var(--ink); }.inspection-controls button:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+.inspection-finding { min-height:100px; padding:17px 2px 12px; }
+.inspection-finding > span { font-size:11px; font-weight:600; }
+.inspection-finding p { font-size:12px; line-height:1.7; color:var(--muted); margin:6px 0 0; max-width:440px; }
+.inspection-foot { border-top:1px solid var(--line); padding-top:13px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px; }
+.inspection-foot a { display:flex; align-items:center; gap:10px; font-size:12px; font-weight:600; }.inspection-foot a:hover { color:var(--accent); }
+.inspection-foot small { font-size:9px; color:var(--muted); }
+html[dir=rtl] .inspection-scene h2 { letter-spacing:0; }
+@keyframes lens-arrive { from { opacity:0; transform:translate(14px,-10px); } to { opacity:1; transform:translate(0,0); } }
+@keyframes metric-arrive { from { opacity:0; transform:translateY(5px); } to { opacity:1; transform:translateY(0); } }
+@media(max-width:800px) { .inspection-scene { margin-inline:auto; }.inspection-scene h2 { font-size:32px; } }
+@media(max-width:420px) { .inspection-art { height:270px; }.inspection-lens { width:166px; height:166px; top:47px; }.inspection-lens::after { top:149px; left:137px; width:45px; }.inspection-lens-inner strong { font-size:43px; }.inspection-marker { top:242px; }.inspection-controls button { font-size:10px; gap:4px; padding:5px 3px; }.inspection-controls svg { width:13px; }.inspection-foot { align-items:flex-start; flex-direction:column; } }
+@media(prefers-reduced-motion:reduce) { .inspection-lens,.inspection-lens-inner strong { animation:none; }.inspection-controls button { transition:none; } }

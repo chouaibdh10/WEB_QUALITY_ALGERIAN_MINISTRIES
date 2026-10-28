@@ -1,0 +1,11 @@
+# Clarity DZ — additional criterion review, 21 October 2026
+
+This is an additive follow-up of the 32 published ministry page samples, not a new national ranking or a claim of comprehensive website coverage. The previously declared core URLs are fixed in `evidence/completion-review-2026-10-21/roots.json` through the retained report files. The collector declares its read-only scope and records start/end times before and after each sample. Existing source artifacts and failed attempts remain intact.
+
+The full/half/zero criterion budgets and rules in additional-protocol-v1.md remain unchanged. No renormalization and no automatic award from a passing tool result. Reviewers may resolve previously unmeasured rows using retained and fresh evidence; any contradiction is disclosed rather than silently replacing older observations. Every changed row requires an explicit decision and evidence reference.
+
+Fresh normal Chrome checks inspect the same public pages at 320, 390 and 844 CSS widths, actual Tab focus paths, observed menu controls, DOM language/headings, visible image alternatives, form labels, titles, descriptions and meta policies. Only GET/HEAD requests are allowed. Authentication, citizen-data entry, service-form submission, guessed sensitive paths and security exploits are excluded. Trusted TLS, public address checks, robots policy and rate-limit stops remain enforced. The previously root-verified public certificate intermediates may be supplied as documented in the recovery protocol. Some request exclusions can constrain rendering; absence claims cannot receive credit from such constrained evidence.
+
+No new Lighthouse timing is collected concurrently with normal page checks. Existing valid timing samples retain their original scope, repeated attempts, dates and metric values. Three constrained performance targets still require a separate declared collection before their performance rows can change.
+
+All 57 rows remain visible. Five reliability rows require the original 28-day, multi-network monitoring evidence. Full protocol/cipher enumeration, complete service-process accessibility, field INP, untested form submission/recovery and independent human review cannot be manufactured from a short browser session. Pending work must name the required evidence and its constraint.

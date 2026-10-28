@@ -1,0 +1,8 @@
+// Current-turn foreground orchestration. No scheduler, publication or scoring.
+import {readFile,writeFile} from 'node:fs/promises';import {spawn} from 'node:child_process';
+const manifestPath='docs/pilots/recovery-campaign-manifest.json';const manifest=JSON.parse(await readFile(manifestPath));const root='evidence/recovery-campaign-2026-10-21';
+let prior;try{prior=JSON.parse(await readFile(root+'/collection-state.json'))}catch{}
+const status={startedAt:new Date().toISOString(),phase:'waiting-for-all-declared-observations',priorOrchestration:prior,events:[]};const save=()=>writeFile(root+'/collection-state.json',JSON.stringify(status,null,2)+'\n',{mode:0o600});await save();
+while(true){const done=await Promise.all(manifest.targets.map(async t=>{try{return !!JSON.parse(await readFile(t.root+'/report.json')).observationsCompletedAt}catch{return false}}));if(done.every(Boolean))break;await new Promise(r=>setTimeout(r,10000))}
+async function run(phase,args,env={}){status.phase=phase;await save();console.log('PHASE',phase,new Date().toISOString());await new Promise((resolve,reject)=>{const p=spawn(process.execPath,args,{stdio:'inherit',env:{...process.env,...env}});p.on('error',reject);p.on('exit',code=>code===0?resolve():reject(Error(phase+' exited '+code)))});status.events.push({phase,completedAt:new Date().toISOString()});await save()}
+try{await run('normal-browser-follow-up',['scripts/manual-revision-batch.mjs'],{PILOT_MANIFEST:manifestPath});await run('sequential-timing-attempts',['scripts/collect-additional-pilots.mjs',manifestPath,'timings']);status.phase='awaiting-evaluator-review';status.completedAt=new Date().toISOString();await save()}catch(e){status.error=e.message;await save();throw e}

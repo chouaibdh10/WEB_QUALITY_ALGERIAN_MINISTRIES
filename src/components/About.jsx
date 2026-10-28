@@ -1,5 +1,42 @@
-import { ArrowUpRight, CheckCircle2 } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
+import { usePreferences } from '../Preferences'
+import { contentMessages } from '../contentMessages'
+import '../research.css'
+import ProjectCredits from './ProjectCredits'
 
 export default function About({ compact = false }) {
-  return <section id={compact ? 'about' : 'evaluation'} className={`about-section section-pad ${compact ? 'about-compact' : ''}`}><div className="section-kicker">{compact ? 'The project' : '01 / The index'}</div><div className="about-layout"><div><h2>{compact ? <>An academic lens on <span>public digital quality.</span></> : <>A clear score for a<br /><span>better public web.</span></>}</h2></div><div className="about-copy"><p>The project evaluates public-facing Algerian ministry websites using a transparent score from 0 to 100. It focuses on observable website quality rather than internal systems.</p><div className="about-points"><div><CheckCircle2 size={18} /><span>Transparent scoring framework</span></div><div><CheckCircle2 size={18} /><span>Passive, non-destructive testing</span></div></div>{!compact && <a href="#methodology" className="text-link">Learn about the method <ArrowUpRight size={16} /></a>}</div></div></section>
+  const { language } = usePreferences()
+  const t = contentMessages[language].about
+  const headingId = compact ? 'about-title' : 'evaluation-title'
+  const index = compact ? 1 : 0
+  return (
+    <section id={compact ? 'about' : 'evaluation'} className={`research-section section-pad ${compact ? 'research-context' : 'research-project'}`} aria-labelledby={headingId}>
+      <div className="research-heading" data-reveal>
+        <div>
+          <p className="research-kicker">{t.kicker[index]}</p>
+          <h2 id={headingId} className="research-title">{t.titles[index][0]} <span>{t.titles[index][1]}</span></h2>
+        </div>
+        <p className="research-intro">{compact ? t.context[0] : t.project[0]}</p>
+      </div>
+      {compact ? (
+        <>
+        <ProjectCredits />
+        <div className="research-context-grid" data-reveal>
+          <p className="research-reference-card">{t.context[1]}</p>
+          <p className="research-scope-card">{t.context[2]}</p>
+        </div>
+        </>
+      ) : (
+        <div className="research-project-grid" data-reveal style={{ '--reveal-delay': '120ms' }}>
+          <div className="research-evidence-card">
+            <p>{t.project[1]}</p>
+            <a href="#methodology" className="research-link">{t.protocol}<ArrowUpRight size={20} aria-hidden="true" /></a>
+          </div>
+          <ul className="research-principles">
+            {t.points.map(point => <li key={point}>{point}</li>)}
+          </ul>
+        </div>
+      )}
+    </section>
+  )
 }

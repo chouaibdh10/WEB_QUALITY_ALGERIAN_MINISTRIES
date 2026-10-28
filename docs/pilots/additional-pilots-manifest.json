@@ -1,0 +1,98 @@
+{
+  "frozenAt": "2026-10-20T08:36:20.944506+00:00",
+  "targets": [
+    {
+      "id": "finance",
+      "root": "evidence/additional-pilots-2026-10-20-finance",
+      "httpEntry": "http://www.mf.gov.dz/",
+      "origins": [
+        "https://www.mf.gov.dz",
+        "http://www.mf.gov.dz",
+        "https://mf.gov.dz",
+        "http://mf.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mf.gov.dz/index.php/ar/"
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mf.gov.dz/index.php/ar/contact-ar"
+        },
+        {
+          "type": "service-directory",
+          "url": "https://www.mf.gov.dz/index.php/ar/2020-12-08-16-54-26"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T08:36:20.944482+00:00",
+        "note": "Exact listed ministry host; rendered page identity corroborated. This is domain association evidence, not ministry endorsement of this evaluation."
+      }
+    },
+    {
+      "id": "higher-education",
+      "root": "evidence/additional-pilots-2026-10-20-higher-education",
+      "httpEntry": "http://www.mesrs.dz/",
+      "origins": [
+        "https://www.mesrs.dz",
+        "http://www.mesrs.dz",
+        "https://mesrs.dz",
+        "http://mesrs.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mesrs.dz/en/home/"
+        },
+        {
+          "type": "service-directory",
+          "url": "https://www.mesrs.dz/fr/plateformes-mesrs/"
+        },
+        {
+          "type": "institution",
+          "url": "https://www.mesrs.dz/en/scientific-research/"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T08:36:20.944501+00:00",
+        "note": "Exact listed ministry host; rendered page identity corroborated. This is domain association evidence, not ministry endorsement of this evaluation."
+      }
+    },
+    {
+      "id": "post-telecommunications",
+      "root": "evidence/additional-pilots-2026-10-20-post-telecommunications",
+      "httpEntry": "http://www.mpt.gov.dz/",
+      "origins": [
+        "https://www.mpt.gov.dz",
+        "http://www.mpt.gov.dz",
+        "https://mpt.gov.dz",
+        "http://mpt.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mpt.gov.dz/"
+        },
+        {
+          "type": "service-directory",
+          "url": "https://www.mpt.gov.dz/ar/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/"
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mpt.gov.dz/ar/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.education.gov.dz/liens-utiles/",
+        "checkedAt": "2026-10-20T08:36:51.405301+00:00",
+        "note": "Exact ministry host linked by the National Education ministry; live identity corroborated."
+      }
+    }
+  ]
+}

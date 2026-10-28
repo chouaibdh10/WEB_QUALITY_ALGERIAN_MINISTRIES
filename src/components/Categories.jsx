@@ -1,15 +1,40 @@
-import { Accessibility, Gauge, LockKeyhole, Map, MonitorCog, ServerCog, TabletSmartphone } from 'lucide-react'
+import { ShieldCheck, Gauge, Accessibility, Activity, Smartphone, FileText, ScanSearch } from 'lucide-react'
+import { usePreferences } from '../Preferences'
+import { contentMessages } from '../contentMessages'
+import { categoryMax } from '../data/ministries'
 
-const categories = [
-  ['Security', '20', 'Protection, transport encryption and trust signals.', LockKeyhole],
-  ['Performance', '15', 'Speed, efficiency and a smooth page experience.', Gauge],
-  ['Accessibility', '15', 'Inclusive access for every citizen and ability.', Accessibility],
-  ['Reliability', '10', 'Availability, consistency and dependable navigation.', ServerCog],
-  ['Mobile Usability', '15', 'A responsive experience on the device in hand.', TabletSmartphone],
-  ['Content & Public Services', '15', 'Useful, findable and current public information.', Map],
-  ['Technical Quality', '10', 'Standards, structure and maintainable foundations.', MonitorCog],
-]
+const icons = [ShieldCheck, Gauge, Accessibility, Activity, Smartphone, FileText, ScanSearch]
+const weights = Object.values(categoryMax)
 
 export default function Categories() {
-  return <section id="categories" className="categories-section section-pad"><div className="section-heading"><div><div className="section-kicker">02 / Evaluation framework</div><h2>Seven signals.<br /><span>One complete picture.</span></h2></div><p>Each website is examined across seven practical dimensions, weighted by their impact on a useful public digital service.</p></div><div className="category-grid">{categories.map(([name, points, description, Icon], index) => <article className="category-card" key={name}><div className="category-top"><span className="category-number">0{index + 1}</span><Icon size={23} strokeWidth={1.7} /></div><div className="category-name">{name}</div><div className="category-bottom"><span>{description}</span><strong>{points}<small> pts</small></strong></div></article>)}</div></section>
+  const { language, number } = usePreferences()
+  const t = contentMessages[language].categories
+  return (
+    <section id="categories" className="research-section research-framework section-pad" aria-labelledby="categories-title">
+      <div className="research-heading" data-reveal>
+        <div>
+          <p className="research-kicker">{t.kicker}</p>
+          <h2 id="categories-title" className="research-title">{t.title[0]} <span>{t.title[1]}</span></h2>
+        </div>
+        <p className="research-intro">{t.intro}</p>
+      </div>
+      <div className="research-category-grid">
+        {t.items.map(([name, description], index) => { const Icon = icons[index]; return (
+          <article className="research-category-card" key={name} data-reveal style={{ '--reveal-delay': `${(index % 3) * 90}ms` }}>
+            <div className="research-category-meta">
+              <span className="category-icon" aria-hidden="true"><Icon size={24} strokeWidth={1.5} /></span>
+              <strong className="research-weight">{number(weights[index])}<span>{t.points}</span></strong>
+            </div>
+            <h3>{name}</h3>
+            <p>{description}</p>
+            <div className="category-weight-track" aria-hidden="true"><span style={{width: `${weights[index] * 5}%`}} /></div>
+          </article>
+        )})}
+        <div className="research-category-summary" data-reveal style={{ '--reveal-delay': '180ms' }}>
+          <p className="research-total">{t.total}</p>
+          <p>{t.note}</p>
+        </div>
+      </div>
+    </section>
+  )
 }

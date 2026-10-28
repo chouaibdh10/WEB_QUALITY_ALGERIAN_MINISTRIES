@@ -1,0 +1,33 @@
+.measurement-overview { margin-block:36px 48px; }
+.measurement-overview-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:24px; }
+.measurement-overview-heading h3 { font-size:clamp(22px,2.2vw,28px); letter-spacing:-.04em; margin:0 0 10px; }
+.measurement-overview-heading p { color:var(--muted); max-width:640px; font-size:13px; line-height:1.7; margin:0; }
+.measurement-revision { display:flex; align-items:center; gap:7px; flex-shrink:0; font-size:12px; padding-block:8px; text-decoration:underline; text-underline-offset:4px; }
+.measurement-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.measurement-card { display:flex; flex-direction:column; min-width:0; padding:24px; border:1px solid var(--line); background:var(--surface); transition:border-color .2s,background .2s; }
+.measurement-card:hover { border-color:var(--accent); background:var(--surface-alt); }
+.measurement-grid:focus-visible,.measurement-card:focus-visible,.measurement-revision:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+.measurement-card-heading { display:flex; align-items:center; gap:12px; min-height:52px; }
+.measurement-card-heading .ministry-identity { flex:0 0 40px; width:40px; height:40px; }
+.measurement-card-heading h4 { font-size:14px; line-height:1.5; margin:0; font-weight:550; }
+.measurement-card-heading > svg { margin-inline-start:auto; flex-shrink:0; color:var(--muted); }
+.measurement-card-score { display:block; font-size:48px; letter-spacing:-.05em; font-weight:550; line-height:1.2; margin:24px 0 18px; }
+.measurement-card-score small { font-size:20px; color:var(--muted); letter-spacing:-.03em; }
+.measurement-score-track { height:6px; display:flex; overflow:hidden; background:var(--line); gap:2px; }
+.measurement-score-track i { display:block; flex-shrink:1; }
+.measurement-score-track i:first-child,.measurement-key-0 { background:var(--accent); }
+.measurement-score-track i:nth-child(2),.measurement-key-1 { background:var(--muted); opacity:.55; }
+.measurement-score-track i:nth-child(3),.measurement-key-2 { background:repeating-linear-gradient(120deg,var(--line) 0 2px,transparent 2px 5px); }
+.measurement-card > p { margin:12px 0 24px; color:var(--muted); font-size:11px; line-height:1.8; }
+.measurement-card-action { display:flex; justify-content:space-between; align-items:center; gap:12px; padding-top:16px; border-top:1px solid var(--line); margin-top:auto; font-size:12px; font-weight:550; }
+.measurement-legend { display:flex; flex-wrap:wrap; gap:20px; margin-top:18px; font-size:11px; color:var(--muted); }
+.measurement-legend > span { display:flex; align-items:center; gap:7px; }
+.measurement-key { display:inline-block; width:16px; height:6px; }
+@media(max-width:1050px) { .measurement-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:600px) { .measurement-grid { grid-template-columns:none; grid-auto-flow:column; grid-auto-columns:minmax(260px,85%); overflow-x:auto; scroll-snap-type:x mandatory; padding-bottom:12px; }.measurement-card { scroll-snap-align:start; }.measurement-overview-heading { flex-direction:column; gap:12px; }.measurement-card { padding:20px; }.measurement-card-score { margin-block:18px 14px; } }
+@media(prefers-reduced-motion:reduce) { .measurement-card { transition:none; } }
+.measurement-campaign-summary { color:var(--muted); font-size:12px; line-height:1.8; padding-block:14px; margin-bottom:24px; border-block:1px solid var(--line); }
+.measurement-campaign-summary a { text-decoration:underline; text-underline-offset:4px; margin-inline-start:12px; }
+.measurement-show-all { display:flex; align-items:center; justify-content:space-between; gap:24px; margin-top:24px; padding:14px 18px; border:1px solid var(--line); background:var(--surface); color:var(--text); font-size:13px; cursor:pointer; }
+.measurement-show-all:hover { border-color:var(--accent); }
+#directory-workspace { scroll-margin-top:110px; }

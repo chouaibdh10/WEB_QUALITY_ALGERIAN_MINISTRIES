@@ -1,0 +1,1246 @@
+{
+  "moudjahidine-rights-holders": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose WordPress 7.1.3. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.semantics": {
+      "points": 0.5,
+      "reason": "The retained and fresh homepage outline includes an empty H1, followed by meaningful H2 news titles. Service/institutional titles remain visible in the retained normal sample. Partial credit recognises readable section structure while recording the empty primary-heading defect.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "content.procedures": {
+      "points": 0,
+      "reason": "The declared خدماتي page has its service heading followed by editor selections and news/sidebar material, without a substantive procedure, eligibility conditions or application steps. The menu names other services, but naming links is not procedural guidance.",
+      "evidence": [
+        "manual-followup.json#records.dom"
+      ]
+    },
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Reviewed the actual canonical values and final URLs for all three declared core documents, with the retained redirect chains. Each canonical resolves to the same intended page, allowing the observed www alias and equivalent percent encoding. No downgrade, redirect loop or conflicting canonical target was established in this bounded sample. This does not certify all routes.",
+      "evidence": [
+        "report.json#pages.http",
+        "completion-page-checks-2026-10-21.json#records.dom.canonical"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "Reviewed the fresh homepage, contact/service and institutional/procedure titles and descriptions. Page-specific titles identify the content role, but descriptions are absent throughout; the pharmaceutical homepage title also begins with a bare dash. Partial metadata credit applies to the declared three-page sample. It is not a search-engine ranking prediction.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "pharmaceutical-industry": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose WordPress 7.1.2. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 0.5,
+      "reason": "Contact and accreditation pages share a recognisable header and menu; the homepage consent panel obscures that context in the captured mobile state. Partial interface consistency credit is limited to the reviewed sample.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 0.5,
+      "reason": "The captured core pages retain identity and readable text; homepage consent overlay and width behaviour differ from the service page. Partial cross-page consistency, not a complete-site compatibility claim.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.semantics": {
+      "points": 0.5,
+      "reason": "The accreditation procedure has a useful H1 and H3 group headings. The captured homepage starts with H3/H2 and no meaningful H1 in the visible outline. Partial semantic structure across the sampled roles; a heading count alone is not a complete semantics pass.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Reviewed the actual canonical values and final URLs for all three declared core documents, with the retained redirect chains. Each canonical resolves to the same intended page, allowing the observed www alias and equivalent percent encoding. No downgrade, redirect loop or conflicting canonical target was established in this bounded sample. This does not certify all routes.",
+      "evidence": [
+        "report.json#pages.http",
+        "completion-page-checks-2026-10-21.json#records.dom.canonical"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "Reviewed the fresh homepage, contact/service and institutional/procedure titles and descriptions. Page-specific titles identify the content role, but descriptions are absent throughout; the pharmaceutical homepage title also begins with a bare dash. Partial metadata credit applies to the declared three-page sample. It is not a search-engine ranking prediction.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "agriculture-rural-development-fisheries": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose WordPress 7.1.3. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The retained homepage, contact and institutional/service documents have useful role-specific titles, but their captured description metadata are absent. Partial credit recognizes the titles while recording the repeated missing summaries; this is a three-page metadata review, not a search-engine ranking prediction.",
+      "evidence": [
+        "report.json#pages.observations",
+        "manual-followup.json#records.dom.title"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 0.5,
+      "reason": "Shared branding, navigation and Arabic text remain consistent, but the telephone-directory layout becomes substantially wider than the other core pages on mobile. Partial cross-page consistency for this observed discrepancy.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "mobile.reflow": {
+      "points": 1,
+      "reason": "The fresh telephone directory measures 501 CSS px wide at both 320 and 390 px viewports; other sampled pages have much smaller overflow. Retained normal screenshots corroborate the wide contact-table content. Partial credit records the mobile friction. This is not called a blocking task failure or automatically a WCAG failure: intrinsically two-dimensional tables require separate accessibility review.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.language-aria": {
+      "points": 0,
+      "reason": "The page language is Arabic, but the fresh homepage tabs and contact accordion expose invalid required-child relationships: tabpanel descendants occur in the wrong ARIA container. Axe identifies the exact tab/accordion targets, and the retained DOM and screenshot confirm those interactive components. These repeated critical structural failures prevent ARIA credit; the Arabic language value alone cannot pass the combined criterion.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.alt": {
+      "points": 0,
+      "reason": "Visible informational event/campaign thumbnails, including desertification and census graphics, lack alt attributes and accessible-name alternatives. The fresh image inventory corroborates axe targets in the homepage tab thumbnails. Empty decorative logo copies are not the basis of this decision; the repeated informative-image omissions are.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.wcag": {
+      "points": 0,
+      "reason": "Manually corroborated the fresh homepage informational thumbnails with missing alternatives and the invalid tab/accordion relationships on homepage/contact. These repeated critical A/AA findings justify zero for the verified issue set. This is a bounded finding set, not a full WCAG conformance audit.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.contrast": {
+      "points": 0,
+      "reason": "Reviewed the normal mobile sample and the captured telephone-directory styles. The directory has 154 low-contrast text findings, alongside repeated small green text (#1fa055 on #f6f6f6, about 3.12:1 at 16px bold). The telephone-table failures are widespread within the core contact task, so this is systemic rather than an isolated decorative accent.",
+      "evidence": [
+        "manual-followup.json#records.axe",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Reviewed the actual canonical values and final URLs for all three declared core documents, with the retained redirect chains. Each canonical resolves to the same intended page, allowing the observed www alias and equivalent percent encoding. No downgrade, redirect loop or conflicting canonical target was established in this bounded sample. This does not certify all routes.",
+      "evidence": [
+        "report.json#pages.http",
+        "completion-page-checks-2026-10-21.json#records.dom.canonical"
+      ]
+    },
+    "technical.site-search": {
+      "points": 2,
+      "reason": "Opened an actually observed same-origin GET search form with the benign Arabic keyword وزارة. The captured 200 response identifies the query and presents relevant matching results, including agricultural compensation, harvesting measures and a ministry platform announcement. Reviewed the result text rather than inferring functionality from the input. Credit is for this one successful query, not all search terms or every result destination.",
+      "evidence": [
+        "completion-search-check-2026-10-21.json#result"
+      ]
+    }
+  },
+  "foreign-trade-export-promotion": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose nginx/1.24.0 (Ubuntu). One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 0.5,
+      "reason": "The homepage and institutional page share a navigation layout, but the linked enquiry portal changes header, language control, navigation and page language substantially. Identity is retained, so partial interface consistency credit applies across this three-page sample.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 0.5,
+      "reason": "Rendered identity is coherent, but core Arabic documents declare English while the enquiry page declares French. The service portal also changes the navigation shell. Partial technical consistency; language defects are recorded separately.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.alt": {
+      "points": 0.5,
+      "reason": "The visible institutional banner logo_banniere.png lacks an alternative on homepage and institutional page; axe confirms the .ms-auto image has no alt/ARIA/title equivalent. Other sampled service-page logo and building images have meaningful alternatives. Partial credit for this localized repeated branding-image omission.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.wcag": {
+      "points": 0,
+      "reason": "The retained Arabic homepage and minister-powers text declare html lang=en; the enquiry page declares French while its visible task text is Arabic. Manual text/language comparison corroborates the language failure already recorded in the language row, alongside the unnamed institutional banner. The repeated incorrect language affects whole documents, so the verified issue set receives zero.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "housing-spatial-planning": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose WordPress 7.1.3. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 0.5,
+      "reason": "Homepage and housing guidance retain the same navigation style, while the contact page presents an unavailable embedded panel. Partial credit recognises the shared template but records the interrupted contact experience.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 0.5,
+      "reason": "The retained contact page has a failed embedded panel while homepage and housing guidance render content in the shared template. Partial technical consistency. An unavailable embed is not evidence that the entire website is unavailable.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The housing guidance title and description accurately explain public rental housing. The homepage duplicates the ministry name in its title, while the contact document has an empty description. Partial credit reflects this uneven three-page metadata quality.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "technical.site-search": {
+      "points": 2,
+      "reason": "Opened an actually observed same-origin GET search form with the benign Arabic keyword وزارة. The captured 200 response identifies the query and presents relevant matching results, including housing-ministry cooperation and ministerial news. Reviewed the result text rather than inferring functionality from the input. Credit is for this one successful query, not all search terms or every result destination.",
+      "evidence": [
+        "completion-search-check-attempt-1-2026-10-21.json#result"
+      ]
+    }
+  },
+  "vocational-training": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose All in One SEO 4.9.6.2. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "content.service-function": {
+      "points": 0,
+      "reason": "The retained contact document visibly prints [contact-form-7 id=\"1639\"] and [ditty id=398] as text instead of rendering the contact form. The fresh contact capture confirms the same raw-shortcode content. The declared enquiry endpoint therefore does not offer a usable form in this sample; phone availability remains credited separately.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "mobile.mobile-forms": {
+      "points": 0,
+      "reason": "The declared contact page displays a Contact Form 7 shortcode instead of an interactive enquiry form. The fresh DOM contains the literal shortcode, and the retained mobile screenshot corroborates the broken template state. This is a verified missing task form, not an unsafe submission test.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "mobile.journey": {
+      "points": 0,
+      "reason": "The predeclared enquiry task reaches a contact page that displays a raw form shortcode, preventing the form-based enquiry step before data entry. Phone details do not repair that selected task path. No submission or personal data were used.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "sports": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose All in One SEO 5.0.2. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "All three retained titles identify the page role and ministry. Service/institutional descriptions summarize those roles; the homepage description is a long concatenation of news rather than a concise page summary. Partial credit for this uneven metadata quality.",
+      "evidence": [
+        "report.json#pages.observations"
+      ]
+    },
+    "accessibility.semantics": {
+      "points": 0.5,
+      "reason": "The fresh service and institution pages have useful H1 role titles, while the homepage begins with H2 identity/news/date headings without a clear primary H1 in the visible outline. Partial credit records this uneven hierarchy; multiple tool passes are not treated as complete semantic conformance.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "environment-quality-of-life": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose WordPress 6.7.5. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "The sampled document has no enforcing CSP header. Its meta policy is only upgrade-insecure-requests, which does not restrict script/object sources and earns zero under the frozen meaningful-policy rule.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.metadata": {
+      "points": 1,
+      "reason": "Reviewed actual title/description values on the three representative documents: homepage identifies the ministry and official location, contact identifies its contact purpose/address, and services identifies electronic services with a substantive usage explanation. These are meaningful summaries of the sampled roles. Credit does not predict search visibility or cover all routes.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "industry": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose WordPress 6.9.1. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 0.5,
+      "reason": "Homepage and enquiry page share a header and menu; the activity-code page changes typography and removes the same navigation context. Partial credit for the retained identity across the sampled portal transition.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 0.5,
+      "reason": "The main WordPress pages and activity-list application present recognisable identity with different templates, language and navigation context. Partial technical consistency across the declared core sample.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    }
+  },
+  "justice": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose WordPress 5.3.21. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The three representative captured core documents have useful page-specific titles but no description summaries. Partial metadata credit recognizes the role-specific titles and records the repeated missing descriptions. The criterion is scoped to these documents, with no search-ranking prediction.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.contrast": {
+      "points": 1,
+      "reason": "Normal mobile screenshots and captured styles corroborate light-red text on white (#ff2929, about 3.74:1 at 16px bold), below the 4.5:1 small-text requirement. The localized highlighted-link style appears on homepage/contact; partial credit records this defect without implying a full-site contrast pass.",
+      "evidence": [
+        "manual-followup.json#records.axe",
+        "independent-homepage-390.png"
+      ]
+    },
+    "mobile.reflow": {
+      "points": 1,
+      "reason": "Every fresh core page remains 383 CSS px wide at a 320 px viewport, while fitting at 390 px. Retained normal screenshots corroborate the shared header/navigation context. Partial credit records the repeated narrow-viewport friction; these dimensions alone do not establish that the contact or service task is blocked.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.zoom": {
+      "points": 0.5,
+      "reason": "The three fresh core documents remain 383 CSS px wide at a 320 px viewport and fit at 390 px. The retained narrow mobile layouts and dimension records corroborate reflow friction. Partial credit records that limitation; a complete zoom/orientation or physical-device conformance claim is not made.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "youth": {
+    "security.version-exposure": {
+      "points": 0,
+      "reason": "The retained public response headers or generator metadata explicitly disclose nginx/1.31.6. One verified disclosure prevents full or partial absence credit for the declared sample. This is an information-disclosure observation, not evidence that this version is vulnerable or unsupported.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.semantics": {
+      "points": 1,
+      "reason": "Inspected the actual heading text on all three representative pages: the homepage has a primary story H1 with H2 news/biography sections, and contact/organization each have a meaningful H1 matching their task. The sampled outline is coherent; this criterion does not certify all ARIA widgets or WCAG conformance.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.keyboard": {
+      "points": 1,
+      "reason": "Recorded 20 real Tab steps on each core page through skip link, home/search/menu, story links, contact fields and organization controls. The observed menu responds to Enter and reports closed after Escape on all three roles. Partial keyboard credit is limited to those paths; keyboard activation of every organization widget and the complete contact process was not established.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.focus": {
+      "points": 1,
+      "reason": "The actual Tab records on all three representative pages consistently show a visible 2px solid brown focus outline (#b36628) on links, buttons and contact fields. Recorded element bounds are visible and the retained normal screenshots show the corresponding light/dark interface context. Full criterion credit is limited to this tested focus sample, not every service state.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "national-education": {
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The retained homepage, contact and institutional/service documents have useful role-specific titles, but their captured description metadata are absent. Partial credit recognizes the titles while recording the repeated missing summaries; this is a three-page metadata review, not a search-engine ranking prediction.",
+      "evidence": [
+        "report.json#pages.observations",
+        "manual-followup.json#records.dom.title"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.semantics": {
+      "points": 0.5,
+      "reason": "Reviewed the retained heading outline and fresh contact/competition DOM. Contact and competition titles use H1, with supporting section headings; the repeated site identity uses H2 before H1 and sidebar headings dominate the otherwise empty competition content. Partial structural clarity credit, without inferring assistive-technology conformance from heading counts.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "content.procedures": {
+      "points": 0,
+      "reason": "The declared competitions page shows its title followed by latest-news/archive/sidebar content, without competition eligibility, application steps or submission instructions in the captured task body. This zero is specific to that predeclared service-information sample; other procedures elsewhere were not inferred.",
+      "evidence": [
+        "manual-followup.json#records",
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Reviewed the actual canonical values and final URLs for all three declared core documents, with the retained redirect chains. Each canonical resolves to the same intended page, allowing the observed www alias and equivalent percent encoding. No downgrade, redirect loop or conflicting canonical target was established in this bounded sample. This does not certify all routes.",
+      "evidence": [
+        "report.json#pages.http",
+        "completion-page-checks-2026-10-21.json#records.dom.canonical"
+      ]
+    },
+    "technical.site-search": {
+      "points": 2,
+      "reason": "Opened an actually observed same-origin GET search form with the benign Arabic keyword وزارة. The captured 200 response identifies the query and presents relevant matching results, including ministry mathematics-team achievements and ministry administration notices. Reviewed the result text rather than inferring functionality from the input. Credit is for this one successful query, not all search terms or every result destination.",
+      "evidence": [
+        "completion-search-check-2026-10-21.json#result"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    }
+  },
+  "internal-trade-market-regulation": {
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.contrast": {
+      "points": 0,
+      "reason": "Normal core-page review confirms repeated small white text on turquoise (#ffffff on #00a19d, about 3.18:1 at 16px regular), below 4.5:1. There are 24 homepage and 8–9 further contact/institutional findings. The repeated content/navigation styles across the declared roles make this a systemic contrast failure in this sample.",
+      "evidence": [
+        "manual-followup.json#records.axe",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.form-access": {
+      "points": 1,
+      "reason": "The fresh contact form shows placeholders for name/email/subject/message, but its recipient selector (name=structure) has neither a label nor an aria-label; axe confirms select-name. Partial credit records this localized missing selector name. Error handling and submission remain untested, so no complete accessible-form pass is implied.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The three representative captured core documents have useful page-specific titles but no description summaries. Partial metadata credit recognizes the role-specific titles and records the repeated missing descriptions. The criterion is scoped to these documents, with no search-ranking prediction.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 0.5,
+      "reason": "The retained and fresh response headers identify Apache without a numeric version; the fresh generator fields do not disclose an additional software version. Partial credit follows the frozen product-only rule across the three core documents. This does not establish the deployed Apache version or its patch status.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "public-works-basic-infrastructure": {
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The retained homepage, contact and institutional/service documents have useful role-specific titles, but their captured description metadata are absent. Partial credit recognizes the titles while recording the repeated missing summaries; this is a three-page metadata review, not a search-engine ranking prediction.",
+      "evidence": [
+        "report.json#pages.observations",
+        "manual-followup.json#records.dom.title"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.contrast": {
+      "points": 1,
+      "reason": "The retained mobile screenshots confirm small white language/navigation labels on blue (#ffffff on #2096cd); the captured 11px bold style has about 3.33:1 contrast, below 4.5:1. This repeated header-label style is a localized defect; partial credit does not certify all text or interaction states.",
+      "evidence": [
+        "manual-followup.json#records.axe",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Reviewed the actual canonical values and final URLs for all three declared core documents, with the retained redirect chains. Each canonical resolves to the same intended page, allowing the observed www alias and equivalent percent encoding. No downgrade, redirect loop or conflicting canonical target was established in this bounded sample. This does not certify all routes.",
+      "evidence": [
+        "report.json#pages.http",
+        "completion-page-checks-2026-10-21.json#records.dom.canonical"
+      ]
+    },
+    "accessibility.semantics": {
+      "points": 0.5,
+      "reason": "The contact and committee-results pages have meaningful H1 titles, while the retained homepage heading outline uses transport counters and numerical indicators as headings before a clear content hierarchy. Partial structure credit across the sampled roles; the general WCAG criterion is assessed separately.",
+      "evidence": [
+        "manual-followup.json#records.dom.headings",
+        "completion-page-checks-2026-10-21.json#records.dom.headings"
+      ]
+    },
+    "technical.site-search": {
+      "points": 2,
+      "reason": "Opened an actually observed same-origin GET search form with the benign Arabic keyword وزارة. The captured 200 response identifies the query and presents relevant matching results, including public-works coordination meetings and ministry structure. Reviewed the result text rather than inferring functionality from the input. Credit is for this one successful query, not all search terms or every result destination.",
+      "evidence": [
+        "completion-search-check-2026-10-21.json#result"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 0.5,
+      "reason": "Retained response headers disclose the Apache product without a version. The fresh captured document headers and generator fields disclose no numeric version. Partial credit retains the earlier product disclosure instead of silently replacing it with a later absence. No support-status or vulnerability inference is made.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    }
+  },
+  "hydraulics": {
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 0.5,
+      "reason": "The same template is retained across the declared roles, but the contact header includes broken-image placeholders. Partial consistency for that observed page-specific degradation.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.contrast": {
+      "points": 1,
+      "reason": "Reviewed the normal header/navigation screenshot and retained styles: small white text on gold (#ffffff on #b8860b, about 3.25:1 at 16px regular) fails 4.5:1. The localized navigation/accent style recurs across the sample; partial contrast credit records it without treating all content as unreadable.",
+      "evidence": [
+        "manual-followup.json#records.axe",
+        "independent-homepage-390.png"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    }
+  },
+  "tourism-handicrafts": {
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The three representative captured core documents have useful page-specific titles but no description summaries. Partial metadata credit recognizes the role-specific titles and records the repeated missing descriptions. The criterion is scoped to these documents, with no search-ranking prediction.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample; the tourism generator placeholder XXXXXXXXXXXXXXXX is not a software fingerprint. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    },
+    "technical.canonical": {
+      "points": 1,
+      "reason": "Actual fresh canonical values consistently match the intended homepage/contact/electronic-services URLs. The retained successful redirect chains establish the observed final host and no loop/downgrade in this sample. Full credit is limited to these three core routes, not all redirects on the website.",
+      "evidence": [
+        "report.json#pages.http",
+        "completion-page-checks-2026-10-21.json#records.dom.canonical"
+      ]
+    }
+  },
+  "national-defence": {
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed the retained successful document response headers together with the same-capture HTTP-equiv meta policies: at least one declared page has neither an enforcing Content-Security-Policy header nor a CSP meta policy. That verified absence prevents meaningful-policy credit for the sample; it does not demonstrate an exploitable vulnerability.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The three declared pages repeat a generic ministry title; only the homepage supplies a useful ministry description. Institutional and service documents are not distinguished in their title/description pair. Partial credit is limited to the usable homepage summary and identity. Static head metadata were readable despite the separate robots constraint on styling/scripts.",
+      "evidence": [
+        "report.json#pages.observations"
+      ]
+    },
+    "accessibility.language-aria": {
+      "points": 0,
+      "reason": "All three retained static document observations have no html language declaration despite French visible content. This missing language is corroborated by the document metadata and retained French screenshots. Styling/script exclusions do not cause a missing root lang attribute; other ARIA behaviour remains outside this verified defect.",
+      "evidence": [
+        "report.json#pages.observations",
+        "manual-followup.json#records.dom"
+      ]
+    }
+  },
+  "energy-renewable-energies": {
+    "security.csp": {
+      "points": 0,
+      "reason": "The captured homepage header only declares frame-ancestors 'self', and the same-capture meta inventory has no additional CSP. Framing protection alone does not restrict script/object sources under the frozen meaningful-policy rule.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.contrast": {
+      "points": 1,
+      "reason": "The retained mobile screenshots show small white date/social/navigation labels on green. The captured #ffffff on #189f52 style at 12px regular is about 3.43:1, below 4.5:1. Partial credit for a localized repeated header-label defect; body-text conformity was not inferred from the absence of tool findings.",
+      "evidence": [
+        "manual-followup.json#records.axe",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0,
+      "reason": "All three representative captured roles reuse exactly the same generic ministry title and have empty descriptions. Contact and service tasks cannot be distinguished through their title/summary metadata. Zero applies to this repeated sample-wide metadata failure, not to the ministry website as a whole.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    }
+  },
+  "foreign-affairs": {
+    "security.csp": {
+      "points": 0,
+      "reason": "Reviewed both the header and meta policies together. default-src * with unsafe-inline in the header and wildcard/unsafe-inline/unsafe-eval script sources plus wildcard object sources in the meta policy remain permissive even when intersected. The policy does not meet the frozen meaningful script/object restriction rule. No exploit was attempted.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "report.json#pages.manual"
+      ]
+    },
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.contrast": {
+      "points": 1,
+      "reason": "The retained normal-browser issue set identifies small cyan links on white (#0dcaf0 on #ffffff, about 1.95:1 at 17.5px regular), below 4.5:1, on all three roles. The reviewed link-color style is a localized but repeated contrast defect. Partial credit is for the sampled style review, not a complete contrast certification.",
+      "evidence": [
+        "manual-followup.json#records.axe",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.metadata": {
+      "points": 1,
+      "reason": "The representative French homepage names the ministry and its news/diplomacy/services scope; contact and legalization have distinct useful titles with matching descriptions. Actual values were inspected, not just a metadata-presence audit. Full credit is limited to the sampled role differentiation and summaries.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "mobile.reflow": {
+      "points": 1,
+      "reason": "The representative homepage measures 442 CSS px at both 320 and 390 px viewports while contact/legalization fit. The retained normal measurements corroborate this difference. Partial credit records entry-page reflow friction; the dimensions do not prove a blocked citizen task. Embedded Twitter/map collection exclusions remain separate limitations.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    }
+  },
+  "religious-affairs-wakfs": {
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "The representative core documents captured in the additive follow-up have neither an enforcing Content-Security-Policy response header nor a CSP HTTP-equiv meta policy. Both locations were inspected on the same visit. Zero follows the frozen meaningful-policy rule; no exploitability or complete security-audit conclusion is inferred.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The three representative captured core documents have useful page-specific titles but no description summaries. Partial metadata credit recognizes the role-specific titles and records the repeated missing descriptions. The criterion is scoped to these documents, with no search-ranking prediction.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.semantics": {
+      "points": 0.5,
+      "reason": "The fresh fatwa and organization pages have H1 task titles and coherent H2/H3 subdivisions, including directorate responsibilities. The homepage begins with repeated H2 news items without a clear primary H1. Partial structure credit for this bounded outline review.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    },
+    "technical.canonical": {
+      "points": 0.5,
+      "reason": "The representative service and organization pages emit HTTP canonical URLs while the captured documents are served over HTTPS, and the homepage has no canonical. The canonical paths identify the right content but their scheme is inconsistent with the delivered URLs, so partial credit records this specific canonicalization defect.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "labour-employment-social-security": {
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "The representative core documents captured in the additive follow-up have neither an enforcing Content-Security-Policy response header nor a CSP HTTP-equiv meta policy. Both locations were inspected on the same visit. Zero follows the frozen meaningful-policy rule; no exploitability or complete security-audit conclusion is inferred.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The three representative captured core documents have useful page-specific titles but no description summaries. Partial metadata credit recognizes the role-specific titles and records the repeated missing descriptions. The criterion is scoped to these documents, with no search-ranking prediction.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "accessibility.semantics": {
+      "points": 0.5,
+      "reason": "Contact and labour-legislation pages have useful H2 task headings, while the homepage starts with H3 news headings. Readable labels are present, but the sample lacks a clear top-level H1 hierarchy. Partial credit reflects that structural limitation.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    },
+    "technical.canonical": {
+      "points": 0.5,
+      "reason": "The fresh contact and legislation pages declare matching HTTPS canonical paths; the homepage declares none. Captured redirects resolve successfully without a sample loop. Partial credit records the incomplete canonical configuration rather than inferring a whole-site canonicalization pass.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "national-solidarity-family": {
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "The representative core documents captured in the additive follow-up have neither an enforcing Content-Security-Policy response header nor a CSP HTTP-equiv meta policy. Both locations were inspected on the same visit. Zero follows the frozen meaningful-policy rule; no exploitability or complete security-audit conclusion is inferred.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "The tender page has a task-specific title, while homepage/news repeat the general official-ministry title. All three descriptions are absent. Partial credit recognizes page identity but records the weak differentiation and missing summaries.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    },
+    "security.cookies": {
+      "points": 1,
+      "reason": "The retained successful homepage/tender responses issue cookies marked HttpOnly but lacking Secure and explicit SameSite. Partial credit follows the frozen subset-protection rule. The news response exceeded the collector byte limit and is excluded; one verified incomplete protection is enough to prevent a full sample award. No cookie values are published.",
+      "evidence": [
+        "report.json#pages.http.cookies"
+      ]
+    }
+  },
+  "relations-parliament": {
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 1,
+      "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    }
+  },
+  "hydrocarbons": {
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "technical.cross-page": {
+      "points": 0.5,
+      "reason": "Core pages retain the shared legacy ministry identity and navigation, but the contact content includes an unavailable embedded area. Partial technical consistency in the retained sample.",
+      "evidence": [
+        "manual-followup.json#records",
+        "independent-homepage-390.png"
+      ]
+    },
+    "accessibility.contrast": {
+      "points": 0,
+      "reason": "Reviewed the repeated grey text in the retained core-page style findings and normal screenshots. #afb1b2 on white at 12px regular is about 2.15:1; 9–11 findings recur on each role. These repeated low-contrast text styles across homepage, services and contact make the sampled defect systemic.",
+      "evidence": [
+        "manual-followup.json#records.axe",
+        "independent-homepage-390.png"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "The fresh homepage, service and contact documents only enforce frame-ancestors 'self' in the response header; their meta-policy inventory adds no script/object restrictions. Framing-only policy receives zero under the frozen meaningful-CSP rule, without implying an exploitable vulnerability.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0,
+      "reason": "All three representative captured roles reuse exactly the same generic ministry title and have empty descriptions. Contact and service tasks cannot be distinguished through their title/summary metadata. Zero applies to this repeated sample-wide metadata failure, not to the ministry website as a whole.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "security.version-exposure": {
+      "points": 1,
+      "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+      "evidence": [
+        "report.json#pages.http.headers",
+        "completion-page-checks-2026-10-21.json#records.dom.generator"
+      ]
+    }
+  },
+  "knowledge-economy-startups": {
+    "mobile.interface": {
+      "points": 1,
+      "reason": "Compared the retained English and Arabic coming-soon pages: both retain equivalent identity, contact sections and an intentionally mirrored navigation design. Credit applies to consistency of the two captured placeholder pages only. Fresh robots denial is disclosed and does not establish current service availability.",
+      "evidence": [
+        "manual-followup.json#records"
+      ]
+    }
+  },
+  "interior-local-authorities-transport": {
+    "accessibility.contrast": {
+      "points": 1,
+      "reason": "The retained rendered contact/service screenshots show the small gold identity/link styles captured as #907b00 on white, about 4.18:1 at 13px regular, below 4.5:1. Partial credit records this repeated accent-text defect. The blank homepage capture was excluded from this judgment, and no failure is inferred from a collector blank page.",
+      "evidence": [
+        "manual-followup.json#records.axe",
+        "independent-contact-390.png"
+      ]
+    },
+    "security.csp": {
+      "points": 0,
+      "reason": "The representative fresh homepage and contact responses have no CSP header; their meta policy is only upgrade-insecure-requests. It does not restrict script/object sources, so the frozen meaningful-policy rule awards zero. The excluded service-page collector error was not treated as evidence of missing policy.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    },
+    "technical.metadata": {
+      "points": 0.5,
+      "reason": "Representative homepage/contact captures retain institutional identity and a contact-specific title, but both descriptions are absent and the homepage has a long generic state/ministry title. Partial credit recognizes usable titles; the excluded service capture prevents broader claims.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  },
+  "finance": {
+    "accessibility.form-access": {
+      "points": 0,
+      "reason": "The fresh citizen-enquiry form exposes text, email, two selection fields and a message textarea without programmatic labels or aria-labels. The selected fields with names 19 and 16 have no accessible name, corroborated by select-name/label checks. This affects several core enquiry controls, so zero is justified for the verified labeling failure; submission/error states were not tested.",
+      "evidence": [
+        "completion-page-checks-2026-10-21.json#records"
+      ]
+    }
+  }
+}

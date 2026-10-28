@@ -1,0 +1,130 @@
+{
+  "preparedAt": "2026-10-20T17:23:17.944Z",
+  "scope": "Recheck all nine collection gaps after the current sequential timing batch. This plan does not modify its frozen page sample or authorize scores.",
+  "entries": [
+    {
+      "id": "energy-renewable-energies",
+      "url": "https://www.energy.gov.dz/",
+      "origins": [
+        "http://energy.gov.dz",
+        "https://energy.gov.dz",
+        "http://www.energy.gov.dz",
+        "https://www.energy.gov.dz"
+      ],
+      "source": "https://www.mtpib.gov.dz/fr/liens-utiles-2/",
+      "note": "Observed government directory entry uses the homepage rather than the earlier /en entry; the robots policy must still validate."
+    },
+    {
+      "id": "environment-quality-of-life",
+      "url": "https://www.me.gov.dz/",
+      "origins": [
+        "http://me.gov.dz",
+        "https://me.gov.dz",
+        "http://www.me.gov.dz",
+        "https://www.me.gov.dz"
+      ],
+      "source": "https://www.me.gov.dz/",
+      "note": "One fresh trusted-policy attempt at the previously observed entry. No TLS relaxation or robots bypass; original failure retained."
+    },
+    {
+      "id": "foreign-affairs",
+      "url": "https://www.mfa.gov.dz/fr",
+      "origins": [
+        "http://mfa.gov.dz",
+        "https://mfa.gov.dz",
+        "http://www.mfa.gov.dz",
+        "https://www.mfa.gov.dz"
+      ],
+      "source": "https://www.mtpib.gov.dz/fr/liens-utiles-2/",
+      "note": "The Public Works government directory search result explicitly links this www host and French entry; previous discovery used the apex host."
+    },
+    {
+      "id": "hydrocarbons",
+      "url": "https://www.oilmines.gov.dz/",
+      "origins": [
+        "http://oilmines.gov.dz",
+        "https://oilmines.gov.dz",
+        "http://www.oilmines.gov.dz",
+        "https://www.oilmines.gov.dz"
+      ],
+      "source": "https://www.oilmines.gov.dz/",
+      "note": "One fresh trusted-policy attempt at the previously observed entry. No TLS relaxation or robots bypass; original failure retained."
+    },
+    {
+      "id": "industry",
+      "url": "https://www.industrie.gov.dz/",
+      "origins": [
+        "http://industrie.gov.dz",
+        "https://industrie.gov.dz",
+        "http://www.industrie.gov.dz",
+        "https://www.industrie.gov.dz"
+      ],
+      "source": "https://www.education.gov.dz/liens-utiles/",
+      "note": "One fresh trusted-policy attempt at the previously observed entry. No TLS relaxation or robots bypass; original failure retained."
+    },
+    {
+      "id": "interior-local-authorities-transport",
+      "url": "https://www.interieur.gov.dz/",
+      "origins": [
+        "http://interieur.gov.dz",
+        "https://interieur.gov.dz",
+        "http://www.interieur.gov.dz",
+        "https://www.interieur.gov.dz"
+      ],
+      "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+      "note": "The independent government directory names the www host; previous discovery used the apex host."
+    },
+    {
+      "id": "justice",
+      "url": "https://www.mjustice.gov.dz/ar/",
+      "origins": [
+        "http://mjustice.dz",
+        "https://mjustice.dz",
+        "http://www.mjustice.dz",
+        "https://www.mjustice.dz",
+        "https://www.mjustice.gov.dz",
+        "https://mjustice.gov.dz",
+        "http://www.mjustice.gov.dz",
+        "http://mjustice.gov.dz"
+      ],
+      "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+      "note": "One fresh trusted-policy attempt at the previously observed entry. No TLS relaxation or robots bypass; original failure retained."
+    },
+    {
+      "id": "national-defence",
+      "url": "https://www.mdn.dz/site_principal/accueil_fr.php",
+      "origins": [
+        "http://mdn.dz",
+        "https://mdn.dz",
+        "http://www.mdn.dz",
+        "https://www.mdn.dz"
+      ],
+      "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+      "note": "One fresh trusted-policy attempt at the previously observed entry. No TLS relaxation or robots bypass; original failure retained."
+    },
+    {
+      "id": "youth",
+      "url": "https://www.mjeunesse.gov.dz/",
+      "origins": [
+        "http://mjeunesse.gov.dz",
+        "https://mjeunesse.gov.dz",
+        "http://www.mjeunesse.gov.dz",
+        "https://www.mjeunesse.gov.dz"
+      ],
+      "source": "https://www.mjeunesse.gov.dz/",
+      "note": "Observed indexed ministry homepage uses www; independent ownership confirmation remains pending."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "mines-mining-industries",
+      "status": "Unresolved domain",
+      "note": "Search found a commercial-hosted page but no independently verified dedicated official host; do not substitute an agency or hosting preview for a ministry website."
+    },
+    {
+      "id": "state-services-inspectorate",
+      "status": "Unresolved domain",
+      "note": "No independently established dedicated website found; do not guess a domain."
+    }
+  ]
+}

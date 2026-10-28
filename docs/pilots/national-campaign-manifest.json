@@ -1,0 +1,628 @@
+{
+  "frozenAt": "2026-10-20T11:00:48.077Z",
+  "scope": "Remaining entries of the 34-portfolio project corpus; observed read-only samples, not exhaustive website coverage.",
+  "targets": [
+    {
+      "id": "national-education",
+      "root": "evidence/national-campaign-2026-10-20/national-education",
+      "httpEntry": "http://www.education.gov.dz/",
+      "origins": [
+        "http://education.gov.dz",
+        "https://education.gov.dz",
+        "http://www.education.gov.dz",
+        "https://www.education.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.education.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.education.gov.dz/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/",
+          "note": "Manually selected actual homepage link: اتصل بنا"
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.education.gov.dz/%d9%81%d8%b6%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a%d8%a9/%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa/",
+          "note": "Manually selected actual homepage link: المسابقات"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T10:54:59.847Z",
+        "note": "Directory host association plus observed trusted redirect and institutional identity. Legacy portfolio titles in directories may differ; no endorsement implied."
+      }
+    },
+    {
+      "id": "moudjahidine-rights-holders",
+      "root": "evidence/national-campaign-2026-10-20/moudjahidine-rights-holders",
+      "httpEntry": "http://mmad.gov.dz/",
+      "origins": [
+        "http://mmad.gov.dz",
+        "https://mmad.gov.dz",
+        "http://www.mmad.gov.dz",
+        "https://www.mmad.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://mmad.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "service-information",
+          "url": "https://mmad.gov.dz/%d8%ae%d8%af%d9%85%d8%a7%d8%aa%d9%8a/",
+          "note": "Manually selected actual homepage link: خدماتي"
+        },
+        {
+          "type": "institution",
+          "url": "https://mmad.gov.dz/%d8%b9%d9%86-%d8%a7%d9%84%d9%88%d8%b2%d8%a7%d8%b1%d8%a9/%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%b1%d9%83%d8%b2%d9%8a%d8%a9/",
+          "note": "Manually selected actual homepage link: الهيكل التنظيمي الإدارة المركزية"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "note": "Institutional page identity alone is not independent domain verification."
+      }
+    },
+    {
+      "id": "pharmaceutical-industry",
+      "root": "evidence/national-campaign-2026-10-20/pharmaceutical-industry",
+      "httpEntry": "http://miph.gov.dz/",
+      "origins": [
+        "http://miph.gov.dz",
+        "https://miph.gov.dz",
+        "http://www.miph.gov.dz",
+        "https://www.miph.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://miph.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "contact",
+          "url": "https://miph.gov.dz/contact/",
+          "note": "Manually selected actual homepage link: للإتصال بنا"
+        },
+        {
+          "type": "service-information",
+          "url": "https://miph.gov.dz/%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d8%b5%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a7%d8%b9%d8%aa%d9%85%d8%a7%d8%af-%d9%85%d8%a4%d8%b3%d8%b3%d8%a9-%d8%b5%d9%8a%d8%af%d9%84%d8%a7/",
+          "note": "Manually selected actual homepage link: الحصول على اعتماد"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "note": "Institutional page identity alone is not independent domain verification."
+      }
+    },
+    {
+      "id": "agriculture-rural-development-fisheries",
+      "root": "evidence/national-campaign-2026-10-20/agriculture-rural-development-fisheries",
+      "httpEntry": "http://madr.gov.dz/",
+      "origins": [
+        "http://madr.gov.dz",
+        "https://madr.gov.dz",
+        "http://www.madr.gov.dz",
+        "https://www.madr.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://madr.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "contact",
+          "url": "https://madr.gov.dz/contact/%d8%af%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d9%87%d8%a7%d8%aa%d9%81/",
+          "note": "Manually selected actual homepage link: دليل الهاتف"
+        },
+        {
+          "type": "institution",
+          "url": "https://madr.gov.dz/ministere/%d8%b5%d9%84%d8%a7%d8%ad%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%88%d8%b2%d9%8a%d8%b1/",
+          "note": "Manually selected actual homepage link: صلاحيات الوزير"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.education.gov.dz/liens-utiles/",
+        "checkedAt": "2026-10-20T10:55:38.026Z",
+        "note": "Directory host association plus observed trusted redirect and institutional identity. Legacy portfolio titles in directories may differ; no endorsement implied."
+      }
+    },
+    {
+      "id": "foreign-trade-export-promotion",
+      "root": "evidence/national-campaign-2026-10-20/foreign-trade-export-promotion",
+      "httpEntry": "http://mcepe.gov.dz/",
+      "origins": [
+        "http://mcepe.gov.dz",
+        "https://mcepe.gov.dz",
+        "http://www.mcepe.gov.dz",
+        "https://www.mcepe.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://mcepe.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "service-information",
+          "url": "https://mcepe.gov.dz/reclamation",
+          "note": "Manually selected actual homepage link: المنصة الإلكترونية لمعالجة انشغالات المتعاملين الاقتصاديين"
+        },
+        {
+          "type": "institution",
+          "url": "https://mcepe.gov.dz/%D8%B5%D9%84%D8%A7%D8%AD%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D8%B2%D9%8A%D8%B1",
+          "note": "Manually selected actual homepage link: صلاحيات الوزير"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "note": "Institutional page identity alone is not independent domain verification."
+      }
+    },
+    {
+      "id": "internal-trade-market-regulation",
+      "root": "evidence/national-campaign-2026-10-20/internal-trade-market-regulation",
+      "httpEntry": "http://www.commerce.gov.dz/",
+      "origins": [
+        "http://commerce.gov.dz",
+        "https://commerce.gov.dz",
+        "http://www.commerce.gov.dz",
+        "https://www.commerce.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.commerce.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.commerce.gov.dz/contact",
+          "note": "Manually selected actual homepage link: تواصل معنا"
+        },
+        {
+          "type": "institution",
+          "url": "https://www.commerce.gov.dz/ar/rubriques/services-exterieurs",
+          "note": "Manually selected actual homepage link: مصالح الوزارة"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T10:55:50.990Z",
+        "note": "Directory host association plus observed trusted redirect and institutional identity. Legacy portfolio titles in directories may differ; no endorsement implied."
+      }
+    },
+    {
+      "id": "housing-spatial-planning",
+      "root": "evidence/national-campaign-2026-10-20/housing-spatial-planning",
+      "httpEntry": "http://www.mhuv.gov.dz/",
+      "origins": [
+        "http://mhuv.gov.dz",
+        "https://mhuv.gov.dz",
+        "http://www.mhuv.gov.dz",
+        "https://www.mhuv.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mhuv.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mhuv.gov.dz/?page_id=4554",
+          "note": "Manually selected actual homepage link: الاتصال"
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.mhuv.gov.dz/?p=4364",
+          "note": "Manually selected actual homepage link: السكن العمومي الايجاري"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T10:56:30.844Z",
+        "note": "Directory host association plus observed trusted redirect and institutional identity. Legacy portfolio titles in directories may differ; no endorsement implied."
+      }
+    },
+    {
+      "id": "religious-affairs-wakfs",
+      "root": "evidence/national-campaign-2026-10-20/religious-affairs-wakfs",
+      "httpEntry": "http://marw.gov.dz/",
+      "origins": [
+        "http://marw.gov.dz",
+        "https://marw.gov.dz",
+        "http://www.marw.gov.dz",
+        "https://www.marw.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://marw.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "service-information",
+          "url": "https://marw.gov.dz/%D8%A7%D9%84%D9%81%D8%AA%D9%88%D9%89-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9",
+          "note": "Manually selected actual homepage link: الفتوى الإلكترونية"
+        },
+        {
+          "type": "institution",
+          "url": "https://marw.gov.dz/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%88%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA/%D9%87%D9%8A%D9%83%D9%84%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D9%88%D9%85%D9%87%D8%A7%D9%85%D9%87%D8%A7",
+          "note": "Manually selected actual homepage link: مهام الوزارة"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "note": "Institutional page identity alone is not independent domain verification."
+      }
+    },
+    {
+      "id": "knowledge-economy-startups",
+      "root": "evidence/national-campaign-2026-10-20/knowledge-economy-startups",
+      "httpEntry": "http://mkesm.gov.dz/",
+      "origins": [
+        "http://mkesm.gov.dz",
+        "https://mkesm.gov.dz",
+        "http://www.mkesm.gov.dz",
+        "https://www.mkesm.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://mkesm.gov.dz/coming-soon",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "language",
+          "url": "https://mkesm.gov.dz/ar-coming-soon",
+          "note": "Manually selected actual homepage link: عربي"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "note": "Institutional page identity alone is not independent domain verification."
+      }
+    },
+    {
+      "id": "vocational-training",
+      "root": "evidence/national-campaign-2026-10-20/vocational-training",
+      "httpEntry": "http://mvet.gov.dz/",
+      "origins": [
+        "http://mvet.dz",
+        "https://mvet.dz",
+        "http://www.mvet.dz",
+        "https://www.mvet.dz",
+        "https://mvet.gov.dz",
+        "http://mvet.gov.dz",
+        "https://www.mvet.gov.dz",
+        "http://www.mvet.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://mvet.gov.dz/",
+          "note": "Primary ministry website linked from the discovered service portal."
+        },
+        {
+          "type": "contact",
+          "url": "https://mvet.gov.dz/%D8%A7%D8%AA%D8%B5%D9%84-%D8%A8%D9%86%D8%A7/",
+          "note": "Observed contact page, primary site and web index."
+        },
+        {
+          "type": "service-information",
+          "url": "https://mvet.gov.dz/%D8%A7%D9%84%D8%AA%D9%83%D9%88%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D9%87%D9%86%D9%8A%D9%8A%D9%86/",
+          "note": "Observed training information page, primary site and web index."
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "note": "Institutional page identity alone is not independent domain verification."
+      },
+      "sampleRevision": {
+        "at": "2026-10-20T16:45:09.681Z",
+        "reason": "The original seed is only a service portal; the linked primary ministry site is sampled before timing begins. Original portal evidence retained separately."
+      }
+    },
+    {
+      "id": "public-works-basic-infrastructure",
+      "root": "evidence/national-campaign-2026-10-20/public-works-basic-infrastructure",
+      "httpEntry": "http://mtpib.dz/",
+      "origins": [
+        "http://mtpib.dz",
+        "https://mtpib.dz",
+        "http://www.mtpib.dz",
+        "https://www.mtpib.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://mtpib.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "contact",
+          "url": "https://mtpib.dz/?page_id=7995",
+          "note": "Manually selected actual homepage link: اتصل بنا"
+        },
+        {
+          "type": "service-information",
+          "url": "https://mtpib.dz/?page_id=8103",
+          "note": "Manually selected actual homepage link: نتائج لجان الاعتماد و التأهيل"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "note": "Institutional page identity alone is not independent domain verification."
+      }
+    },
+    {
+      "id": "hydraulics",
+      "root": "evidence/national-campaign-2026-10-20/hydraulics",
+      "httpEntry": "http://mh.gov.dz/",
+      "origins": [
+        "http://mh.gov.dz",
+        "https://mh.gov.dz",
+        "http://www.mh.gov.dz",
+        "https://www.mh.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://mh.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "contact",
+          "url": "https://mh.gov.dz/ministery_new/contact",
+          "note": "Manually selected actual homepage link: اتصل بنا"
+        },
+        {
+          "type": "institution",
+          "url": "https://mh.gov.dz/strategy",
+          "note": "Manually selected actual homepage link: إستراتيجية الوزارة"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "note": "Institutional page identity alone is not independent domain verification."
+      }
+    },
+    {
+      "id": "labour-employment-social-security",
+      "root": "evidence/national-campaign-2026-10-20/labour-employment-social-security",
+      "httpEntry": "http://www.mtess.gov.dz/",
+      "origins": [
+        "http://mtess.gov.dz",
+        "https://mtess.gov.dz",
+        "http://www.mtess.gov.dz",
+        "https://www.mtess.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mtess.gov.dz/ar/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mtess.gov.dz/ar/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/",
+          "note": "Manually selected actual homepage link: خلية الاستقبال و الاتصال و الإصغاء الاجتماعي"
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.mtess.gov.dz/ar/%d8%aa%d8%b4%d8%b1%d9%8a%d8%b9-%d8%a7%d9%84%d8%b9%d9%85%d9%84/",
+          "note": "Manually selected actual homepage link: تشريع العمل"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T10:58:47.986Z",
+        "note": "Directory host association plus observed trusted redirect and institutional identity. Legacy portfolio titles in directories may differ; no endorsement implied."
+      }
+    },
+    {
+      "id": "tourism-handicrafts",
+      "root": "evidence/national-campaign-2026-10-20/tourism-handicrafts",
+      "httpEntry": "http://www.mta.gov.dz/",
+      "origins": [
+        "http://mta.gov.dz",
+        "https://mta.gov.dz",
+        "http://www.mta.gov.dz",
+        "https://www.mta.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mta.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mta.gov.dz/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/",
+          "note": "Manually selected actual homepage link: اتصل بنا"
+        },
+        {
+          "type": "service-information",
+          "url": "http://www.mta.gov.dz/page_id1183/",
+          "note": "Manually selected actual homepage link: الخدمات الإلكترونية"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.education.gov.dz/liens-utiles/",
+        "checkedAt": "2026-10-20T10:59:28.627Z",
+        "note": "Directory host association plus observed trusted redirect and institutional identity. Legacy portfolio titles in directories may differ; no endorsement implied."
+      }
+    },
+    {
+      "id": "national-solidarity-family",
+      "root": "evidence/national-campaign-2026-10-20/national-solidarity-family",
+      "httpEntry": "http://msnfcf.gov.dz/",
+      "origins": [
+        "http://msnfcf.gov.dz",
+        "https://msnfcf.gov.dz",
+        "http://www.msnfcf.gov.dz",
+        "https://www.msnfcf.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://msnfcf.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "service-information",
+          "url": "https://msnfcf.gov.dz/advertissement.php",
+          "note": "Manually selected actual homepage link: إعلان عن مناقصة"
+        },
+        {
+          "type": "news",
+          "url": "https://msnfcf.gov.dz/activities.php",
+          "note": "Manually selected actual homepage link: عرض الكل"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T10:59:40.948Z",
+        "note": "Directory host association plus observed trusted redirect and institutional identity. Legacy portfolio titles in directories may differ; no endorsement implied."
+      }
+    },
+    {
+      "id": "sports",
+      "root": "evidence/national-campaign-2026-10-20/sports",
+      "httpEntry": "http://msport.gov.dz/",
+      "origins": [
+        "http://msport.gov.dz",
+        "https://msport.gov.dz",
+        "http://www.msport.gov.dz",
+        "https://www.msport.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://msport.gov.dz/",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "service-information",
+          "url": "https://msport.gov.dz/%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d8%a9/",
+          "note": "Manually selected actual homepage link: الرياضة"
+        },
+        {
+          "type": "institution",
+          "url": "https://msport.gov.dz/%d8%a7%d9%84%d9%85%d8%a4%d8%b3%d8%b3%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a%d8%a9/",
+          "note": "Manually selected actual homepage link: المؤسسات التابعة للقطاع"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "note": "Institutional page identity alone is not independent domain verification."
+      }
+    },
+    {
+      "id": "relations-parliament",
+      "root": "evidence/national-campaign-2026-10-20/relations-parliament",
+      "httpEntry": "http://www.mrp.gov.dz/",
+      "origins": [
+        "http://mrp.gov.dz",
+        "https://mrp.gov.dz",
+        "http://www.mrp.gov.dz",
+        "https://www.mrp.gov.dz"
+      ],
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mrp.gov.dz/Ministere_Arabe/index.php",
+          "note": "Trusted final document from observed entry; client-side fragment/video history does not create another page."
+        },
+        {
+          "type": "institution",
+          "url": "https://www.mrp.gov.dz/Ministere_Arabe/?page=ministre&rub=attributions",
+          "note": "Manually selected actual homepage link: صلاحيات الوزيرة"
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.mrp.gov.dz/Ministere_Arabe/?page=legislatives",
+          "note": "Manually selected actual homepage link: متابعة العمل التشريعي"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-20T11:00:28.596Z",
+        "note": "Directory host association plus observed trusted redirect and institutional identity. Legacy portfolio titles in directories may differ; no endorsement implied."
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "id": "foreign-affairs",
+      "status": "Collection gap",
+      "reason": "Robots policy denies this URL: https://mfa.gov.dz/"
+    },
+    {
+      "id": "national-defence",
+      "status": "Collection gap",
+      "reason": "Robots policy denies this URL: https://www.mdn.dz/site_principal/accueil_fr.php"
+    },
+    {
+      "id": "hydrocarbons",
+      "status": "Collection gap",
+      "reason": "Robots policy denies this URL: https://www.oilmines.gov.dz/"
+    },
+    {
+      "id": "state-services-inspectorate",
+      "status": "Unresolved domain",
+      "reason": "No independently established dedicated website in the frozen project corpus; no URL guessed."
+    },
+    {
+      "id": "interior-local-authorities-transport",
+      "status": "Collection gap",
+      "reason": "Robots policy denies this URL: https://interieur.gov.dz/fr/"
+    },
+    {
+      "id": "justice",
+      "status": "Collection gap",
+      "reason": "Robots policy denies this URL: https://www.mjustice.gov.dz/ar/"
+    },
+    {
+      "id": "industry",
+      "status": "Collection gap",
+      "reason": "Robots policy denies this URL: https://www.industrie.gov.dz/"
+    },
+    {
+      "id": "mines-mining-industries",
+      "status": "Unresolved domain",
+      "reason": "No independently established dedicated website in the frozen project corpus; no URL guessed."
+    },
+    {
+      "id": "energy-renewable-energies",
+      "status": "Collection gap",
+      "reason": "Robots policy denies this URL: https://www.energy.gov.dz/en"
+    },
+    {
+      "id": "youth",
+      "status": "Collection gap",
+      "reason": "Robots policy denies this URL: https://mjeunesse.gov.dz/"
+    },
+    {
+      "id": "environment-quality-of-life",
+      "status": "Collection gap",
+      "reason": "Robots policy denies this URL: https://www.me.gov.dz/"
+    }
+  ],
+  "reviewedAt": "2026-10-20T11:01:58.237Z",
+  "selectionReview": "All page roles and distinct observed URLs manually checked before collection. No fragment placeholders treated as new pages. Knowledge Economy has only two offered language holding pages; Vocational Training is a one-page service portal with external destinations excluded."
+}

@@ -1,0 +1,360 @@
+{
+  "retrieved": "2026-10-19",
+  "description": "Visual identities retrieved from official ministry websites for identification. Source verification does not confirm the research corpus host or constitute a website quality assessment. Rights remain with their respective owners.",
+  "identities": [
+    {
+      "id": "national-education",
+      "asset": "/ministries/national-education-02e59f2d.webp",
+      "source": "https://www.education.gov.dz/wp-content/uploads/2023/07/favicon-1.png",
+      "page": "https://www.education.gov.dz/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "701be31079a7f133fa89bb4b970dd47cf74ca4593ad8f96e0a9651cab6958745",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "02e59f2ddefe1bc62e9bd85e31fb409cbea2e528185790976f8e7e1fae274b2e"
+    },
+    {
+      "id": "health",
+      "asset": "/ministries/health-3812d26c.webp",
+      "source": "https://sante.gov.dz/wp-content/themes/ministere-de-la-sante-algerie/assets/images/logo-ministere-de-la-sante-algerie.jpg",
+      "page": "https://sante.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "18e827edb67f859a6c0dc9ab4b83cab2f7cb66bb3179ce15d58b9d5ddd4900a9",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "3812d26c26dfd58cf806d165c0986f0bc10c1bebece9d518b23de76cfc5abd4e"
+    },
+    {
+      "id": "moudjahidine-rights-holders",
+      "asset": "/ministries/moudjahidine-rights-holders-824c4cb1.webp",
+      "source": "https://mmad.gov.dz/wp-content/uploads/2025/01/logo-2023-removebg-final-300x73-1.png",
+      "page": "https://mmad.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "5d889b19c708113d46fae59c3e80fd06233c511f6b280cc092314e03181041b7",
+      "crop": [
+        203,
+        0,
+        300,
+        73
+      ],
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "824c4cb11a3d4d708935ea8af9ad4f4f42684b42509d961e32c83a7b9015cb76"
+    },
+    {
+      "id": "pharmaceutical-industry",
+      "asset": "/ministries/pharmaceutical-industry-7f0c98e1.webp",
+      "source": "https://miph.gov.dz/wp-content/uploads/2023/03/header-ar-e1655730125906-1.jpg",
+      "page": "https://miph.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "e9b03fab1a4ae45e0a648120e99e2f02653b484b6f9477a8242e1611d3c55094",
+      "crop": [
+        860,
+        0,
+        990,
+        120
+      ],
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "7f0c98e17da73bff5122b4083170ab205ef4d9d42933c3f4fbe4000c653b3a86"
+    },
+    {
+      "id": "agriculture-rural-development-fisheries",
+      "asset": "/ministries/agriculture-rural-development-fisheries-bff77f9e.svg",
+      "source": "https://madr.gov.dz/wp-content/uploads/2018/11/Asset-1Logo-madr.svg",
+      "page": "https://madr.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "bff77f9ea876a40d8768bb320a8046a428f362bd3574ba3a995dcf5f88d6517c",
+      "transformation": "Original SVG, unmodified",
+      "sha256": "bff77f9ea876a40d8768bb320a8046a428f362bd3574ba3a995dcf5f88d6517c"
+    },
+    {
+      "id": "energy-renewable-energies",
+      "asset": "/ministries/energy-renewable-energies-4b32e169.webp",
+      "source": "https://www.energy.gov.dz/media/file/2/logo_68ee23f9424378.12874762.png",
+      "page": "https://www.energy.gov.dz/en",
+      "retrieved": "2026-10-19",
+      "originalSha256": "e61de5aa0f337b8bbb3656df23a95b4196a2559eeb5d3f823d0df0b1dd5c2bf1",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "4b32e16927a70b4818ea7779c44eaddc484ce441e3b30a274288417a6dae30e3"
+    },
+    {
+      "id": "foreign-trade-export-promotion",
+      "asset": "/ministries/foreign-trade-export-promotion-f07cbdec.webp",
+      "source": "https://mcepe.gov.dz/assets/img/logo.png",
+      "page": "https://mcepe.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "beafa2fd848d65910516e32c9980cef5949d40a12ad22b01d9128f66ef084749",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "f07cbdecf7e8bd2486d7a860e1ea499be3d82a42a4768e3aeb735a2face3ef23"
+    },
+    {
+      "id": "housing-spatial-planning",
+      "asset": "/ministries/housing-spatial-planning-7f8569f8.webp",
+      "source": "https://www.mhuv.gov.dz/wp-content/uploads/2021/05/cropped-icone1-192x192.png",
+      "page": "https://www.mhuv.gov.dz/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "6edc1d93344ceae47e06fbae2c05232b71df366f7df6caa3087a93933c7a13fd",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "7f8569f8fe50c043eb9127724ad97a885a5e77cdb152b8120da180c6cf19a16c"
+    },
+    {
+      "id": "religious-affairs-wakfs",
+      "asset": "/ministries/religious-affairs-wakfs-ffa2cc15.webp",
+      "source": "https://marw.gov.dz/sites/default/files/logo_1_0.png",
+      "page": "https://marw.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "e33a5dd7de764d58b33a11a992c0ab5f8b58b9503edc438ff253f06e73e239e7",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "ffa2cc15ca934c8813c1b95c7ec6ed61eadbe4419e5f6a33532bed755953c237"
+    },
+    {
+      "id": "youth",
+      "asset": "/ministries/youth-9c74d856.svg",
+      "source": "https://mjeunesse.gov.dz/logltitle.svg",
+      "page": "https://mjeunesse.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "9c74d856eeb0dd6d3b790db21da364037c7643b62afc3b47f9dc143779b5a7bd",
+      "transformation": "Original SVG, unmodified",
+      "sha256": "9c74d856eeb0dd6d3b790db21da364037c7643b62afc3b47f9dc143779b5a7bd"
+    },
+    {
+      "id": "communication",
+      "asset": "/ministries/communication-5e75cafc.webp",
+      "source": "https://mcomm.gov.dz/new-logo.png",
+      "page": "https://mcomm.gov.dz/ar",
+      "retrieved": "2026-10-19",
+      "originalSha256": "0dccd5e8b1548d60fb39d000f30ca3b364328585ed464028d476790721ea2df3",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "5e75cafc85f69dd78cd0dd7f62e44cde5005f5f81cfc6eeb13903b88c147960e"
+    },
+    {
+      "id": "vocational-training",
+      "asset": "/ministries/vocational-training-d329b736.webp",
+      "source": "https://tayssir.dz/images/logomfep.png",
+      "page": "https://mvet.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "359192f11ecaf90b764f71ec6c725998d292a8ae7194548a4214bc7273409de3",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "d329b736e922679d737569ac4fc1bff2b4c4252681e8c12e372853985aa942df"
+    },
+    {
+      "id": "public-works-basic-infrastructure",
+      "asset": "/ministries/public-works-basic-infrastructure-e0ee0b00.webp",
+      "source": "https://mtpib.dz/wp-content/uploads/2026/06/logo_site.png",
+      "page": "https://mtpib.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "5286563727d085147dd6181a85b6a47b770e4ea10dd0f866dbb184b533361462",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "e0ee0b001d074130b6867a4e7dfd3e0e4ab748a27d5c4dd9e30a11d2e6de05a6"
+    },
+    {
+      "id": "hydraulics",
+      "asset": "/ministries/hydraulics-0ec36bde.webp",
+      "source": "https://mh.gov.dz/images/logo.png",
+      "page": "https://mh.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "a600fb62847388158ee958d48ba768b3f2f5d6747ece950562b2dcf175af2a9e",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "0ec36bde149d5dbcc08728452ae5c15d37402dde5c2d63d5351a88faf226a4a2"
+    },
+    {
+      "id": "labour-employment-social-security",
+      "asset": "/ministries/labour-employment-social-security-54a173db.webp",
+      "source": "https://www.mtess.gov.dz/ijra-at/img/logomtess.1bb30a8e.png",
+      "page": "https://www.mtess.gov.dz/ar/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "e19370d22aa4f52683bdd61d6b4e8e4763ce001e3cc9e3d7c1add38c96804c1f",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "54a173dbfee81df068bd7e49d1a55f8058e7095bc332d7a967346dc251423128"
+    },
+    {
+      "id": "tourism-handicrafts",
+      "asset": "/ministries/tourism-handicrafts-93ad9c5b.webp",
+      "source": "https://www.mta.gov.dz/wp-content/uploads/2025/07/logo_MTA1-512x190.png",
+      "page": "https://www.mta.gov.dz/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "5925984fc3e999d28ef60a935715fc26d30b6dd44ba96dcdee65331446487bda",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "93ad9c5b8c580d1adb949a386e95725a5314798328834040bb128b1881619a2a"
+    },
+    {
+      "id": "national-solidarity-family",
+      "asset": "/ministries/national-solidarity-family-72c7abfe.webp",
+      "source": "https://msnfcf.gov.dz/header.png",
+      "page": "https://msnfcf.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "400e4c5d92a3fff3a317dfb5540ca98acf7330e4b3d2756d0d312f81b3d63a37",
+      "crop": [
+        6500,
+        150,
+        7470,
+        1060
+      ],
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "72c7abfe5975aeaa0130a1d9cf20ad64cc8b6df2717cb0cd9a8d509e65a60394"
+    },
+    {
+      "id": "sports",
+      "asset": "/ministries/sports-f4d316d1.svg",
+      "source": "https://msport.gov.dz/wp-content/uploads/2025/05/logo-sigle-mjs.svg",
+      "page": "https://msport.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "f4d316d17b0d29ad63ca366c1ca826f9a3360c5b6a14737515df3ba1b36094b2",
+      "transformation": "Original SVG, unmodified",
+      "sha256": "f4d316d17b0d29ad63ca366c1ca826f9a3360c5b6a14737515df3ba1b36094b2"
+    },
+    {
+      "id": "foreign-affairs",
+      "asset": "/ministries/foreign-affairs-030b7011.webp",
+      "source": "https://mfa.gov.dz/_next/image?url=http://assets.mfa.gov.dz/media/LOGO_MAE_2022.png&w=828&q=40",
+      "page": "https://mfa.gov.dz",
+      "retrieved": "2026-10-19",
+      "originalSha256": "c061294fd5a330164a405f673e695abc7546a698333331bab09aba592f4a0108",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "030b70112cdcc1f1e1d01aeed193621cf15a2f3ba4e2489becbdefa54b6a6fc1"
+    },
+    {
+      "id": "finance",
+      "asset": "/ministries/finance-2c93ba72.webp",
+      "source": "https://www.mf.gov.dz/templates/t3_bs3_blank_arabic/images/logo.png",
+      "page": "https://www.mf.gov.dz/index.php/ar/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "2cf6c9a2194fa004b1b5baffcb86bbc7a761f60b61cd59bf982d77ff38a3c630",
+      "crop": [
+        181,
+        0,
+        261,
+        73
+      ],
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "2c93ba72361c47c2ad58fb82754b7bc48ee97f3dd272f0022640234b466d2fdd"
+    },
+    {
+      "id": "higher-education",
+      "asset": "/ministries/higher-education-22179414.webp",
+      "source": "https://www.mesrs.dz/wp-content/uploads/2023/02/Embleme-minister1024.png",
+      "page": "https://www.mesrs.dz/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "ee1cb0bda1bbb50d7588914af2e02bfa2126615e2c04e424a744666a80b832b8",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "2217941434c3a4f620b577c393a3c09f6c51f94731a2f03ba167e50aee23505a"
+    },
+    {
+      "id": "justice",
+      "asset": "/ministries/justice-98f4be65.webp",
+      "source": "https://www.mjustice.gov.dz/wp-content/uploads/2019/12/logo-mj1.png",
+      "page": "https://www.mjustice.gov.dz/ar/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "dccbf9aaf554beae9b0759feedb7e73e826baa800107de9810cdabc720a88ec9",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "98f4be658b79cdc691abcd5cabbbf56b9b036920d62a2511fc16f8894eeef4d4"
+    },
+    {
+      "id": "environment-quality-of-life",
+      "asset": "/ministries/environment-quality-of-life-928a222d.webp",
+      "source": "https://www.me.gov.dz/wp-content/uploads/2021/10/image-removebg-preview.png",
+      "page": "https://www.me.gov.dz/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "e884f1f63278b608daad261dda22ceddca947f5623bcee110f54137b876e7e1a",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "928a222d5e3b834b18147aaf7828961ed15fdf9f5cda99b4b70c715f038715fd"
+    },
+    {
+      "id": "culture-arts",
+      "asset": "/ministries/culture-arts-16fadc92.webp",
+      "source": "https://www.m-culture.gov.dz/templates/Culture/images/logo_culture.png",
+      "page": "https://m-culture.gov.dz/index.php/ar/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "4de0d04eeea9ce29e2100998cfecfc525ad38f19b97fffec9554a05c1895675e",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "16fadc92c66cc8deaabc17fd54ca0df1fcf4f4882f6ed6e216e7d692123d8e27"
+    },
+    {
+      "id": "post-telecommunications",
+      "asset": "/ministries/post-telecommunications-6111c6bc.webp",
+      "source": "https://www.mpt.gov.dz/wp-content/uploads/2023/10/logo_ministere_poste_telecommunication.png",
+      "page": "https://www.mpt.gov.dz/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "6bfbad09f313904dfa98e446fa320285950f22168d44c5d8bcf80659287a1126",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "6111c6bccf680e4bcd93b15a3e29f3b0730b0ce87f7ad883ecea92afaa5f1b27"
+    },
+    {
+      "id": "national-defence",
+      "asset": "/ministries/national-defence-d5546f3e.webp",
+      "source": "https://www.mdn.dz/site_principal/images/banniere_fr2.png",
+      "page": "https://www.mdn.dz/site_principal/accueil_fr.php",
+      "retrieved": "2026-10-19",
+      "originalSha256": "5412e1697edd90e284953ffea1d624bda8ea8829f2c2ed0538bb902559d597b7",
+      "crop": [
+        27,
+        18,
+        108,
+        96
+      ],
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "d5546f3eb0a981f2b3c071509150daf90ac4e19bac49fc98c57c00d94fed3e1a"
+    },
+    {
+      "id": "interior-local-authorities-transport",
+      "asset": "/ministries/interior-local-authorities-transport-4d4f2b06.webp",
+      "source": "https://interieur.gov.dz/wp-content/uploads/2026/10/cropped-sceau-de-l-etat-e1792318915518.png",
+      "page": "https://interieur.gov.dz/fr/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "f54803e315b1c01bd807db6995f9a21c4de5953fe44329b02875c233b4e3cbdc",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "4d4f2b06b78821d1ba65c362e8cead2db8482088c4376718802bcee92db3c823"
+    },
+    {
+      "id": "knowledge-economy-startups",
+      "asset": "/ministries/knowledge-economy-startups-18adf939.webp",
+      "source": "https://mkesm.gov.dz/static/comingsoon/assets/img/w_logo.webp",
+      "page": "https://mkesm.gov.dz/coming-soon",
+      "retrieved": "2026-10-19",
+      "originalSha256": "886b6c8a2f84455b8c211137e415db4acfacac716116b4536a4e1fb5a25dc082",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "18adf939bbb07bd0c0d46d8ebec427316199998bbb281f25550bc0ae5bf4d6a8"
+    },
+    {
+      "id": "hydrocarbons",
+      "asset": "/ministries/hydrocarbons-2a7c277b.webp",
+      "source": "https://www.oilmines.gov.dz/Media/galerie/img-new1_5feb0b1dae318.png",
+      "page": "https://www.oilmines.gov.dz/",
+      "retrieved": "2026-10-19",
+      "originalSha256": "a5d5e6119353f904c9e61909949abd95e4dbf8b98b9250b033c4a26bd0b99b1d",
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "2a7c277b69c4bd284c1eb217cf36a39ca5a955015691b48d8cefedc73ea4d10c"
+    },
+    {
+      "id": "relations-parliament",
+      "asset": "/ministries/relations-parliament-fbb228b3.webp",
+      "source": "https://www.mrp.gov.dz/Ministere_Arabe/view/assets/imag/HAEDERAR.jpg",
+      "page": "https://www.mrp.gov.dz/Ministere_Arabe/index.php",
+      "retrieved": "2026-10-19",
+      "originalSha256": "c8fa70bbf7a90a0ddcd10066f4c6e6200c03d20a1ae4d9461bdb96708f77a053",
+      "crop": [
+        1750,
+        85,
+        2010,
+        312
+      ],
+      "transformation": "Official artwork; emblem extracted from header where crop is specified; resized to at most 384px, WebP encoding",
+      "sha256": "fbb228b3651ea0e98de007ce790c75b9142aaf0c1548c18822ef0bfce0d642ce"
+    }
+  ],
+  "pending": [
+    {
+      "id": "industry",
+      "reason": "Official website unavailable during research; no current visual asset verified."
+    },
+    {
+      "id": "internal-trade-market-regulation",
+      "reason": "Official website header images and favicon return 404; no current asset verified."
+    },
+    {
+      "id": "state-services-inspectorate",
+      "reason": "No separate official website or distinct visual identity verified."
+    },
+    {
+      "id": "mines-mining-industries",
+      "reason": "No distinct current ministry visual identity verified; related energy/mining agencies are not substitutes."
+    }
+  ]
+}

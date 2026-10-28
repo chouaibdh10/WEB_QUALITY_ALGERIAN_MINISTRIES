@@ -1,0 +1,375 @@
+{
+  "preparedAt": "2026-10-21T07:24:19.135728+00:00",
+  "scope": "Fresh recovery evidence only. Existing 23 reports preserved; Pilot 1.3 thresholds unchanged. Exact actually observed pages fixed before collection.",
+  "targets": [
+    {
+      "id": "energy-renewable-energies",
+      "root": "evidence/recovery-campaign-2026-10-21/energy-renewable-energies",
+      "origins": [
+        "http://energy.gov.dz",
+        "https://energy.gov.dz",
+        "http://www.energy.gov.dz",
+        "https://www.energy.gov.dz"
+      ],
+      "httpEntry": "http://www.energy.gov.dz/en",
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.energy.gov.dz/en",
+          "note": "Observed successful ministry entry; frozen before measurements."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.energy.gov.dz/en/category/contact",
+          "note": "Selected actual discovery link: Contact"
+        },
+        {
+          "type": "citizen-enquiry",
+          "url": "https://www.energy.gov.dz/en/1424/preoccupation",
+          "note": "Selected actual discovery link: Preoccupation"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mtpib.gov.dz/fr/liens-utiles-2/",
+        "checkedAt": "2026-10-21T07:21:05.456Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true
+    },
+    {
+      "id": "environment-quality-of-life",
+      "root": "evidence/recovery-campaign-2026-10-21/environment-quality-of-life",
+      "origins": [
+        "http://me.gov.dz",
+        "https://me.gov.dz",
+        "http://www.me.gov.dz",
+        "https://www.me.gov.dz"
+      ],
+      "httpEntry": "http://www.me.gov.dz/",
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.me.gov.dz/",
+          "note": "Observed successful ministry entry; frozen before measurements."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.me.gov.dz/%d8%a7%d8%aa%d8%b5%d8%a7%d9%84/",
+          "note": "Selected actual discovery link: اتصل بنا"
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.me.gov.dz/e-services-2/",
+          "note": "Selected actual discovery link: الخدمات الإلكترونية"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "source": "https://www.me.gov.dz/",
+        "checkedAt": "2026-10-21T07:21:22.160Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true
+    },
+    {
+      "id": "foreign-affairs",
+      "root": "evidence/recovery-campaign-2026-10-21/foreign-affairs",
+      "origins": [
+        "http://mfa.gov.dz",
+        "https://mfa.gov.dz",
+        "http://www.mfa.gov.dz",
+        "https://www.mfa.gov.dz"
+      ],
+      "httpEntry": "http://www.mfa.gov.dz/fr",
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mfa.gov.dz/fr",
+          "note": "Observed successful ministry entry; frozen before measurements."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mfa.gov.dz/fr/contact",
+          "note": "Selected actual discovery link: Ecrire au Secrétaire d'Etat Chargé de la Communauté Nationale à l'Etranger"
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.mfa.gov.dz/fr/services-for-algerians/legalisation-of-documents-1",
+          "note": "Selected actual discovery link: Légalisation des documents"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mtpib.gov.dz/fr/liens-utiles-2/",
+        "checkedAt": "2026-10-21T07:21:31.777Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true
+    },
+    {
+      "id": "hydrocarbons",
+      "root": "evidence/recovery-campaign-2026-10-21/hydrocarbons",
+      "origins": [
+        "http://oilmines.gov.dz",
+        "https://oilmines.gov.dz",
+        "http://www.oilmines.gov.dz",
+        "https://www.oilmines.gov.dz"
+      ],
+      "httpEntry": "http://www.oilmines.gov.dz/",
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.oilmines.gov.dz/",
+          "note": "Observed successful ministry entry; frozen before measurements."
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.oilmines.gov.dz/?article=services-numeriques",
+          "note": "Selected actual discovery link: SERVICES NUMÉRIQUES"
+        },
+        {
+          "type": "contact",
+          "url": "https://www.oilmines.gov.dz/?article=contact",
+          "note": "Selected actual discovery link: Contacts des Directions de l'Energie de Wilaya"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "source": "https://www.oilmines.gov.dz/",
+        "checkedAt": "2026-10-21T07:21:47.648Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true
+    },
+    {
+      "id": "industry",
+      "root": "evidence/recovery-campaign-2026-10-21/industry",
+      "origins": [
+        "http://industrie.gov.dz",
+        "https://industrie.gov.dz",
+        "http://www.industrie.gov.dz",
+        "https://www.industrie.gov.dz"
+      ],
+      "httpEntry": "http://www.industrie.gov.dz/",
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.industrie.gov.dz/",
+          "note": "Observed successful ministry entry; frozen before measurements."
+        },
+        {
+          "type": "citizen-enquiry",
+          "url": "https://www.industrie.gov.dz/cellule-ecoute/",
+          "note": "Selected actual discovery link: خلية الإصغاء"
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.industrie.gov.dz/activites/",
+          "note": "Selected actual discovery link: قائمة النشاطات التابعة لقطاع الصناعة"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.education.gov.dz/liens-utiles/",
+        "checkedAt": "2026-10-21T07:21:58.327Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true
+    },
+    {
+      "id": "justice",
+      "root": "evidence/recovery-campaign-2026-10-21/justice",
+      "origins": [
+        "http://mjustice.dz",
+        "https://mjustice.dz",
+        "http://www.mjustice.dz",
+        "https://www.mjustice.dz",
+        "https://www.mjustice.gov.dz",
+        "https://mjustice.gov.dz",
+        "http://www.mjustice.gov.dz",
+        "http://mjustice.gov.dz"
+      ],
+      "httpEntry": "http://www.mjustice.gov.dz/ar/",
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mjustice.gov.dz/ar/",
+          "note": "Observed successful ministry entry; frozen before measurements."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mjustice.gov.dz/ar/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/",
+          "note": "Selected actual discovery link: اتصل بنا"
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.mjustice.gov.dz/ar/modernisation-2-2-2/",
+          "note": "Selected actual discovery link: عصرنة العدالة"
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-21T07:23:03.608Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true
+    },
+    {
+      "id": "national-defence",
+      "root": "evidence/recovery-campaign-2026-10-21/national-defence",
+      "origins": [
+        "http://mdn.dz",
+        "https://mdn.dz",
+        "http://www.mdn.dz",
+        "https://www.mdn.dz"
+      ],
+      "httpEntry": "http://www.mdn.dz/site_principal/accueil_fr.php",
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mdn.dz/site_principal/accueil_fr.php",
+          "note": "Observed successful ministry entry; frozen before measurements."
+        },
+        {
+          "type": "institution",
+          "url": "https://www.mdn.dz/site_principal/sommaire/presentation/ministere_fr.php",
+          "note": "Selected actual discovery link: Le Ministère"
+        },
+        {
+          "type": "service-information",
+          "url": "https://www.mdn.dz/site_principal/sommaire/mdnews/mdnews_fr.php",
+          "note": "Selected actual discovery link: Application mobile \"MDNews\""
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-21T07:23:10.822Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true,
+      "blockedUrlPatterns": [
+        "*/logs/*",
+        "*/site_principal/css/*",
+        "*/site_principal/js/*",
+        "*/site_em_anp/css/*",
+        "*/site_em_anp/js/*",
+        "*/site_cfa/css/*",
+        "*/site_cfa/js/*",
+        "*/site_cfdat/css/*",
+        "*/site_cfdat/js/*",
+        "*/site_cfn/css/*",
+        "*/site_cfn/js/*",
+        "*/site_cft/css/*",
+        "*/site_cft/js/*",
+        "*/site_cgn/css/*",
+        "*/site_cgn/js/*",
+        "*/site_cgr/css/*",
+        "*/site_cgr/js/*"
+      ]
+    },
+    {
+      "id": "youth",
+      "root": "evidence/recovery-campaign-2026-10-21/youth-https",
+      "origins": [
+        "http://mjeunesse.gov.dz",
+        "https://mjeunesse.gov.dz",
+        "http://www.mjeunesse.gov.dz",
+        "https://www.mjeunesse.gov.dz"
+      ],
+      "httpEntry": null,
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://www.mjeunesse.gov.dz/",
+          "note": "Observed successful ministry entry; frozen before measurements."
+        },
+        {
+          "type": "contact",
+          "url": "https://www.mjeunesse.gov.dz/contact",
+          "note": "Selected actual discovery link: اتصل بنا"
+        },
+        {
+          "type": "institution",
+          "url": "https://www.mjeunesse.gov.dz/about/structure",
+          "note": "Selected actual discovery link: الهيكل التنظيمي"
+        }
+      ],
+      "ownership": {
+        "status": "Unverified",
+        "source": "https://www.mjeunesse.gov.dz/",
+        "checkedAt": "2026-10-21T07:23:18.197Z",
+        "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true,
+      "priorStoppedRoot": "evidence/recovery-campaign-2026-10-21/youth",
+      "frozenAt": "2026-10-21T07:43:35.168001+00:00",
+      "scopeNote": "Original HTTP-entry preflight received 503 on http://www.mjeunesse.gov.dz/robots.txt and stopped before any target observation. Preserve that attempt. After at least three minutes, a separate HTTPS-only sample is declared; no HTTP enforcement score can be awarded."
+    },
+    {
+      "id": "interior-local-authorities-transport",
+      "root": "evidence/recovery-campaign-2026-10-21/interior-local-authorities-transport",
+      "origins": [
+        "http://interieur.gov.dz",
+        "https://interieur.gov.dz",
+        "http://www.interieur.gov.dz",
+        "https://www.interieur.gov.dz"
+      ],
+      "httpEntry": "http://interieur.gov.dz/fr/",
+      "pages": [
+        {
+          "type": "homepage",
+          "url": "https://interieur.gov.dz/fr/",
+          "note": "Actual French useful-links navigation link, verified HTTPS equivalent. Root auto-redirected to sparse English version; that discovery is retained separately."
+        },
+        {
+          "type": "contact",
+          "url": "https://interieur.gov.dz/contact-3/",
+          "note": "Actual French useful-links navigation link, verified HTTPS equivalent. Root auto-redirected to sparse English version; that discovery is retained separately."
+        },
+        {
+          "type": "service-information",
+          "url": "https://interieur.gov.dz/category/demarches-administratives/",
+          "note": "Actual French useful-links navigation link, verified HTTPS equivalent. Root auto-redirected to sparse English version; that discovery is retained separately."
+        }
+      ],
+      "ownership": {
+        "status": "Government directory confirmed",
+        "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+        "checkedAt": "2026-10-21T07:22:51.502Z",
+        "note": "Independent government directory names ministry host; old English fallback and legacy aliases are not substituted for the French pages."
+      },
+      "robotsMode": "rfc9309-recovery",
+      "protocolVersion": "Additional pilot 1.4 recovery",
+      "collectionAmendment": "recovery-protocol-2026-10-21.md",
+      "enforceResourceRobots": true,
+      "frozenAt": "2026-10-21T07:26:04.200Z"
+    }
+  ]
+}

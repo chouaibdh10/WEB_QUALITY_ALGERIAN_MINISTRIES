@@ -1,0 +1,1781 @@
+{
+  "measurementProfiles": {
+    "mobile": {
+      "screen": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "formFactor": "mobile",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36"
+    },
+    "desktop": {
+      "screen": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "formFactor": "desktop",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+    }
+  },
+  "schemaVersion": 1,
+  "ministryId": "foreign-affairs",
+  "title": "Foreign Affairs — measured pilot",
+  "ownership": {
+    "status": "Government directory confirmed",
+    "source": "https://www.mtpib.gov.dz/fr/liens-utiles-2/",
+    "checkedAt": "2026-10-21T07:21:31.777Z",
+    "note": "Independent government directory host link supports association; institutional identity alone remains unverified. Legacy names may differ."
+  },
+  "protocolVersion": "Pilot 1.4 recovery",
+  "collectionAmendment": "/evaluations/recovery-protocol-2026-10-21.md",
+  "startedAt": "2026-10-21T07:29:57.199Z",
+  "labCompletedAt": "2026-10-28T10:13:26.380Z",
+  "completedAt": "2026-10-21T08:32:02.802Z",
+  "reviewedAt": "2026-10-28T11:54:41.944Z",
+  "independentReview": "Pending",
+  "overallScore": null,
+  "rank": null,
+  "points": 27.5,
+  "assessedPoints": 51,
+  "conditions": "28 October 2026 separate full remeasurement: Lighthouse 13.5.0; Chrome/156.0.8078.47; three fresh-process simulated-throttling runs per original page/device pair. Operator workstation; physical network/geography unverified. No physical-device, field-INP or complete-service claim.",
+  "versions": {
+    "node": "v24.10.0",
+    "axe": "4.14.0",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/153.0.8010.36"
+  },
+  "download": "/evaluations/foreign-affairs-pilot.json",
+  "protocol": "/evaluations/recovery-protocol-2026-10-21.md",
+  "pages": [
+    {
+      "type": "homepage",
+      "url": "https://www.mfa.gov.dz/fr"
+    },
+    {
+      "type": "contact",
+      "url": "https://www.mfa.gov.dz/fr/contact"
+    },
+    {
+      "type": "service-information",
+      "url": "https://www.mfa.gov.dz/fr/services-for-algerians/legalisation-of-documents-1"
+    }
+  ],
+  "collectionNotes": [
+    "Historical original-sample note, superseded for timing coverage by the 28 October full remeasurement: 1 timing attempts recorded of 18 planned; 17 unattempted after collection limits.",
+    "3 distinct predeclared core page(s), with three attempts per page/device. Missing roles and narrower samples are not equivalent to complete website coverage.",
+    "homepage: guarded observation gaps retained; normal-browser follow-up is separate.",
+    "contact: guarded observation gaps retained; normal-browser follow-up is separate.",
+    "Historical original-sample note, superseded for timing coverage by the 28 October full remeasurement: Collection stopped under the response-status safeguard: HTTP 429 received from https://syndication.twitter.com; collection halted. No omitted attempt was counted as a website failure.",
+    "Recovery robots parsing processed the HTML fallback and retained any valid directives. No intentional crawler ban or site outage is inferred from the earlier strict-format rejection.",
+    "The separate normal-browser follow-up rendered all three declared pages. Width and initial Tab-path captures do not establish full keyboard navigation, responsive usability or complete-process accessibility.",
+    "Published procedural statements describe observed website content; legal accuracy, current fees, downloadable-file validity and transaction success were not independently certified.",
+    "Historical original-sample note, superseded for timing coverage by the 28 October full remeasurement: Completion review 2026-10-26 of the 21 October follow-up: 7 previously unmeasured criteria resolved, adding 10 assessed budget points. 3/3 additional core-page follow-ups were representative; excluded captures and original attempts are retained. Prior valid timing samples are unchanged. 38 criteria remain unmeasured; see the completion record for required evidence.",
+    "Supplementary GET search tasks, where present, use observed search forms and do not expand the original Lighthouse timing sample. Retained visual comparison is explicitly distinguished from fresh capture. Collector connection failures, robots exclusions and incomplete responses are never website zeros.",
+    "28 October full remeasurement completed the entire 18-run performance sample; the main timing table and performance rows now use that separate Chrome 156 campaign. Historical timings and earlier failures remain retained in labSourceReplacement and private artifacts. This resolves performance sampling only, not all criteria.",
+    "Coverage revision 2026-10-28: 8 further criteria resolved using explicit reviewed evidence. Restricted, untested and monitoring-dependent criteria remain unmeasured. Scores and measurement coverage are different quantities; no conversion of missing evidence to passes or zeros."
+  ],
+  "findings": [
+    {
+      "title": "Document procedure information is substantive",
+      "detail": "The sample explains postal and in-person legalisation routes with prerequisites and regional contacts. Linked forms and full service delivery remain untested."
+    },
+    {
+      "title": "Name the shared mobile menu toggle",
+      "detail": "The visible navigation toggle lacks a programmatic accessible name across the sample."
+    },
+    {
+      "title": "Repeated mobile loading measurements",
+      "detail": "The worst mobile page LCP median in the separate 28 October campaign is 12.06 seconds across three repeated runs per page. This is a simulated laboratory result, not field-user telemetry."
+    }
+  ],
+  "privacy": [
+    {
+      "indicator": "Privacy / collection explanation",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Secure submission",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Tracking and consent",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Retention and rights",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Privacy contact",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Language consistency",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    }
+  ],
+  "categories": [
+    {
+      "key": "security",
+      "label": "External Security Posture and Technical Privacy",
+      "maxPoints": 20,
+      "points": 8,
+      "assessedPoints": 13,
+      "rows": [
+        {
+          "id": "security.https",
+          "label": "HTTPS enforced",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "The declared HTTP entry upgraded to trusted HTTPS without an observed downgrade. Credit is limited to this captured entry chain.",
+          "evidence": [
+            "report.json#httpRedirect"
+          ]
+        },
+        {
+          "id": "security.certificate",
+          "label": "Valid TLS certificate",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "Hostname/date/chain-verified HTTPS succeeded with the separately root-verified public intermediates supplied to the recovery Node process. Default Node chain construction failed on some hosts; this is not evidence of complete server-delivered chains or universal client compatibility. See the recovery amendment.",
+          "evidence": [
+            "report.json#pages.http.tls"
+          ]
+        },
+        {
+          "id": "security.tls-configuration",
+          "label": "Modern TLS configuration",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Full protocol/cipher assessment, not one negotiated connection. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "security.hsts",
+          "label": "HSTS present and meaningful",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "Captured HSTS policies were parsed against the frozen rule: full requires max-age at least one year with includeSubDomains; a valid positive narrower policy earns half; absent, disabled or malformed earns zero. Worst declared page governs.",
+          "evidence": [
+            "report.json#pages.http.headers"
+          ]
+        },
+        {
+          "id": "security.csp",
+          "label": "Content-Security-Policy present and meaningful",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "Reviewed both the header and meta policies together. default-src * with unsafe-inline in the header and wildcard/unsafe-inline/unsafe-eval script sources plus wildcard object sources in the meta policy remain permissive even when intersected. The policy does not meet the frozen meaningful script/object restriction rule. No exploit was attempted.",
+          "evidence": [
+            "report.json#pages.http.headers",
+            "report.json#pages.manual"
+          ]
+        },
+        {
+          "id": "security.security-headers",
+          "label": "Other important security headers",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "Reviewed nosniff, DENY/SAMEORIGIN or restrictive frame-ancestors, and explicit meaningful Referrer-Policy values. Full needs all three protections, half some, zero none; worst sampled page governs.",
+          "evidence": [
+            "report.json#pages.http.headers"
+          ]
+        },
+        {
+          "id": "security.cookies",
+          "label": "Secure cookie configuration",
+          "maxPoints": 2,
+          "points": 1,
+          "status": "partial",
+          "reason": "Only attributes of observed cookies are reviewed. Full requires Secure, HttpOnly and explicit Lax/Strict on all; partial means mixed protections. No names/values or complete consent/tracking audit are published.",
+          "evidence": [
+            "report.json#pages.http.cookies"
+          ]
+        },
+        {
+          "id": "security.mixed-content",
+          "label": "No mixed HTTP/HTTPS content",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Browser and sampled-page evidence. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "security.version-exposure",
+          "label": "No unnecessary software/version exposure",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+          "evidence": [
+            "report.json#pages.http.headers",
+            "completion-page-checks-2026-10-21.json#records.dom.generator"
+          ]
+        },
+        {
+          "id": "security.configuration-exposure",
+          "label": "No obvious sensitive configuration exposure",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Passive eligible-page review only; no guessed sensitive paths. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "security.tracking",
+          "label": "Third-party tracking and technical privacy restraint",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Request inventory plus tracking classification. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "performance",
+      "label": "Performance",
+      "maxPoints": 15,
+      "points": 5.5,
+      "assessedPoints": 15,
+      "rows": [
+        {
+          "id": "performance.lcp",
+          "label": "Largest Contentful Paint",
+          "maxPoints": 4,
+          "points": 0,
+          "status": "zero",
+          "reason": "All 18 declared 28 October timing runs are valid across the three original pages and mobile/desktop profiles. The unchanged frozen lcp threshold uses the worst three-run page/device median (or repetition-spread rule). Older incomplete campaigns are preserved separately. TBT remains a lab proxy, not measured field INP.",
+          "evidence": [
+            "timing-remeasurement-2026-10-28/report.json",
+            "coverage-review-decisions-2026-10-26.json#changes"
+          ]
+        },
+        {
+          "id": "performance.responsiveness",
+          "label": "Responsiveness",
+          "maxPoints": 3,
+          "points": 1.5,
+          "status": "partial",
+          "reason": "All 18 declared 28 October timing runs are valid across the three original pages and mobile/desktop profiles. The unchanged frozen responsiveness threshold uses the worst three-run page/device median (or repetition-spread rule). Older incomplete campaigns are preserved separately. TBT remains a lab proxy, not measured field INP.",
+          "evidence": [
+            "timing-remeasurement-2026-10-28/report.json",
+            "coverage-review-decisions-2026-10-26.json#changes"
+          ]
+        },
+        {
+          "id": "performance.cls",
+          "label": "Cumulative Layout Shift",
+          "maxPoints": 3,
+          "points": 3,
+          "status": "full",
+          "reason": "All 18 declared 28 October timing runs are valid across the three original pages and mobile/desktop profiles. The unchanged frozen cls threshold uses the worst three-run page/device median (or repetition-spread rule). Older incomplete campaigns are preserved separately. TBT remains a lab proxy, not measured field INP.",
+          "evidence": [
+            "timing-remeasurement-2026-10-28/report.json",
+            "coverage-review-decisions-2026-10-26.json#changes"
+          ]
+        },
+        {
+          "id": "performance.server-content",
+          "label": "Server response and first content",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "All 18 declared 28 October timing runs are valid across the three original pages and mobile/desktop profiles. The unchanged frozen server-content threshold uses the worst three-run page/device median (or repetition-spread rule). Older incomplete campaigns are preserved separately. TBT remains a lab proxy, not measured field INP.",
+          "evidence": [
+            "timing-remeasurement-2026-10-28/report.json",
+            "coverage-review-decisions-2026-10-26.json#changes"
+          ]
+        },
+        {
+          "id": "performance.resources",
+          "label": "Resource and page-weight efficiency",
+          "maxPoints": 2,
+          "points": 1,
+          "status": "partial",
+          "reason": "All 18 declared 28 October timing runs are valid across the three original pages and mobile/desktop profiles. The unchanged frozen resources threshold uses the worst three-run page/device median (or repetition-spread rule). Older incomplete campaigns are preserved separately. TBT remains a lab proxy, not measured field INP.",
+          "evidence": [
+            "timing-remeasurement-2026-10-28/report.json",
+            "coverage-review-decisions-2026-10-26.json#changes"
+          ]
+        },
+        {
+          "id": "performance.consistency",
+          "label": "Performance consistency",
+          "maxPoints": 1,
+          "points": 0,
+          "status": "zero",
+          "reason": "All 18 declared 28 October timing runs are valid across the three original pages and mobile/desktop profiles. The unchanged frozen consistency threshold uses the worst three-run page/device median (or repetition-spread rule). Older incomplete campaigns are preserved separately. TBT remains a lab proxy, not measured field INP.",
+          "evidence": [
+            "timing-remeasurement-2026-10-28/report.json",
+            "coverage-review-decisions-2026-10-26.json#changes"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "accessibility",
+      "label": "Accessibility",
+      "maxPoints": 15,
+      "points": 1,
+      "assessedPoints": 5,
+      "rows": [
+        {
+          "id": "accessibility.wcag",
+          "label": "Verified WCAG 2.2 issue set",
+          "maxPoints": 3,
+          "points": 0,
+          "status": "zero",
+          "reason": "The visible shared .navbar-toggler button has no text or aria-label in the DOM inventory; normal-browser axe confirms no aria-labelledby, title or other accessible name. This concrete repeated menu-control naming defect prevents sampled issue-set credit; comprehensive WCAG review remains incomplete.",
+          "evidence": [
+            "manual-followup.json#records.homepage.dom.buttons",
+            "manual-followup.json#records.contact.axe.button-name"
+          ]
+        },
+        {
+          "id": "accessibility.contrast",
+          "label": "Color contrast",
+          "maxPoints": 2,
+          "points": 1,
+          "status": "partial",
+          "reason": "The retained normal-browser issue set identifies small cyan links on white (#0dcaf0 on #ffffff, about 1.95:1 at 17.5px regular), below 4.5:1, on all three roles. The reviewed link-color style is a localized but repeated contrast defect. Partial credit is for the sampled style review, not a complete contrast certification.",
+          "evidence": [
+            "manual-followup.json#records.axe",
+            "independent-homepage-390.png"
+          ]
+        },
+        {
+          "id": "accessibility.alt",
+          "label": "Image alternative text",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Automated and manual review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.form-access",
+          "label": "Form labels, instructions and errors",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual form inspection plus axe. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.keyboard",
+          "label": "Keyboard navigation",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual keyboard path notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.semantics",
+          "label": "Semantic HTML and headings",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: DOM and heading outline. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.focus",
+          "label": "Focus indicators",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual interaction notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.language-aria",
+          "label": "Correct page language and ARIA usage",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Language and ARIA findings with manual review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.zoom",
+          "label": "Zoom, reflow and orientation",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual responsive accessibility review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.complete-process",
+          "label": "Complete-process accessibility check",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Selected citizen journey notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "reliability",
+      "label": "Reliability and Availability",
+      "maxPoints": 10,
+      "points": 0,
+      "assessedPoints": 0,
+      "rows": [
+        {
+          "id": "reliability.uptime",
+          "label": "Uptime percentage",
+          "maxPoints": 4,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Complete 28-day monitor log with observation gaps. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "reliability.failures",
+          "label": "HTTP/server failure rate",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Status and timeout history. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "reliability.response-stability",
+          "label": "Response-time stability",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Median, p90 and p95 response times. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "reliability.connection-continuity",
+          "label": "DNS, TLS and redirect continuity",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Connection-chain events over time. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "reliability.endpoints",
+          "label": "Critical endpoint consistency",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Home and selected service endpoint history. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mobile",
+      "label": "Mobile Usability and Citizen Journeys",
+      "maxPoints": 15,
+      "points": 4,
+      "assessedPoints": 5,
+      "rows": [
+        {
+          "id": "mobile.reflow",
+          "label": "Responsive design and reflow",
+          "maxPoints": 2,
+          "points": 1,
+          "status": "partial",
+          "reason": "The representative homepage measures 442 CSS px at both 320 and 390 px viewports while contact/legalization fit. The retained normal measurements corroborate this difference. Partial credit records entry-page reflow friction; the dimensions do not prove a blocked citizen task. Embedded Twitter/map collection exclusions remain separate limitations.",
+          "evidence": [
+            "completion-page-checks-2026-10-21.json#records"
+          ]
+        },
+        {
+          "id": "mobile.touch",
+          "label": "Mobile readability and touch targets",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual viewport review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "mobile.navigation",
+          "label": "Navigation and information architecture",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Task walkthrough notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "mobile.mobile-forms",
+          "label": "Forms usable on mobile",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable persistent labels, email/telephone input types, a message area and submit control within each tested viewport. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+          "evidence": [
+            "mobile-form-review-2026-10-28.json",
+            "mobile-form-320-2026-10-28.png",
+            "mobile-form-390-2026-10-28.png",
+            "mobile-form-844-2026-10-28.png"
+          ]
+        },
+        {
+          "id": "mobile.journey",
+          "label": "Citizen-journey task success",
+          "maxPoints": 4,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Standard task protocol. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "mobile.interface",
+          "label": "Interface consistency",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+          "evidence": [
+            "manual-followup.json#records",
+            "independent-homepage-390.png"
+          ]
+        },
+        {
+          "id": "mobile.recovery",
+          "label": "Errors, recovery and contextual help",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Journey and form notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "content",
+      "label": "Content, Public Services and Trust",
+      "maxPoints": 15,
+      "points": 7,
+      "assessedPoints": 9,
+      "rows": [
+        {
+          "id": "content.identity",
+          "label": "Official identity and domain ownership clear",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "The reviewed independent Public Works government directory links the Foreign Affairs host. Captured institutional identity and the trusted observed entry agree; this establishes domain association, not endorsement of this evaluation.",
+          "evidence": [
+            "report.json#ownership",
+            "foreign-affairs-discovery.json#source"
+          ]
+        },
+        {
+          "id": "content.mission",
+          "label": "Ministry mission and organization available",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: About and organization pages. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "content.service-list",
+          "label": "Public services clearly listed",
+          "maxPoints": 2,
+          "points": 1,
+          "status": "partial",
+          "reason": "The homepage exposes legalisation information and representation directories, and the declared service page renders the legalisation/apostille information. This is a useful bounded service entry, not a reviewed complete ministry catalogue; partial credit only.",
+          "evidence": [
+            "manual-followup.json#records.homepage.dom.links",
+            "manual-followup.json#records.service-information.dom.text"
+          ]
+        },
+        {
+          "id": "content.procedures",
+          "label": "Procedures and eligibility explained",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "The sampled legalisation page distinguishes document/sector situations, describes postal and in-person routes, lists prerequisites and stated charges, and gives regional-office locations. This credits the presence and clarity of procedure instructions, not independent confirmation of legal accuracy, fee currency or successful service delivery.",
+          "evidence": [
+            "manual-followup.json#records.service-information.dom.text"
+          ]
+        },
+        {
+          "id": "content.documents",
+          "label": "Required documents, forms and instructions available",
+          "maxPoints": 2,
+          "points": 1,
+          "status": "partial",
+          "reason": "The procedure text includes prerequisites and links to Arabic/French payment forms and an apostille guide. Instructions and named downloads are present, but the PDFs were not opened or tested for accessibility/version correctness, so only partial document availability credit is awarded.",
+          "evidence": [
+            "manual-followup.json#records.service-information.dom.text",
+            "manual-followup.json#records.service-information.dom.links"
+          ]
+        },
+        {
+          "id": "content.service-function",
+          "label": "Service links/forms functional",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Non-destructive manual click-through tests. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "content.contact",
+          "label": "Contact or feedback channel available",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "The captured contact page provides a postal address and telephone numbers plus a named enquiry form with name, email, phone, subject and message labels. No message, captcha or delivery workflow was submitted.",
+          "evidence": [
+            "manual-followup.json#records.contact.dom.text",
+            "manual-followup.json#records.contact.dom.forms"
+          ]
+        },
+        {
+          "id": "content.multilingual",
+          "label": "Useful multilingual content where applicable",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Arabic, French, Tamazight and English review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "content.dates",
+          "label": "Publication and update dates available",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "The reviewed homepage includes explicitly dated announcements and news. Displayed publication dates receive credit; dates embedded in instructions do not certify current legal requirements or complete website currency.",
+          "evidence": [
+            "manual-followup.json#records.homepage.dom.text"
+          ]
+        },
+        {
+          "id": "content.clarity",
+          "label": "Content clarity and cross-page consistency",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual sample review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "technical",
+      "label": "Technical Quality and Findability",
+      "maxPoints": 10,
+      "points": 2,
+      "assessedPoints": 4,
+      "rows": [
+        {
+          "id": "technical.links",
+          "label": "No significant broken internal links",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Eligible crawl plus manual validation; explicit sample is not a full crawl. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.broken-resources",
+          "label": "No broken images/resources",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Observed browser response failures. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.metadata",
+          "label": "Meaningful page titles and metadata",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "The representative French homepage names the ministry and its news/diplomacy/services scope; contact and legalization have distinct useful titles with matching descriptions. Actual values were inspected, not just a metadata-presence audit. Full credit is limited to the sampled role differentiation and summaries.",
+          "evidence": [
+            "completion-page-checks-2026-10-21.json#records"
+          ]
+        },
+        {
+          "id": "technical.crawlability",
+          "label": "Sitemap/crawlability configuration",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: robots.txt and sitemap.xml observations. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.canonical",
+          "label": "Clean URLs, canonicalization and redirects",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Declared URL sample, canonical and redirects. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.site-search",
+          "label": "Functional site search and discoverability",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "The observed GET search endpoint returned HTTP 500 with ministry branding and an explicit application-error message for the benign ministry keyword. This agrees with the retained earlier search failure. The two rejected POSTs target Google analytics collection, not a search API; no first-party search request was rejected by the collector. Zero is limited to this verified query failure, not all site availability. Generic Web Page Blocked responses elsewhere were excluded from scoring.",
+          "evidence": [
+            "coverage-supplementary-2026-10-26.json#records.search",
+            "completion-search-check-2026-10-21.json"
+          ]
+        },
+        {
+          "id": "technical.obsolete-technology",
+          "label": "No critically outdated public technology",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Passive fingerprint plus verified support status. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.cross-page",
+          "label": "Cross-page technical consistency",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "Compared the rendered core-page sample: ministry identity, readable text encoding, navigation shell and institutional context are retained between page roles. No template/encoding failure was established in that retained comparison. This limited consistency check does not certify all routes or browsers; separate metadata, ARIA, resource and layout findings retain their own scores.",
+          "evidence": [
+            "manual-followup.json#records",
+            "independent-homepage-390.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "page": "homepage",
+      "profile": "mobile",
+      "runs": 3,
+      "lcp": 12056.394950000002,
+      "cls": 0,
+      "tbt": 155,
+      "fcp": 5865.38855,
+      "ttfb": 97,
+      "transferBytes": 1959436,
+      "requests": 115,
+      "lcpMin": 10776.5354,
+      "lcpMax": 12488.689049999995
+    },
+    {
+      "page": "homepage",
+      "profile": "desktop",
+      "runs": 3,
+      "lcp": 1279.47845,
+      "cls": 0.01196197890542986,
+      "tbt": 0,
+      "fcp": 993.5866000000002,
+      "ttfb": 106,
+      "transferBytes": 2458444,
+      "requests": 136,
+      "lcpMin": 1162.8682000000003,
+      "lcpMax": 1285.9335500000002
+    },
+    {
+      "page": "contact",
+      "profile": "mobile",
+      "runs": 3,
+      "lcp": 10245.910100000003,
+      "cls": 0,
+      "tbt": 200.0962500000005,
+      "fcp": 5172.0019999999995,
+      "ttfb": 92,
+      "transferBytes": 1776887,
+      "requests": 57,
+      "lcpMin": 4835.502199999999,
+      "lcpMax": 11802.02175
+    },
+    {
+      "page": "contact",
+      "profile": "desktop",
+      "runs": 3,
+      "lcp": 1031.2404000000001,
+      "cls": 0.0118762142429009,
+      "tbt": 0,
+      "fcp": 928.3128,
+      "ttfb": 84,
+      "transferBytes": 1790936,
+      "requests": 65,
+      "lcpMin": 964.0553999999998,
+      "lcpMax": 1048.0706000000002
+    },
+    {
+      "page": "service-information",
+      "profile": "mobile",
+      "runs": 3,
+      "lcp": 7744.1588,
+      "cls": 0,
+      "tbt": 239,
+      "fcp": 2204.298,
+      "ttfb": 129,
+      "transferBytes": 837014,
+      "requests": 27,
+      "lcpMin": 3175.8104000000003,
+      "lcpMax": 8002.836
+    },
+    {
+      "page": "service-information",
+      "profile": "desktop",
+      "runs": 3,
+      "lcp": 992.2966000000001,
+      "cls": 0.01218499657655383,
+      "tbt": 0,
+      "fcp": 909.4607000000001,
+      "ttfb": 120,
+      "transferBytes": 1336164,
+      "requests": 48,
+      "lcpMin": 915.6499999999999,
+      "lcpMax": 1169.5199000000002
+    }
+  ],
+  "evidence": {
+    "httpRedirect": {
+      "url": "http://www.mfa.gov.dz/fr",
+      "finalUrl": "https://www.mfa.gov.dz/fr",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "vary": "Accept-Encoding, Accept-Encoding",
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET, POST, OPTIONS",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src * 'unsafe-inline'",
+        "referrer-policy": "origin-when-cross-origin",
+        "content-length": "174126"
+      },
+      "cookies": [
+        {
+          "secure": false,
+          "httpOnly": true,
+          "sameSite": null,
+          "partitioned": false,
+          "domainScoped": false,
+          "pathPresent": true,
+          "persistent": true
+        }
+      ],
+      "tls": {
+        "protocol": "TLSv1.2",
+        "cipher": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "authorized": true,
+        "certificateExpiresAt": "2027-03-26T15:18:41.000Z",
+        "certificateNotBefore": "2026-09-08T15:18:42.000Z"
+      },
+      "bodyBytes": 174126,
+      "elapsedMs": 559.847133000032,
+      "totalElapsedMs": 715.8188700000173,
+      "redirects": [
+        {
+          "url": "http://www.mfa.gov.dz/fr",
+          "status": 301,
+          "location": "https://www.mfa.gov.dz/fr",
+          "tls": null
+        }
+      ]
+    },
+    "http": [
+      {
+        "page": "homepage",
+        "url": "https://www.mfa.gov.dz/fr",
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "vary": "Accept-Encoding, Accept-Encoding",
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, POST, OPTIONS",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "content-security-policy": "default-src * 'unsafe-inline'",
+          "referrer-policy": "origin-when-cross-origin",
+          "content-length": "174126"
+        },
+        "cookies": [
+          {
+            "secure": false,
+            "httpOnly": true,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": false,
+            "pathPresent": true,
+            "persistent": true
+          }
+        ],
+        "tls": {
+          "protocol": "TLSv1.2",
+          "cipher": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+          "authorized": true,
+          "certificateExpiresAt": "2027-03-26T15:18:41.000Z",
+          "certificateNotBefore": "2026-09-08T15:18:42.000Z"
+        }
+      },
+      {
+        "page": "contact",
+        "url": "https://www.mfa.gov.dz/fr/contact",
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "vary": "Accept-Encoding, Accept-Encoding",
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, POST, OPTIONS",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "content-security-policy": "default-src * 'unsafe-inline'",
+          "referrer-policy": "origin-when-cross-origin",
+          "content-length": "69033"
+        },
+        "cookies": [
+          {
+            "secure": false,
+            "httpOnly": true,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": false,
+            "pathPresent": true,
+            "persistent": true
+          }
+        ],
+        "tls": {
+          "protocol": "TLSv1.2",
+          "cipher": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+          "authorized": true,
+          "certificateExpiresAt": "2027-03-26T15:18:41.000Z",
+          "certificateNotBefore": "2026-09-08T15:18:42.000Z"
+        }
+      },
+      {
+        "page": "service-information",
+        "url": "https://www.mfa.gov.dz/fr/services-for-algerians/legalisation-of-documents-1",
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "vary": "Accept-Encoding, Accept-Encoding",
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, POST, OPTIONS",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "content-security-policy": "default-src * 'unsafe-inline'",
+          "referrer-policy": "origin-when-cross-origin",
+          "content-length": "106543"
+        },
+        "cookies": [
+          {
+            "secure": false,
+            "httpOnly": true,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": false,
+            "pathPresent": true,
+            "persistent": true
+          }
+        ],
+        "tls": {
+          "protocol": "TLSv1.2",
+          "cipher": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+          "authorized": true,
+          "certificateExpiresAt": "2027-03-26T15:18:41.000Z",
+          "certificateNotBefore": "2026-09-08T15:18:42.000Z"
+        }
+      }
+    ],
+    "accessibility": [
+      {
+        "page": "contact",
+        "profile": "mobile",
+        "violations": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "affectedElements": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "affectedElements": 3
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "affectedElements": 2
+          }
+        ],
+        "incomplete": []
+      },
+      {
+        "page": "contact",
+        "profile": "desktop",
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "affectedElements": 3
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "affectedElements": 2
+          }
+        ],
+        "incomplete": []
+      },
+      {
+        "page": "service-information",
+        "profile": "mobile",
+        "violations": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "affectedElements": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "affectedElements": 4
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "affectedElements": 5
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "link-in-text-block",
+            "affectedElements": 1
+          }
+        ]
+      },
+      {
+        "page": "service-information",
+        "profile": "desktop",
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "affectedElements": 4
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "affectedElements": 5
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "link-in-text-block",
+            "affectedElements": 1
+          }
+        ]
+      }
+    ],
+    "manual": {
+      "scope": "Implementing-evaluator review limited to row-specific evidence on 3 declared pages. Normal-browser dimensions and initial Tab paths are recorded; this is not a completed keyboard/menu or assistive-technology review.",
+      "confirmedDefects": [
+        "Document procedure information is substantive",
+        "Name the shared mobile menu toggle"
+      ],
+      "limits": [
+        "Independent review pending",
+        "No submission, field INP or completed citizen-service claim",
+        "28-day multi-network reliability, full TLS enumeration and comprehensive assistive-technology review remain unmeasured"
+      ]
+    },
+    "artifactHashes": [
+      {
+        "artifact": "foreign-affairs-discovery.json",
+        "sha256": "72837cef91515e78193c7dee5427f6dde82d3fc8f5977d36f19b66d37356af08"
+      },
+      {
+        "artifact": "independent-contact-320.png",
+        "sha256": "a5de9010496a259c9970f6bfa029b97fa065cb2f938b69c5548d9acd80f5557d"
+      },
+      {
+        "artifact": "independent-contact-390.png",
+        "sha256": "1d58614031fa17176dc1c00369accd4a9877cc6cc825fb236757fdc0d65f0c5a"
+      },
+      {
+        "artifact": "independent-contact-844.png",
+        "sha256": "75a0381ceb074529c03a9e2e9abd4f9a78a1ac96a9fa13ba6def0efba6c0fa07"
+      },
+      {
+        "artifact": "independent-homepage-320.png",
+        "sha256": "0e93d41a24c18bf4ff58fbfb820781932090b40a8d79fa41d6a1d000cce13072"
+      },
+      {
+        "artifact": "independent-homepage-390.png",
+        "sha256": "7c6166dbb05329c6ded4b3aa2d5e7a9717adb123ba9a04213372e2d544cae632"
+      },
+      {
+        "artifact": "independent-homepage-844.png",
+        "sha256": "e293722cd4536f065be4ad4d7409d5184401bd18daf33e70ea8b340fd2efb9be"
+      },
+      {
+        "artifact": "independent-service-information-320.png",
+        "sha256": "72a159cb72b017ee05e6aaf47f83233aa7eb7bebff5f7e39ef9cb2d297d2ac30"
+      },
+      {
+        "artifact": "independent-service-information-390.png",
+        "sha256": "27af7ca60fc5f0e6d946d06ff9bbea8bce935f865fb236d077c16b0ed4daff90"
+      },
+      {
+        "artifact": "independent-service-information-844.png",
+        "sha256": "e5d854f18de0790a69ec41dd32362bc1cede026f1b277008f8f4e060d3732395"
+      },
+      {
+        "artifact": "manual-followup.json",
+        "sha256": "32517557327a95b7bdc4d4c01471b941f17b43a54bd852387d9e8c769232d02b"
+      },
+      {
+        "artifact": "page-1/mobile-lighthouse-1.json",
+        "sha256": "3e4433864412ffed104388b01132651375092ef4044aef68da9fe6cd3f65f7e9"
+      },
+      {
+        "artifact": "page-1/page.json",
+        "sha256": "5ecb632b8b279f554fc182369fe1162ac875cd6b90e80d193783793a0d542f21"
+      },
+      {
+        "artifact": "page-2/desktop-axe.json",
+        "sha256": "791a8f55392b4daef1c0958b8f3608e09223dcfbe4194d13e8e8f9bf04931140"
+      },
+      {
+        "artifact": "page-2/desktop-width-320.png",
+        "sha256": "c6fd0b4a9300711f858213b3c4de2cbc5c10afe42dd94c3dfcda8bb1b8ed1659"
+      },
+      {
+        "artifact": "page-2/desktop-width-390.png",
+        "sha256": "9befd77322a3041b0b1fd387af1e6b1769e4ba290a579fec49db88ba5a96af1e"
+      },
+      {
+        "artifact": "page-2/desktop-width-844.png",
+        "sha256": "acfe8e10fbce0904af03b48aa71726f000a725520964783b8e1496016559af6f"
+      },
+      {
+        "artifact": "page-2/desktop.png",
+        "sha256": "ce37c65764f9bac0a2eb8641694d1d7cdf7bd4eaf6e841734c3fc1115e2ff4df"
+      },
+      {
+        "artifact": "page-2/mobile-axe.json",
+        "sha256": "a0c190c15800cf3004cab735eb0fc5bc0ec391c19e423d3574cd4dfa2635f5dd"
+      },
+      {
+        "artifact": "page-2/mobile.png",
+        "sha256": "1d58614031fa17176dc1c00369accd4a9877cc6cc825fb236757fdc0d65f0c5a"
+      },
+      {
+        "artifact": "page-2/page.json",
+        "sha256": "0f6f3f5d4fd771500dd5b14c1cf93c9d4d41ffa8a7ba1039403efa5d98aa6c7a"
+      },
+      {
+        "artifact": "page-3/desktop-axe.json",
+        "sha256": "5bd6cfbb6857d73f759a1a1951505a6aca70d5e17c71bba6ecb50dca905da023"
+      },
+      {
+        "artifact": "page-3/desktop-width-320.png",
+        "sha256": "ed5f7d13ed1092bc6457078ec26d1ebea48cb4cc6651c85140b5b7ebb956e00c"
+      },
+      {
+        "artifact": "page-3/desktop-width-390.png",
+        "sha256": "9d7e086c731a9d5f5835b89292f7bf0cf19d6fc156b314eba682e626fc1a5746"
+      },
+      {
+        "artifact": "page-3/desktop-width-844.png",
+        "sha256": "24cf8e83b2251843f2c20854403fa0a3e54e46040bb43b49377af4e993357e8f"
+      },
+      {
+        "artifact": "page-3/desktop.png",
+        "sha256": "4a7e6c1280713397d7b46643933b66ff7262545860b49aef738020ebf189ed54"
+      },
+      {
+        "artifact": "page-3/mobile-axe.json",
+        "sha256": "bbaf4c6af16680e6ea7fc1222799b2940a479582d0a88eccc8b9c40e40efb995"
+      },
+      {
+        "artifact": "page-3/mobile-width-320.png",
+        "sha256": "dd8bb0520ca4faaf3be862f6025eea3db9e91e90c9b2a8c609ff42b14de5533f"
+      },
+      {
+        "artifact": "page-3/mobile-width-390.png",
+        "sha256": "acb845164d512af2b52abb4a0a70e277d3665f54e1313d8cde0e3a8dea21ebba"
+      },
+      {
+        "artifact": "page-3/mobile-width-844.png",
+        "sha256": "3de086d013283cb475e1cdc559f86827047fdfd91865e8b59c7fb7ceb41ed75e"
+      },
+      {
+        "artifact": "page-3/mobile.png",
+        "sha256": "27af7ca60fc5f0e6d946d06ff9bbea8bce935f865fb236d077c16b0ed4daff90"
+      },
+      {
+        "artifact": "page-3/page.json",
+        "sha256": "f051c525d85924c1e38489f59e845189d188057c45795882072b6015a38ce4e3"
+      },
+      {
+        "artifact": "report.json",
+        "sha256": "f68c971dcad422c4933e17e30652373439c577a4b3bf99c23d7d04dac2f34f8f"
+      },
+      {
+        "artifact": "review-decisions.json",
+        "sha256": "ad6378037ec7efc83a25e9e0c4d2e14b69ebab0c3a964e0d0ac0a6e6415e0fa1"
+      },
+      {
+        "artifact": "trust-validation.json",
+        "sha256": "a3af806e4aa1f01f7a854bdde2cfe9bfcbe6309a6bdd69aaf630d24d9da4346d"
+      },
+      {
+        "artifact": "completion-review-decisions-2026-10-21.json",
+        "sha256": "0905f4a39cf9385d71bba18904f1421e2e3352fd1ab05c2e44438385415973d0"
+      },
+      {
+        "artifact": "completion-page-checks-2026-10-21.json",
+        "sha256": "fdd8d8847355bbd686434d4eec65151b9fe5a1236ad06771bf64f913260212e4"
+      },
+      {
+        "artifact": "completion-page-checks-attempt-1-2026-10-21.json",
+        "sha256": "3ec53dd0a8516294f99ed22e7e909b302be92c9a8992cf56bd387aa7bc96583f"
+      },
+      {
+        "artifact": "completion-search-check-2026-10-21.json",
+        "sha256": "803e83d77641e8ed42f71b09010c89dde08f0296cc2173e98edc6f127b5af5ca"
+      },
+      {
+        "artifact": "completion-search-check-attempt-1-2026-10-21.json",
+        "sha256": "45791c11ed4c6e4e6db4bcb616a7fb9d8444c6630eaf41b10d8b83bf596e1edb"
+      },
+      {
+        "artifact": "completion-homepage-390.png",
+        "sha256": "d5d802de00309d943d6dc0bf89d2ea9fdd23073cdcfc8104bcef7ecbbc24e3ef"
+      },
+      {
+        "artifact": "coverage-supplementary-2026-10-26.json",
+        "sha256": "84199974acb848d29ecb1d91716279a8a446f39e001657c57d14f77b160566aa"
+      },
+      {
+        "artifact": "mobile-form-review-2026-10-28.json",
+        "sha256": "6b3d60016cb6a17063f532938f4c01a2d5bbd63183df7f72490ab0eac7647898"
+      },
+      {
+        "artifact": "mobile-form-320-2026-10-28.png",
+        "sha256": "6088126a15463e761f23f967a8cb9d934162c17669c09d9dd4853604b71a2dfa"
+      },
+      {
+        "artifact": "mobile-form-390-2026-10-28.png",
+        "sha256": "8efef58900721f49ab70a80c5bb6ccf3c28e52c473c3768bf62ff3579e3ff033"
+      },
+      {
+        "artifact": "mobile-form-844-2026-10-28.png",
+        "sha256": "91e5ac1e31c41da3faa4e3f45cadb8072a20e571f0aca30a5d6507e569f23e33"
+      },
+      {
+        "artifact": "timing-followup-2026-10-26/report.json",
+        "sha256": "729b508eceb03fcda5004bf7f08b75695854496d4c305ff534438e6b7000b688"
+      },
+      {
+        "artifact": "timing-followup-2026-10-26/page-1/mobile-lighthouse-1.json",
+        "sha256": "e7dd244ce8188f31dc063d1b3b6291203f401959c0c950c1dae7ebafa2a65354"
+      },
+      {
+        "artifact": "timing-followup-2026-10-26/page-1/mobile-lighthouse-2.json",
+        "sha256": "5c5f71e396db3f58bf833a96aff25036ded8ef6f3383ff6dc35f4e3f7240a2be"
+      },
+      {
+        "artifact": "timing-followup-2026-10-26/page-1/mobile-lighthouse-3.json",
+        "sha256": "ebef4f4073b11c2ba6da93f8b81fe846d579fe79b5ff99f7ef9faf9f2d0934f1"
+      },
+      {
+        "artifact": "timing-followup-2026-10-26/page-1/desktop-lighthouse-1.json",
+        "sha256": "e2c92d59fc12d5e5c200cdb41d41f7057e279f0891058b99290c68442010a8ed"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/report.json",
+        "sha256": "7bacd880bd396263d91dfd48da58a22cf3751142c64b46cc6d5717cb8e68a8f1"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-1/mobile-lighthouse-1.json",
+        "sha256": "1c7d1237d731f2f48a4ce3b41db47a87a34d8c4e7b67a5a4e0b23cdb8cd72205"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-1/mobile-lighthouse-2.json",
+        "sha256": "e3dcd482b5824b5b09ea7f516bcd909c99ce90dde8055fa68994be1b0906a880"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-1/mobile-lighthouse-3.json",
+        "sha256": "5ccd10fbc79d038fda36cc6ca6deb3af3330c50bd88e37ace8e552b663502a62"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-1/desktop-lighthouse-1.json",
+        "sha256": "6f28efca31f82c36175d306dc991a78775a3b213309053659e01fa91a0f25fdf"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-1/desktop-lighthouse-2.json",
+        "sha256": "405ab53c6fda8765ec434be58f47dfd8c82f9a71cbbd4b2a503636b332293ab6"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-1/desktop-lighthouse-3.json",
+        "sha256": "6b7981d8b6a475e975f84ec39b4972f2cdce0c1e61bad745378bf7b27c9438bc"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-2/mobile-lighthouse-1.json",
+        "sha256": "0d790c56c3dff62201d30851c65041eee469007e65b225d1e6ba3a0cb43bf421"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-2/mobile-lighthouse-2.json",
+        "sha256": "9dc907e2bf6678d4d84eeb22a3cc83bf928498d661c10e8f329a88f97bd75709"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-2/mobile-lighthouse-3.json",
+        "sha256": "dc6bb5583a5a99de61d0e07a0ae8f4e7d286246cfafb3e8b5f8a617861728c36"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-2/desktop-lighthouse-1.json",
+        "sha256": "91b4b6e8363a9b2cda33461d278367029f8df0649628bc0a3464811e1962629f"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-2/desktop-lighthouse-2.json",
+        "sha256": "7a2bded42bb1255263cdb19cc100d4b875dee38bf2460c29baac54dca2399073"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-2/desktop-lighthouse-3.json",
+        "sha256": "213cca587155be606c7a5223b3e42f22d89bb3afaaf7671aae040c1eb49542ef"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-3/mobile-lighthouse-1.json",
+        "sha256": "8483edb830eae216b462144ec2fe6863d3aabae92ecbad4f9e590ffa314b4eec"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-3/mobile-lighthouse-2.json",
+        "sha256": "8f8b22a8a23cd30e479d4ab471ec72255b13558fcb269fb65a727e75fe9f34a4"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-3/mobile-lighthouse-3.json",
+        "sha256": "b9a25a6d730a7b97e9d84af3e79e138fafa5a9c05fc51a152b9594610d695e66"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-3/desktop-lighthouse-1.json",
+        "sha256": "d40fe0fc037889fdf4c20212345169739c4b13dda24f0211de699f7ca47cbd15"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-3/desktop-lighthouse-2.json",
+        "sha256": "7466d6b479425e2655e528a660b8a9c10ab914d5737a44ad00f337c615a0cba8"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/page-3/desktop-lighthouse-3.json",
+        "sha256": "6eb5ff3a50971d701ec20e8b839c8500e8e2ce21ce4b3b3e2d78a3cf56f4e385"
+      },
+      {
+        "artifact": "timing-remeasurement-2026-10-28/preflight.json",
+        "sha256": "ffd30912befaf2eec030d88d4f0079d5a561bfef0b890c0014ca4d16a1445b19"
+      },
+      {
+        "artifact": "coverage-review-decisions-2026-10-26.json",
+        "sha256": "0be3599451f21123cc9f73b674773ba8fcf875a38afbfdae2e082c7d20401fb6"
+      }
+    ],
+    "scope": "Hashes identify private raw artifacts; hashes alone do not establish correctness. Published facts were reviewed by the implementing evaluator. Independent review pending. Raw DOM, screenshots and complete tool reports are not public."
+  },
+  "completionReview": {
+    "reviewedAt": "2026-10-28T11:54:41.944Z",
+    "changedCriteria": 15,
+    "additionalAssessedPoints": 29,
+    "representativeFollowUpPages": 3,
+    "declaredPages": 3,
+    "remainingCriteria": 30,
+    "remainingPoints": 49,
+    "protocol": "/evaluations/coverage-review-2026-10-26.md",
+    "record": "/evaluations/coverage-review-2026-10-26.json"
+  },
+  "timingFollowup": {
+    "startedAt": "2026-10-26T08:59:08.201017+00:00",
+    "completedAt": "2026-10-26T09:00:23.121Z",
+    "versions": {
+      "node": "v24.10.0",
+      "axe": "4.14.0",
+      "lighthouse": "13.5.0",
+      "chrome": "Chrome/156.0.8078.47"
+    },
+    "profiles": {
+      "mobile": {
+        "screen": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "formFactor": "mobile",
+        "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Mobile Safari/537.36"
+      },
+      "desktop": {
+        "screen": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "formFactor": "desktop",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      }
+    },
+    "plannedRuns": 18,
+    "attemptedRuns": 4,
+    "successfulRuns": 4,
+    "excludedAttempts": 0,
+    "unattemptedRuns": 14,
+    "complete": false,
+    "affectsScore": false,
+    "stopReason": "Collection stopped after a third-party HTTP 429 rate-limit response. Remaining runs were not attempted. No rate limit was bypassed.",
+    "interpretation": "Separate follow-up campaign; historical main-sample timings and scores are unchanged. Incomplete page/device groups are observations, not a completed performance score. TBT is a laboratory proxy, not measured field INP.",
+    "metrics": [
+      {
+        "page": "homepage",
+        "profile": "mobile",
+        "runs": 3,
+        "plannedRuns": 3,
+        "lcp": 11509.050999999996,
+        "cls": 0,
+        "tbt": 281,
+        "fcp": 5758.6634,
+        "ttfb": 142,
+        "transferBytes": 1967163,
+        "requests": 115,
+        "lcpMin": 3613.1863999999996,
+        "lcpMax": 12204.436749999997
+      },
+      {
+        "page": "homepage",
+        "profile": "desktop",
+        "runs": 1,
+        "plannedRuns": 3,
+        "lcp": 1001.4639999999999,
+        "cls": 0.01196197890542986,
+        "tbt": 5.5,
+        "fcp": 864.0475000000001,
+        "ttfb": 105,
+        "transferBytes": 2383111,
+        "requests": 120,
+        "lcpMin": 1001.4639999999999,
+        "lcpMax": 1001.4639999999999
+      },
+      {
+        "page": "contact",
+        "profile": "mobile",
+        "runs": 0,
+        "plannedRuns": 3,
+        "lcp": null,
+        "cls": null,
+        "tbt": null,
+        "fcp": null,
+        "ttfb": null,
+        "transferBytes": null,
+        "requests": null,
+        "lcpMin": null,
+        "lcpMax": null
+      },
+      {
+        "page": "contact",
+        "profile": "desktop",
+        "runs": 0,
+        "plannedRuns": 3,
+        "lcp": null,
+        "cls": null,
+        "tbt": null,
+        "fcp": null,
+        "ttfb": null,
+        "transferBytes": null,
+        "requests": null,
+        "lcpMin": null,
+        "lcpMax": null
+      },
+      {
+        "page": "service-information",
+        "profile": "mobile",
+        "runs": 0,
+        "plannedRuns": 3,
+        "lcp": null,
+        "cls": null,
+        "tbt": null,
+        "fcp": null,
+        "ttfb": null,
+        "transferBytes": null,
+        "requests": null,
+        "lcpMin": null,
+        "lcpMax": null
+      },
+      {
+        "page": "service-information",
+        "profile": "desktop",
+        "runs": 0,
+        "plannedRuns": 3,
+        "lcp": null,
+        "cls": null,
+        "tbt": null,
+        "fcp": null,
+        "ttfb": null,
+        "transferBytes": null,
+        "requests": null,
+        "lcpMin": null,
+        "lcpMax": null
+      }
+    ]
+  },
+  "labSourceReplacement": {
+    "directory": "timing-remeasurement-2026-10-28",
+    "startedAt": "2026-10-28T10:08:29.500Z",
+    "completedAt": "2026-10-28T10:13:26.380Z",
+    "previousMainSource": "report.json",
+    "previousMainMetrics": [
+      {
+        "page": "homepage",
+        "profile": "mobile",
+        "lcp": 3653.1859999999997,
+        "cls": 0.02132457780518116,
+        "tbt": 199,
+        "fcp": 2241.2659999999996,
+        "ttfb": 1635,
+        "transferBytes": 1883061,
+        "requests": 91,
+        "runs": 1,
+        "lcpMin": 3653.1859999999997,
+        "lcpMax": 3653.1859999999997
+      },
+      {
+        "page": "homepage",
+        "profile": "desktop",
+        "lcp": null,
+        "cls": null,
+        "tbt": null,
+        "fcp": null,
+        "ttfb": null,
+        "transferBytes": null,
+        "requests": null,
+        "runs": 0,
+        "lcpMin": null,
+        "lcpMax": null
+      },
+      {
+        "page": "contact",
+        "profile": "mobile",
+        "lcp": null,
+        "cls": null,
+        "tbt": null,
+        "fcp": null,
+        "ttfb": null,
+        "transferBytes": null,
+        "requests": null,
+        "runs": 0,
+        "lcpMin": null,
+        "lcpMax": null
+      },
+      {
+        "page": "contact",
+        "profile": "desktop",
+        "lcp": null,
+        "cls": null,
+        "tbt": null,
+        "fcp": null,
+        "ttfb": null,
+        "transferBytes": null,
+        "requests": null,
+        "runs": 0,
+        "lcpMin": null,
+        "lcpMax": null
+      },
+      {
+        "page": "service-information",
+        "profile": "mobile",
+        "lcp": null,
+        "cls": null,
+        "tbt": null,
+        "fcp": null,
+        "ttfb": null,
+        "transferBytes": null,
+        "requests": null,
+        "runs": 0,
+        "lcpMin": null,
+        "lcpMax": null
+      },
+      {
+        "page": "service-information",
+        "profile": "desktop",
+        "lcp": null,
+        "cls": null,
+        "tbt": null,
+        "fcp": null,
+        "ttfb": null,
+        "transferBytes": null,
+        "requests": null,
+        "runs": 0,
+        "lcpMin": null,
+        "lcpMax": null
+      }
+    ],
+    "previousConditions": "Sequential Lighthouse 13.5.0 / Chrome 153 laboratory runs, up to three declared attempts per each of 3 predeclared pages on mobile and desktop; default simulated throttling and fresh browser processes. Per-pair successful-run counts and any unattempted runs are explicit; a collection stop is not a website failure. Operator network/geography unverified. Guarded DOM/axe observations use GET/HEAD and four-request concurrency; excluded requests can change rendering. No forms submitted, physical devices, field INP, full security audit, complete service process or 28-day reliability claim. Independent review pending. Different page samples are not a national comparison.",
+    "reason": "A separate, fully declared 18-run campaign completed all three original pages and both device profiles. The historical single successful main-sample run and all earlier stopped attempts are retained, not merged or selectively retried."
+  }
+}

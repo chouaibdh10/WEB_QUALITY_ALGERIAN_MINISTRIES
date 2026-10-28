@@ -1,0 +1,1428 @@
+{
+  "measurementProfiles": {
+    "mobile": {
+      "screen": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36"
+    },
+    "desktop": {
+      "screen": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "formFactor": "desktop",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+    }
+  },
+  "schemaVersion": 1,
+  "ministryId": "hydrocarbons",
+  "title": "Hydrocarbons — measured pilot",
+  "ownership": {
+    "status": "Government directory confirmed",
+    "source": "https://ticaret.gov.tr/data/63dcb13313b87627bc2a1d36/Cezayir%20Yat%C4%B1r%C4%B1m%20%C3%9Clke%20Profili%2011.05.2026.pdf#page=21",
+    "checkedAt": "2026-10-28T09:56:19.898Z",
+    "publisher": "Republic of Türkiye Ministry of Trade; Algiers Commercial Counsellor",
+    "evidence": "government-directory-review-2026-10-28.json",
+    "note": "This is independent government-directory association evidence for the frozen identity criterion. It is not legal registration proof, Algerian-government certification, a current-availability measurement or confirmation of every legacy entry in the directory."
+  },
+  "protocolVersion": "Pilot 1.4 recovery",
+  "collectionAmendment": "/evaluations/recovery-protocol-2026-10-21.md",
+  "startedAt": "2026-10-21T07:32:13.777Z",
+  "labCompletedAt": "2026-10-21T08:06:50.066Z",
+  "completedAt": "2026-10-21T08:32:02.805Z",
+  "reviewedAt": "2026-10-28T11:54:41.944Z",
+  "independentReview": "Pending",
+  "overallScore": null,
+  "rank": null,
+  "points": 20.5,
+  "assessedPoints": 48,
+  "conditions": "Sequential Lighthouse 13.5.0 / Chrome 153 laboratory runs, up to three declared attempts per each of 3 predeclared pages on mobile and desktop; default simulated throttling and fresh browser processes. Per-pair successful-run counts and any unattempted runs are explicit; a collection stop is not a website failure. Operator network/geography unverified. Guarded DOM/axe observations use GET/HEAD and four-request concurrency; excluded requests can change rendering. No forms submitted, physical devices, field INP, full security audit, complete service process or 28-day reliability claim. Independent review pending. Different page samples are not a national comparison.",
+  "versions": {
+    "node": "v24.10.0",
+    "axe": "4.14.0",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/153.0.8010.36"
+  },
+  "download": "/evaluations/hydrocarbons-pilot.json",
+  "protocol": "/evaluations/recovery-protocol-2026-10-21.md",
+  "pages": [
+    {
+      "type": "homepage",
+      "url": "https://www.oilmines.gov.dz/"
+    },
+    {
+      "type": "service-information",
+      "url": "https://www.oilmines.gov.dz/?article=services-numeriques"
+    },
+    {
+      "type": "contact",
+      "url": "https://www.oilmines.gov.dz/?article=contact"
+    }
+  ],
+  "collectionNotes": [
+    "18 timing attempts recorded of 18 planned; 0 unattempted after collection limits.",
+    "3 distinct predeclared core page(s), with three attempts per page/device. Missing roles and narrower samples are not equivalent to complete website coverage.",
+    "homepage: guarded observation gaps retained; normal-browser follow-up is separate.",
+    "service-information: guarded observation gaps retained; normal-browser follow-up is separate.",
+    "contact: guarded observation gaps retained; normal-browser follow-up is separate.",
+    "The earlier HTML robots fallback was a collector format restriction; the recovery parser processed valid directives without bypassing explicit exclusions.",
+    "All six guarded captures timed out. The separate normal-browser follow-up rendered the three exact declared URLs; those failures remain retained and do not support outage, mobile reflow or resource-completeness conclusions.",
+    "Mines is not assigned a duplicate score from this shared/legacy site. Its dedicated official-domain verification remains a separate unresolved entry.",
+    "Completion review 2026-10-26 of the 21 October follow-up: 6 previously unmeasured criteria resolved, adding 8 assessed budget points. 3/3 additional core-page follow-ups were representative; excluded captures and original attempts are retained. Prior valid timing samples are unchanged. 35 criteria remain unmeasured; see the completion record for required evidence.",
+    "Supplementary GET search tasks, where present, use observed search forms and do not expand the original Lighthouse timing sample. Retained visual comparison is explicitly distinguished from fresh capture. Collector connection failures, robots exclusions and incomplete responses are never website zeros.",
+    "Coverage revision 2026-10-28: 4 further criteria resolved using explicit reviewed evidence. Restricted, untested and monitoring-dependent criteria remain unmeasured. Scores and measurement coverage are different quantities; no conversion of missing evidence to passes or zeros."
+  ],
+  "findings": [
+    {
+      "title": "Mobile homepage loading",
+      "detail": "Median lab LCP 15.07 seconds, range 13.44–15.86 seconds across three successful simulated runs. This operator-network result is not a field percentile or every visitor's experience."
+    },
+    {
+      "title": "Useful digital-service directory is present",
+      "detail": "The sample identifies service operators, purposes and destination URLs. Availability and completion of those external services remain untested."
+    },
+    {
+      "title": "Label the shared search-category selector",
+      "detail": "Associate a programmatic label with the rubrique select; the sampled contact form otherwise has numerous explicit labels."
+    },
+    {
+      "title": "Clarify legacy institutional branding",
+      "detail": "The captured title refers to Hydrocarbons and Mines, while navigation/contact text and the footer retain Energy ministry wording. Explain the current scope so users know which institution handles their request."
+    }
+  ],
+  "privacy": [
+    {
+      "indicator": "Privacy / collection explanation",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Secure submission",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Tracking and consent",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Retention and rights",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Privacy contact",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    },
+    {
+      "indicator": "Language consistency",
+      "status": "Not fully measured",
+      "reason": "No complete privacy/consent/legal or submission workflow was evaluated. General HTTPS delivery, contact links and notices are not a privacy-law certification."
+    }
+  ],
+  "categories": [
+    {
+      "key": "security",
+      "label": "External Security Posture and Technical Privacy",
+      "maxPoints": 20,
+      "points": 7,
+      "assessedPoints": 13,
+      "rows": [
+        {
+          "id": "security.https",
+          "label": "HTTPS enforced",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "The declared HTTP entry upgraded to trusted HTTPS without an observed downgrade. Credit is limited to this captured entry chain.",
+          "evidence": [
+            "report.json#httpRedirect"
+          ]
+        },
+        {
+          "id": "security.certificate",
+          "label": "Valid TLS certificate",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "Hostname/date/chain-verified HTTPS succeeded with the separately root-verified public intermediates supplied to the recovery Node process. Default Node chain construction failed on some hosts; this is not evidence of complete server-delivered chains or universal client compatibility. See the recovery amendment.",
+          "evidence": [
+            "report.json#pages.http.tls"
+          ]
+        },
+        {
+          "id": "security.tls-configuration",
+          "label": "Modern TLS configuration",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Full protocol/cipher assessment, not one negotiated connection. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "security.hsts",
+          "label": "HSTS present and meaningful",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "Captured HSTS policies were parsed against the frozen rule: full requires max-age at least one year with includeSubDomains; a valid positive narrower policy earns half; absent, disabled or malformed earns zero. Worst declared page governs.",
+          "evidence": [
+            "report.json#pages.http.headers"
+          ]
+        },
+        {
+          "id": "security.csp",
+          "label": "Content-Security-Policy present and meaningful",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "The fresh homepage, service and contact documents only enforce frame-ancestors 'self' in the response header; their meta-policy inventory adds no script/object restrictions. Framing-only policy receives zero under the frozen meaningful-CSP rule, without implying an exploitable vulnerability.",
+          "evidence": [
+            "completion-page-checks-2026-10-21.json#records"
+          ]
+        },
+        {
+          "id": "security.security-headers",
+          "label": "Other important security headers",
+          "maxPoints": 2,
+          "points": 1,
+          "status": "partial",
+          "reason": "Reviewed nosniff, DENY/SAMEORIGIN or restrictive frame-ancestors, and explicit meaningful Referrer-Policy values. Full needs all three protections, half some, zero none; worst sampled page governs.",
+          "evidence": [
+            "report.json#pages.http.headers"
+          ]
+        },
+        {
+          "id": "security.cookies",
+          "label": "Secure cookie configuration",
+          "maxPoints": 2,
+          "points": 1,
+          "status": "partial",
+          "reason": "Only attributes of observed cookies are reviewed. Full requires Secure, HttpOnly and explicit Lax/Strict on all; partial means mixed protections. No names/values or complete consent/tracking audit are published.",
+          "evidence": [
+            "report.json#pages.http.cookies"
+          ]
+        },
+        {
+          "id": "security.mixed-content",
+          "label": "No mixed HTTP/HTTPS content",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Browser and sampled-page evidence. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "security.version-exposure",
+          "label": "No unnecessary software/version exposure",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "Reviewed the captured response Server/X-Powered-By fields and generator metadata on all three representative core documents. No software product/version disclosure was established in this specific header/metadata sample. Full criterion credit is sample-bounded and does not assert a modern, patched or vulnerability-free stack.",
+          "evidence": [
+            "report.json#pages.http.headers",
+            "completion-page-checks-2026-10-21.json#records.dom.generator"
+          ]
+        },
+        {
+          "id": "security.configuration-exposure",
+          "label": "No obvious sensitive configuration exposure",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Passive eligible-page review only; no guessed sensitive paths. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "security.tracking",
+          "label": "Third-party tracking and technical privacy restraint",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Request inventory plus tracking classification. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "performance",
+      "label": "Performance",
+      "maxPoints": 15,
+      "points": 3,
+      "assessedPoints": 15,
+      "rows": [
+        {
+          "id": "performance.lcp",
+          "label": "Largest Contentful Paint",
+          "maxPoints": 4,
+          "points": 0,
+          "status": "zero",
+          "reason": "Worst page/device median lab LCP 15065 ms; full/half limits 2500/4000 ms. Not field p75.",
+          "evidence": [
+            "report.json#pages.performance"
+          ]
+        },
+        {
+          "id": "performance.responsiveness",
+          "label": "Responsiveness",
+          "maxPoints": 3,
+          "points": 0,
+          "status": "zero",
+          "reason": "Worst median lab TBT 4962 ms; full/half limits 200/600 ms. Explicit lab proxy, not field INP.",
+          "evidence": [
+            "report.json#pages.performance"
+          ]
+        },
+        {
+          "id": "performance.cls",
+          "label": "Cumulative Layout Shift",
+          "maxPoints": 3,
+          "points": 3,
+          "status": "full",
+          "reason": "Worst median lab CLS 0.0108; full/half limits 0.1/0.25. Sampled navigation only.",
+          "evidence": [
+            "report.json#pages.performance"
+          ]
+        },
+        {
+          "id": "performance.server-content",
+          "label": "Server response and first content",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "Worst median FCP 6798 ms and document response audit 99 ms. Full 1800/800; half 3000/1800. Response excludes connection/redirect time.",
+          "evidence": [
+            "report.json#pages.performance"
+          ]
+        },
+        {
+          "id": "performance.resources",
+          "label": "Resource and page-weight efficiency",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "Worst median transfer 20564132 bytes, 338 requests. Full decimal 2MB/80; half 4MB/150.",
+          "evidence": [
+            "report.json#pages.performance"
+          ]
+        },
+        {
+          "id": "performance.consistency",
+          "label": "Performance consistency",
+          "maxPoints": 1,
+          "points": 0,
+          "status": "zero",
+          "reason": "Largest repeated within-page/device max/min LCP ratio 2.26; full/half 1.5/2. Operator network sample only.",
+          "evidence": [
+            "report.json#pages.performance"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "accessibility",
+      "label": "Accessibility",
+      "maxPoints": 15,
+      "points": 0,
+      "assessedPoints": 8,
+      "rows": [
+        {
+          "id": "accessibility.wcag",
+          "label": "Verified WCAG 2.2 issue set",
+          "maxPoints": 3,
+          "points": 0,
+          "status": "zero",
+          "reason": "The normal-browser sample corroborates the unnamed shared search-category select. The verified programmatic-name defect prevents sampled WCAG issue-set credit. Counts alone were not converted into a compliance percentage and no complete WCAG claim is made.",
+          "evidence": [
+            "manual-followup.json#records.homepage.axe.select-name",
+            "manual-followup.json#records.homepage.dom.forms"
+          ]
+        },
+        {
+          "id": "accessibility.contrast",
+          "label": "Color contrast",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "Reviewed the repeated grey text in the retained core-page style findings and normal screenshots. #afb1b2 on white at 12px regular is about 2.15:1; 9–11 findings recur on each role. These repeated low-contrast text styles across homepage, services and contact make the sampled defect systemic.",
+          "evidence": [
+            "manual-followup.json#records.axe",
+            "independent-homepage-390.png"
+          ]
+        },
+        {
+          "id": "accessibility.alt",
+          "label": "Image alternative text",
+          "maxPoints": 1,
+          "points": 0,
+          "status": "zero",
+          "reason": "The representative homepage repeatedly displays consultation/news graphics without alt attributes or accessible equivalents in the captured image inventory; eleven image-alt findings corroborate these omissions. Missing-alternative branding images recur on service/contact pages as well. The repeated non-text omissions justify zero for the sampled alternative-text criterion; decorative placeholders alone are not the basis.",
+          "evidence": [
+            "completion-page-checks-2026-10-21.json#records.dom.images",
+            "completion-page-checks-2026-10-21.json#records.axe"
+          ]
+        },
+        {
+          "id": "accessibility.form-access",
+          "label": "Form labels, instructions and errors",
+          "maxPoints": 2,
+          "points": 0,
+          "status": "zero",
+          "reason": "The shared advanced-search rubrique select has no associated label or aria-label in the normal-browser form inventory. Corresponding select-name checks confirm the absence of alternative naming. Despite many correctly labelled contact controls, this concrete sampled form-name defect prevents full issue-set credit; form validation/errors were not exercised.",
+          "evidence": [
+            "manual-followup.json#records.homepage.dom.forms",
+            "manual-followup.json#records.contact.axe.select-name"
+          ]
+        },
+        {
+          "id": "accessibility.keyboard",
+          "label": "Keyboard navigation",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual keyboard path notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.semantics",
+          "label": "Semantic HTML and headings",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: DOM and heading outline. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.focus",
+          "label": "Focus indicators",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual interaction notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.language-aria",
+          "label": "Correct page language and ARIA usage",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Language and ARIA findings with manual review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.zoom",
+          "label": "Zoom, reflow and orientation",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual responsive accessibility review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "accessibility.complete-process",
+          "label": "Complete-process accessibility check",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Selected citizen journey notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "reliability",
+      "label": "Reliability and Availability",
+      "maxPoints": 10,
+      "points": 0,
+      "assessedPoints": 0,
+      "rows": [
+        {
+          "id": "reliability.uptime",
+          "label": "Uptime percentage",
+          "maxPoints": 4,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Complete 28-day monitor log with observation gaps. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "reliability.failures",
+          "label": "HTTP/server failure rate",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Status and timeout history. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "reliability.response-stability",
+          "label": "Response-time stability",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Median, p90 and p95 response times. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "reliability.connection-continuity",
+          "label": "DNS, TLS and redirect continuity",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Connection-chain events over time. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "reliability.endpoints",
+          "label": "Critical endpoint consistency",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Home and selected service endpoint history. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mobile",
+      "label": "Mobile Usability and Citizen Journeys",
+      "maxPoints": 15,
+      "points": 3,
+      "assessedPoints": 3,
+      "rows": [
+        {
+          "id": "mobile.reflow",
+          "label": "Responsive design and reflow",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Desktop and mobile screenshots. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "mobile.touch",
+          "label": "Mobile readability and touch targets",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual viewport review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "mobile.navigation",
+          "label": "Navigation and information architecture",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Task walkthrough notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "mobile.mobile-forms",
+          "label": "Forms usable on mobile",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "Manually reviewed the fresh 28 October full-page screenshots at 320/390/844 CSS px with the field geometry/type records. The contact form shows readable persistent labels, recipient/person-type controls, an email input, message area, attachment/CAPTCHA entries and submit control within each tested viewport. Radio-target spacing and completion are separate checks. Credit is limited to the sampled pre-submission mobile interface. No data was entered, file uploaded, CAPTCHA solved, form submitted, physical keyboard certified, error recovery tested or service completed.",
+          "evidence": [
+            "mobile-form-review-2026-10-28.json",
+            "mobile-form-320-2026-10-28.png",
+            "mobile-form-390-2026-10-28.png",
+            "mobile-form-844-2026-10-28.png"
+          ]
+        },
+        {
+          "id": "mobile.journey",
+          "label": "Citizen-journey task success",
+          "maxPoints": 4,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Standard task protocol. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "mobile.interface",
+          "label": "Interface consistency",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "Compared the retained normal-browser homepage and declared contact/service/institutional screenshots and DOM. The same identifiable ministry header, primary navigation placement and visual language persist across the sampled roles. Credit is for interface consistency only; separate readability, form, language and service-success defects are not excused. Current blocked or incomplete follow-ups do not replace the retained rendered evidence.",
+          "evidence": [
+            "manual-followup.json#records",
+            "independent-homepage-390.png"
+          ]
+        },
+        {
+          "id": "mobile.recovery",
+          "label": "Errors, recovery and contextual help",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Journey and form notes. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "content",
+      "label": "Content, Public Services and Trust",
+      "maxPoints": 15,
+      "points": 5,
+      "assessedPoints": 5,
+      "rows": [
+        {
+          "id": "content.identity",
+          "label": "Official identity and domain ownership clear",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "The May 2026 Turkish Ministry of Trade government directory independently links the sampled ministry domain. Full directory pages, actual PDF hyperlink targets and retained ministry identity were reviewed. This satisfies the frozen independent-government-link criterion; it does not certify legal registration, current availability or a complete evaluation. Distinct legacy domains were not treated as equivalent.",
+          "evidence": [
+            "government-directory-review-2026-10-28.json",
+            "turkiye-trade-algeria-may-2026.pdf",
+            "directory-layout.xml"
+          ]
+        },
+        {
+          "id": "content.mission",
+          "label": "Ministry mission and organization available",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: About and organization pages. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "content.service-list",
+          "label": "Public services clearly listed",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "The reviewed Services Numériques page contains a structured directory with sector/operator, service name, purpose and destination URL, including MARKABATIDZ, TASSAREEH and Naftal services. Credit concerns named service-directory content only; the external platforms and transactions were not tested.",
+          "evidence": [
+            "manual-followup.json#records.service-information.dom.text",
+            "manual-followup.json#records.service-information.dom.links"
+          ]
+        },
+        {
+          "id": "content.procedures",
+          "label": "Procedures and eligibility explained",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Procedure pages or documents. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "content.documents",
+          "label": "Required documents, forms and instructions available",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Forms, PDFs and instructions. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "content.service-function",
+          "label": "Service links/forms functional",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Non-destructive manual click-through tests. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "content.contact",
+          "label": "Contact or feedback channel available",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "The captured contact page supplies a ministry postal address and telephone numbers plus an addressed contact form with recipient, name, email and message fields. No message, upload or captcha was submitted and delivery is not certified.",
+          "evidence": [
+            "manual-followup.json#records.contact.dom.text",
+            "manual-followup.json#records.contact.dom.forms"
+          ]
+        },
+        {
+          "id": "content.multilingual",
+          "label": "Useful multilingual content where applicable",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Arabic, French, Tamazight and English review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "content.dates",
+          "label": "Publication and update dates available",
+          "maxPoints": 1,
+          "points": 1,
+          "status": "full",
+          "reason": "Homepage news and project items display explicit dates, including the 20 October 2026 item. Dates establish displayed publication dating, not complete content accuracy or currency. The legacy 2019 footer copyright is not treated as a news date.",
+          "evidence": [
+            "manual-followup.json#records.homepage.dom.text"
+          ]
+        },
+        {
+          "id": "content.clarity",
+          "label": "Content clarity and cross-page consistency",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual sample review. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "technical",
+      "label": "Technical Quality and Findability",
+      "maxPoints": 10,
+      "points": 2.5,
+      "assessedPoints": 4,
+      "rows": [
+        {
+          "id": "technical.links",
+          "label": "No significant broken internal links",
+          "maxPoints": 2,
+          "points": 2,
+          "status": "full",
+          "reason": "Manually checked the declared bounded set of three retained core destinations: homepage and the two sampled service/contact/institution/news routes. The two inner destinations are actual cross-page anchors in another retained representative document, not inferred paths or self-fragment links; their destination captures returned HTTP 200 and rendered the expected page role. Full credit is limited to this explicit three-destination set. It is not an exhaustive crawl, a current-availability claim or a certification of downstream portals and form delivery.",
+          "evidence": [
+            "completion-page-checks-2026-10-21.json#records.dom.links",
+            "manual-followup.json#records.dom.links",
+            "report.json#pages"
+          ]
+        },
+        {
+          "id": "technical.broken-resources",
+          "label": "No broken images/resources",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Observed browser response failures. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.metadata",
+          "label": "Meaningful page titles and metadata",
+          "maxPoints": 1,
+          "points": 0,
+          "status": "zero",
+          "reason": "All three representative captured roles reuse exactly the same generic ministry title and have empty descriptions. Contact and service tasks cannot be distinguished through their title/summary metadata. Zero applies to this repeated sample-wide metadata failure, not to the ministry website as a whole.",
+          "evidence": [
+            "completion-page-checks-2026-10-21.json#records"
+          ]
+        },
+        {
+          "id": "technical.crawlability",
+          "label": "Sitemap/crawlability configuration",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: robots.txt and sitemap.xml observations. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.canonical",
+          "label": "Clean URLs, canonicalization and redirects",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Declared URL sample, canonical and redirects. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.site-search",
+          "label": "Functional site search and discoverability",
+          "maxPoints": 2,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Manual search task, not mere input presence. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.obsolete-technology",
+          "label": "No critically outdated public technology",
+          "maxPoints": 1,
+          "points": null,
+          "status": "unmeasured",
+          "reason": "Insufficient verified evidence for the complete criterion: Passive fingerprint plus verified support status. Untested steps and constrained observations remain unmeasured, not passed or failed.",
+          "evidence": [
+            "additional-protocol-v1.md",
+            "report.json#settings"
+          ]
+        },
+        {
+          "id": "technical.cross-page",
+          "label": "Cross-page technical consistency",
+          "maxPoints": 1,
+          "points": 0.5,
+          "status": "partial",
+          "reason": "Core pages retain the shared legacy ministry identity and navigation, but the contact content includes an unavailable embedded area. Partial technical consistency in the retained sample.",
+          "evidence": [
+            "manual-followup.json#records",
+            "independent-homepage-390.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "page": "homepage",
+      "profile": "mobile",
+      "lcp": 15065.110975,
+      "cls": 0.01078262262818185,
+      "tbt": 4655.999999999993,
+      "fcp": 6797.85098,
+      "ttfb": 67,
+      "transferBytes": 20564132,
+      "requests": 338,
+      "runs": 3,
+      "lcpMin": 13440.099,
+      "lcpMax": 15863.987040000002
+    },
+    {
+      "page": "homepage",
+      "profile": "desktop",
+      "lcp": 5758.426975000002,
+      "cls": 0.007379482534581793,
+      "tbt": 2172.5,
+      "fcp": 1890.7676250000002,
+      "ttfb": 78,
+      "transferBytes": 20562144,
+      "requests": 337,
+      "runs": 3,
+      "lcpMin": 3315.7387450000006,
+      "lcpMax": 7490.449375
+    },
+    {
+      "page": "service-information",
+      "profile": "mobile",
+      "lcp": 6401.47,
+      "cls": 0.009752453892027373,
+      "tbt": 4962,
+      "fcp": 5519.821000000001,
+      "ttfb": 68,
+      "transferBytes": 4328762,
+      "requests": 97,
+      "runs": 3,
+      "lcpMin": 6271.932000000001,
+      "lcpMax": 6481.318000000001
+    },
+    {
+      "page": "service-information",
+      "profile": "desktop",
+      "lcp": 1568.7559999999999,
+      "cls": 0.005935858898784679,
+      "tbt": 1126.6164999999994,
+      "fcp": 1317.5029999999995,
+      "ttfb": 71,
+      "transferBytes": 4327397,
+      "requests": 96,
+      "runs": 3,
+      "lcpMin": 1536.988,
+      "lcpMax": 1600.6470000000002
+    },
+    {
+      "page": "contact",
+      "profile": "mobile",
+      "lcp": 7440.2035,
+      "cls": 0.009752453892027373,
+      "tbt": 3649.5000000000036,
+      "fcp": 6074.281999999999,
+      "ttfb": 71,
+      "transferBytes": 4958186,
+      "requests": 159,
+      "runs": 3,
+      "lcpMin": 6757.082,
+      "lcpMax": 9396.801650000001
+    },
+    {
+      "page": "contact",
+      "profile": "desktop",
+      "lcp": 1540.1900000000003,
+      "cls": 0.005935858898784679,
+      "tbt": 816.1662499999995,
+      "fcp": 1329.1830000000002,
+      "ttfb": 99,
+      "transferBytes": 4998759,
+      "requests": 164,
+      "runs": 3,
+      "lcpMin": 1503.8149999999998,
+      "lcpMax": 2615.2531224999993
+    }
+  ],
+  "evidence": {
+    "httpRedirect": {
+      "url": "http://www.oilmines.gov.dz/",
+      "finalUrl": "https://www.oilmines.gov.dz/",
+      "status": 200,
+      "headers": {
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "cache-control": "no-store, no-cache, must-revalidate",
+        "content-security-policy": "frame-ancestors 'self'",
+        "x-frame-options": "SAMEORIGIN",
+        "strict-transport-security": "max-age=31536000â",
+        "content-type": "text/html; charset=UTF-8"
+      },
+      "cookies": [
+        {
+          "secure": true,
+          "httpOnly": true,
+          "sameSite": null,
+          "partitioned": false,
+          "domainScoped": false,
+          "pathPresent": true,
+          "persistent": false
+        },
+        {
+          "secure": true,
+          "httpOnly": true,
+          "sameSite": null,
+          "partitioned": false,
+          "domainScoped": false,
+          "pathPresent": true,
+          "persistent": false
+        },
+        {
+          "secure": false,
+          "httpOnly": false,
+          "sameSite": null,
+          "partitioned": false,
+          "domainScoped": true,
+          "pathPresent": true,
+          "persistent": false
+        }
+      ],
+      "tls": {
+        "protocol": "TLSv1.2",
+        "cipher": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "authorized": true,
+        "certificateExpiresAt": "2026-11-21T08:49:23.000Z",
+        "certificateNotBefore": "2026-08-23T08:49:24.000Z"
+      },
+      "bodyBytes": 155096,
+      "elapsedMs": 522.1315409999806,
+      "totalElapsedMs": 625.9569599999813,
+      "redirects": [
+        {
+          "url": "http://www.oilmines.gov.dz/",
+          "status": 302,
+          "location": "https://www.oilmines.gov.dz/",
+          "tls": null
+        }
+      ]
+    },
+    "http": [
+      {
+        "page": "homepage",
+        "url": "https://www.oilmines.gov.dz/",
+        "status": 200,
+        "headers": {
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "content-security-policy": "frame-ancestors 'self'",
+          "x-frame-options": "SAMEORIGIN",
+          "strict-transport-security": "max-age=31536000â",
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "cookies": [
+          {
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": false,
+            "pathPresent": true,
+            "persistent": false
+          },
+          {
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": false,
+            "pathPresent": true,
+            "persistent": false
+          },
+          {
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": true,
+            "pathPresent": true,
+            "persistent": false
+          }
+        ],
+        "tls": {
+          "protocol": "TLSv1.2",
+          "cipher": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+          "authorized": true,
+          "certificateExpiresAt": "2026-11-21T08:49:23.000Z",
+          "certificateNotBefore": "2026-08-23T08:49:24.000Z"
+        }
+      },
+      {
+        "page": "service-information",
+        "url": "https://www.oilmines.gov.dz/",
+        "status": 200,
+        "headers": {
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "content-security-policy": "frame-ancestors 'self'",
+          "x-frame-options": "SAMEORIGIN",
+          "strict-transport-security": "max-age=31536000â",
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "cookies": [
+          {
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": false,
+            "pathPresent": true,
+            "persistent": false
+          },
+          {
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": false,
+            "pathPresent": true,
+            "persistent": false
+          },
+          {
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": true,
+            "pathPresent": true,
+            "persistent": false
+          }
+        ],
+        "tls": {
+          "protocol": "TLSv1.2",
+          "cipher": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+          "authorized": true,
+          "certificateExpiresAt": "2026-11-21T08:49:23.000Z",
+          "certificateNotBefore": "2026-08-23T08:49:24.000Z"
+        }
+      },
+      {
+        "page": "contact",
+        "url": "https://www.oilmines.gov.dz/",
+        "status": 200,
+        "headers": {
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "content-security-policy": "frame-ancestors 'self'",
+          "x-frame-options": "SAMEORIGIN",
+          "strict-transport-security": "max-age=31536000â",
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "cookies": [
+          {
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": false,
+            "pathPresent": true,
+            "persistent": false
+          },
+          {
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": false,
+            "pathPresent": true,
+            "persistent": false
+          },
+          {
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": null,
+            "partitioned": false,
+            "domainScoped": true,
+            "pathPresent": true,
+            "persistent": false
+          }
+        ],
+        "tls": {
+          "protocol": "TLSv1.2",
+          "cipher": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+          "authorized": true,
+          "certificateExpiresAt": "2026-11-21T08:49:23.000Z",
+          "certificateNotBefore": "2026-08-23T08:49:24.000Z"
+        }
+      }
+    ],
+    "accessibility": [],
+    "manual": {
+      "scope": "Implementing-evaluator review limited to row-specific evidence on 3 declared pages. Normal-browser dimensions and initial Tab paths are recorded; this is not a completed keyboard/menu or assistive-technology review.",
+      "confirmedDefects": [
+        "Useful digital-service directory is present",
+        "Label the shared search-category selector",
+        "Clarify legacy institutional branding"
+      ],
+      "limits": [
+        "Independent review pending",
+        "No submission, field INP or completed citizen-service claim",
+        "28-day multi-network reliability, full TLS enumeration and comprehensive assistive-technology review remain unmeasured"
+      ]
+    },
+    "artifactHashes": [
+      {
+        "artifact": "hydrocarbons-discovery.json",
+        "sha256": "5a04bb334f7525595a2c15a8663341b964a369632b1b3ad8e7d80ed0c87907c1"
+      },
+      {
+        "artifact": "independent-contact-320.png",
+        "sha256": "95d139f629f3298f38bf26cee170525f0dc6b02d00c93c867bc60fe82d589f85"
+      },
+      {
+        "artifact": "independent-contact-390.png",
+        "sha256": "e990cdabb12cc3714b0e73b3ad872a2ea0709a674dcaed10a5de4f5697372c24"
+      },
+      {
+        "artifact": "independent-contact-844.png",
+        "sha256": "9185dfb8fa0da67ed8eaa9cdf197504a9f648661a38b0373f377d06d5c4cbd6a"
+      },
+      {
+        "artifact": "independent-homepage-320.png",
+        "sha256": "9a775c260b35ebefaaf81570286175c6a436921eced1aa64544f280786f2f9f5"
+      },
+      {
+        "artifact": "independent-homepage-390.png",
+        "sha256": "6461020f7404490c233e3b045cd38b33607f586bf13569a78535786d0bff3fc0"
+      },
+      {
+        "artifact": "independent-homepage-844.png",
+        "sha256": "b6d4e9dff3d5759cd70ca4d1ba1a1962e7ab81ee6d741a93adb630b91841e099"
+      },
+      {
+        "artifact": "independent-service-information-320.png",
+        "sha256": "7c9ff1f3ac54c2d805b33e898825806ea11c198fdfbb082349269a8d9fa46fb5"
+      },
+      {
+        "artifact": "independent-service-information-390.png",
+        "sha256": "5e9bc4060b33fa84852212f624a84bc158ed5f60d10ea5a834a06499d6909a3f"
+      },
+      {
+        "artifact": "independent-service-information-844.png",
+        "sha256": "8cb01f9ffd7e3d6212742bd87e1a9c314673c70b137fcfbf01086dba5bf21211"
+      },
+      {
+        "artifact": "manual-followup.json",
+        "sha256": "8c2761075cc6d4047057c9ed6360fb659954556471805c388ad6727018700308"
+      },
+      {
+        "artifact": "page-1/desktop-lighthouse-1.json",
+        "sha256": "a7e0d75952569e27de9aea6f0e8a623dd70bf6ab6592e8a0088ed0962b50881f"
+      },
+      {
+        "artifact": "page-1/desktop-lighthouse-2.json",
+        "sha256": "a536b9c4e92e45e5313cfe3e4bf775edd98fbbf05b76a08c969560ba487afc69"
+      },
+      {
+        "artifact": "page-1/desktop-lighthouse-3.json",
+        "sha256": "65c4c5909439f927154d7c3345f3192bf21c0a39178cfb755c0fafbe05cf3cc8"
+      },
+      {
+        "artifact": "page-1/mobile-lighthouse-1.json",
+        "sha256": "0f52a7a16332886179e9d957a75757638486b699ff3624c6495ff63590567db7"
+      },
+      {
+        "artifact": "page-1/mobile-lighthouse-2.json",
+        "sha256": "c684080b4e35707a1ea6ce3087c2aea2986ccf900f531847ba65aaad068e8a60"
+      },
+      {
+        "artifact": "page-1/mobile-lighthouse-3.json",
+        "sha256": "5ae95361eb805c727fa3f242ac2fa0a1d296bfb116dff171049e492a8ce3a568"
+      },
+      {
+        "artifact": "page-1/page.json",
+        "sha256": "a8ef2345033583995083c6b68119e252e5b9e64ca35813ad44aeb2cf857fb58d"
+      },
+      {
+        "artifact": "page-2/desktop-lighthouse-1.json",
+        "sha256": "c68bedd35f3e67736115f553cc2f6535e4846a3ac6d376c4dd21674416c259bd"
+      },
+      {
+        "artifact": "page-2/desktop-lighthouse-2.json",
+        "sha256": "838c954db1ff2662b0e4ca83485d3cba450dde8328e98d6d021698efc2ef321c"
+      },
+      {
+        "artifact": "page-2/desktop-lighthouse-3.json",
+        "sha256": "5d22012c52cd62cc1985bea61fa540a0b9fa3f614d62619959637942f59571d2"
+      },
+      {
+        "artifact": "page-2/mobile-lighthouse-1.json",
+        "sha256": "4e7e2184878a5323af4b3ba00e45cc5798abe78d28a8fee1f7e5a40eb19552ff"
+      },
+      {
+        "artifact": "page-2/mobile-lighthouse-2.json",
+        "sha256": "a2b6fe6fc8f7e49cb67388dbeaad50e5e132257c8d37171b8ddd7fb323c84e30"
+      },
+      {
+        "artifact": "page-2/mobile-lighthouse-3.json",
+        "sha256": "a6ee3fa2086d3bf24b69fee6fea8cb501dbcfed7d683f51e2aa571959f1c30be"
+      },
+      {
+        "artifact": "page-2/page.json",
+        "sha256": "0c601223eb931fc35ae2f11fb11216b0b94bce155be12709f3c329180029e46f"
+      },
+      {
+        "artifact": "page-3/desktop-lighthouse-1.json",
+        "sha256": "e24e35aeb01c56aea8a1f9c86330c3ee8248ed7aa061dc9cde3f784748c7a285"
+      },
+      {
+        "artifact": "page-3/desktop-lighthouse-2.json",
+        "sha256": "655178333731f43b8b2918e1c229d925eef73e641e9c78a871a256bf8400e10e"
+      },
+      {
+        "artifact": "page-3/desktop-lighthouse-3.json",
+        "sha256": "dfd383d324da892280da1bdbd6f0bae429615339642178d5e4ddf7c6b1aeb37e"
+      },
+      {
+        "artifact": "page-3/mobile-lighthouse-1.json",
+        "sha256": "05bb679c2df8362df4c18f451aedd362c40bb5e8db98412c8ec73bbe56b7262c"
+      },
+      {
+        "artifact": "page-3/mobile-lighthouse-2.json",
+        "sha256": "7786ef85815eeaf85d526919578aa10cc7eca42512a9ad3a0262dfe703562094"
+      },
+      {
+        "artifact": "page-3/mobile-lighthouse-3.json",
+        "sha256": "6331eed73c728cb07bb78fe1a1ae5da7bfb047b5a3cf2091e3fd7dae18ccc4e7"
+      },
+      {
+        "artifact": "page-3/page.json",
+        "sha256": "14005d791bb51b6a1d05f879c975a32d4828ac696442c182852870f88d425199"
+      },
+      {
+        "artifact": "report.json",
+        "sha256": "264117a53f0bd0dedcd52f215114fbad9e57a22a71fe0a2fa3a5d1ec62a63bb5"
+      },
+      {
+        "artifact": "review-decisions.json",
+        "sha256": "cf2be9fe71a683303d889d6cfa0ca38654887cc3e166bc6261b13feee67f6ec7"
+      },
+      {
+        "artifact": "trust-validation.json",
+        "sha256": "a3af806e4aa1f01f7a854bdde2cfe9bfcbe6309a6bdd69aaf630d24d9da4346d"
+      },
+      {
+        "artifact": "completion-review-decisions-2026-10-21.json",
+        "sha256": "191e2dfa9f49ddae7512d37d4ad7b911f26748d03c5711abf5b17ac96e62cd46"
+      },
+      {
+        "artifact": "completion-page-checks-2026-10-21.json",
+        "sha256": "7a124f63a5aa3003d91141feb9c037f8c2c8d4b7f3d475909e9d2ace166c3746"
+      },
+      {
+        "artifact": "completion-page-checks-attempt-1-2026-10-21.json",
+        "sha256": "48355b8c7ac6ac8ec54916f86c5df8a1c30a536fc1e8ee72c1bf98345979801d"
+      },
+      {
+        "artifact": "completion-search-check-2026-10-21.json",
+        "sha256": "4a27ea86176518c00d3101bb66b8a03b84f28d145e6b1a5fd59b1b41ff0b7daf"
+      },
+      {
+        "artifact": "completion-search-check-attempt-1-2026-10-21.json",
+        "sha256": "4b08196c63b4a79d896577090b5bf4b5856b0959f77da132ec6673cf8a7e5288"
+      },
+      {
+        "artifact": "completion-homepage-390.png",
+        "sha256": "04267b0d437fbeb918c7546caed4741eb85487cf0c81910a36762a96821da6d8"
+      },
+      {
+        "artifact": "coverage-supplementary-2026-10-26.json",
+        "sha256": "3837be1f1eb04dc50db0c453f36359c2740de9969c7eeab04d5a3c4c0e41968c"
+      },
+      {
+        "artifact": "completion-page-checks-2026-10-21.json",
+        "sha256": "7a124f63a5aa3003d91141feb9c037f8c2c8d4b7f3d475909e9d2ace166c3746"
+      },
+      {
+        "artifact": "manual-followup.json",
+        "sha256": "8c2761075cc6d4047057c9ed6360fb659954556471805c388ad6727018700308"
+      },
+      {
+        "artifact": "report.json",
+        "sha256": "264117a53f0bd0dedcd52f215114fbad9e57a22a71fe0a2fa3a5d1ec62a63bb5"
+      },
+      {
+        "artifact": "mobile-form-review-2026-10-28.json",
+        "sha256": "939e4195180d852c7cb57a24f5576dfa000e12660a1c031c16976027d579be6b"
+      },
+      {
+        "artifact": "mobile-form-320-2026-10-28.png",
+        "sha256": "8987c0b81ab0d8af8e22ec790a5a09f290cdcc7d858f3029ff6ee1352e610276"
+      },
+      {
+        "artifact": "mobile-form-390-2026-10-28.png",
+        "sha256": "17cd3fd6f9c5bc78350fa35ad8c7aa7ca0140b21f36286f2355a64ea52c9f9ea"
+      },
+      {
+        "artifact": "mobile-form-844-2026-10-28.png",
+        "sha256": "219cabd49eb8fe141ef4d9adfe65a9c8b92648e23db1c0e6c454909763d215e8"
+      },
+      {
+        "artifact": "government-directory-review-2026-10-28.json",
+        "sha256": "902c2067b879587c06d2bac1cd6cf16d22b67a67c59d8ba203fb7758e726f7ac"
+      },
+      {
+        "artifact": "turkiye-trade-algeria-may-2026.pdf",
+        "sha256": "581e5baddad93a8daa1c041aca146dc67eb80d628e746c153cd7f798b9b591f4"
+      },
+      {
+        "artifact": "directory-layout.xml",
+        "sha256": "03c75a7fb3a4de7ae0e48bb35f7e9b5be2ad1afcda721bac46d92e7241de26c5"
+      },
+      {
+        "artifact": "coverage-review-decisions-2026-10-26.json",
+        "sha256": "b81fa244f78d899dbbc63277ed750ecdd22ba8a00148d9ac7a85f480935dc56c"
+      }
+    ],
+    "scope": "Hashes identify private raw artifacts; hashes alone do not establish correctness. Published facts were reviewed by the implementing evaluator. Independent review pending. Raw DOM, screenshots and complete tool reports are not public."
+  },
+  "completionReview": {
+    "reviewedAt": "2026-10-28T11:54:41.944Z",
+    "changedCriteria": 10,
+    "additionalAssessedPoints": 14,
+    "representativeFollowUpPages": 3,
+    "declaredPages": 3,
+    "remainingCriteria": 31,
+    "remainingPoints": 52,
+    "protocol": "/evaluations/coverage-review-2026-10-26.md",
+    "record": "/evaluations/coverage-review-2026-10-26.json"
+  }
+}

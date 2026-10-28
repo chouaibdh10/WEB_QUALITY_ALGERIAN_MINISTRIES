@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "reviewedAt": "2026-10-21T08:47:33.672117+00:00",
+  "scope": "French and Arabic source research for two unresolved historical project entries; website identity verification only. No numerical score, uptime conclusion or assertion that no website exists.",
+  "method": [
+    "Check dated primary institutional announcements and the official gazette.",
+    "Trace agency and government-directory links; distinguish historical labels from current endorsements.",
+    "Separate search-index content, direct retrieval and independent ownership evidence.",
+    "Exclude shared ministry hosts and similarly named institutions from substitute scoring."
+  ],
+  "limitations": [
+    "Search results are not exhaustive proof of absence.",
+    "Indexed candidate content can be stale or self-asserted.",
+    "Collector retrieval and DNS failures are not website availability measurements.",
+    "No contact form, email or private system was used to request confirmation."
+  ],
+  "entries": [
+    {
+      "id": "mines-mining-industries",
+      "domainStatus": "Unverified",
+      "institutionStatus": "Confirmed in April 2026 primary reporting",
+      "score": null,
+      "note": "The Mines portfolio is confirmed, but no current dedicated official website was independently established. mm.edihosts.com is a credible historical candidate with indexed 2026 updates, rather than a proven commercial preview. Its current authorization remains unverified. oilmines.gov.dz now identifies itself as Hydrocarbons and is not substituted for Mines.",
+      "findings": [
+        {
+          "source": "https://news.radioalgerie.dz/fr/node/83540",
+          "date": "2026-04-11",
+          "finding": "National public radio reports Mourad Hanifi taking office as minister of Mines and Mining Industries. This verifies the portfolio and officeholder at that date, not a dedicated domain."
+        },
+        {
+          "source": "https://www.oilmines.gov.dz/?article=-883",
+          "date": "2026-04-23",
+          "finding": "The ministry explicitly announces renaming its official platforms to Ministry of Hydrocarbons. The legacy page title and remaining Mines navigation do not establish a separate Mines website."
+        },
+        {
+          "source": "https://pubs.usgs.gov/myb/vol3/2019/myb3-2019-africa-middle-east.pdf",
+          "accessMode": "Search-index extract; direct document retrieval returned HTTP 403 in the research tool",
+          "finding": "USGS references attribute 2020 ministry publications to mm.edihosts.com, accessed in February 2021. This provides historical provenance, not proof of current authorization."
+        },
+        {
+          "source": "https://mm.edihosts.com/",
+          "accessMode": "Search-index extract; direct research-tool retrieval failed with 502; local resolver could not resolve the name",
+          "finding": "Indexed content identifies Hanifi, April 2026 news, mining agencies and a contact email at mm.gov.dz. These are candidate self-claims, not independent current endorsement. Retrieval errors are collector observations, not a national outage finding."
+        },
+        {
+          "source": "https://asga.dz/",
+          "finding": "The geological agency header names the Mines ministry. Its Ministry navigation leads to an internal agency news archive, not an independently verified dedicated ministry domain."
+        },
+        {
+          "source": "https://www.anam.gov.dz/contact/index.php?lang=_fr&lien=3",
+          "finding": "The displayed notice locating a newly created ministry at ANAM is dated 29 June 2020. Legacy directory links cannot establish the dedicated 2026 domain."
+        },
+        {
+          "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+          "finding": "The directory retains older combined Industry and Mines and Energy labels. Those historical associations do not verify a separate current Mines host."
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://mm.edihosts.com/",
+          "decision": "Retain as candidate; current official authorization unverified",
+          "missingEvidence": "A current government or agency link explicitly endorsing this host, or a verified official-domain redirect."
+        },
+        {
+          "url": "https://mm.gov.dz/",
+          "decision": "Unverified lead from candidate contact email; not assumed to be a website",
+          "observation": "Both bare and www HTTPS variants were inaccessible through the research tool."
+        },
+        {
+          "url": "https://www.oilmines.gov.dz/",
+          "decision": "Excluded as a separate Mines target; official renaming notice identifies Hydrocarbons."
+        },
+        {
+          "url": "https://asga.dz/index.php/ministere/",
+          "decision": "Agency archive, not the dedicated ministry website."
+        },
+        {
+          "url": "https://anam.gov.dz/",
+          "decision": "Mining agency, not the ministry; no substitute evaluation."
+        }
+      ],
+      "correction": "The earlier commercial-preview description of mm.edihosts.com was not substantiated and is withdrawn. Commercial hosting does not itself establish unofficial status."
+    },
+    {
+      "id": "state-services-inspectorate",
+      "domainStatus": "Unverified",
+      "institutionStatus": "Presidential inspection body confirmed by primary historical text; current ministerial representation requires revalidation",
+      "score": null,
+      "note": "The presidential State Services and Local Authorities Inspectorate is identifiable, but a dedicated public website remains unverified. APS reports Brahim Merad moving to Interior on 13 October 2026. That change does not establish dissolution or a successor. Presidency, mediator and other ministries’ inspection pages are not substituted.",
+      "findings": [
+        {
+          "source": "https://www.joradp.dz/FTP/jo-francais/2021/F2021098.pdf",
+          "date": "2021-12-28",
+          "location": "Journal officiel 98, page 5, decree 21-540, article 2",
+          "accessMode": "Official PDF and independently retrieved search-index text; the PDF text extractor did not find the decree string",
+          "finding": "The text identifies the General Inspectorate of State Services and Local Authorities as an inspection body under the authority of the President. This distinguishes it from sectoral inspectorates and does not by itself establish its current website."
+        },
+        {
+          "source": "https://www.aps.dz/fr/presidence-news/mv6vgi1m-le-president-de-la-republique-nomme-brahim-merad-ministre-d-etat-ministre-de-l-interieur-et-des-collectivites-locales-et-said-sayoud-ministre-des-transports",
+          "date": "2026-10-13",
+          "finding": "APS relays the presidential announcement appointing Brahim Merad to Interior and Local Authorities. An older entry naming him inspectorate minister is insufficient for current portfolio verification. The announcement does not prove that the inspection body was abolished."
+        },
+        {
+          "source": "https://www.aps.dz/fr/presidence-news/mv6vepz5-",
+          "date": "2026-10-13",
+          "finding": "The same-day presidential reception report describes Merad in the inspectorate role before his Interior appointment. This corroborates the identity transition, not a dedicated website."
+        },
+        {
+          "source": "https://www.mfa.gov.dz/fr/miscellaneous/useful-links",
+          "finding": "The directory links the Presidency and mediator as separate institutions. Neither is evidence of a dedicated inspectorate website."
+        },
+        {
+          "source": "https://www.mjustice.gov.dz/ar/inspections-2/",
+          "finding": "This page describes Justice-sector inspectorates, so it is excluded as an identity mismatch."
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://www.el-mouradia.dz/",
+          "decision": "Parent Presidency host, not established as a dedicated inspectorate website; research-tool timeout is not an outage conclusion."
+        },
+        {
+          "url": "https://mediateur.el-mouradia.dz/",
+          "decision": "Mediator institution, not the inspectorate; excluded."
+        },
+        {
+          "url": "https://www.mjustice.gov.dz/ar/inspections-2/",
+          "decision": "Different sectoral inspection body; excluded."
+        }
+      ],
+      "currentScopeCaveat": "The 34-entry project corpus is historical. A change in officeholder does not justify deleting this entry or claiming the exact current cabinet composition."
+    }
+  ],
+  "publicDirectoryDecision": {
+    "decidedAt": "2026-10-21T08:53:05.820484+00:00",
+    "action": "Exclude both entries from the public directory at the user’s request; retain this historical research archive.",
+    "reason": "Dedicated official websites remain unverified; exclusion does not assert that the institutions or their websites do not exist."
+  }
+}

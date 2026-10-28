@@ -1,0 +1,1035 @@
+{
+  "national-education": {
+    "title": "National Education",
+    "reviewedAt": "2026-10-20T16:49:28.801Z",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independently reviewed Foreign Affairs government directory links education.gov.dz; the captured trusted redirect and ministry identity agree. This verifies host association, not endorsement.",
+        "evidence": [
+          "national-education-discovery.json#ownership",
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The reviewed contact page has a named enquiry form and the shared footer supplies a postal address, telephone numbers and ministry email. Delivery was not submitted or certified.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.forms",
+          "manual-followup.json#records.contact.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage and competitions sample show explicit publication dates, including the 19 October 2026 news item. This credits displayed dating, not accuracy or complete currency of the website.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.clarity": {
+        "points": 0.5,
+        "reason": "The contact channel is clearly labelled in Arabic, but the declared competitions page is dominated by recent-news and archive widgets rather than task-specific competition instructions. The reviewed sample is only partially clear for the intended role.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "Reviewed DOM and normal-browser axe corroborate unnamed previous/next carousel buttons (.owl-prev and .owl-next): no text, aria-label, aria-labelledby or title. Repeated unnamed image links also occur. These concrete control-name failures prevent issue-set credit; this is not a complete WCAG audit.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.buttons",
+          "manual-followup.json#records.homepage.axe"
+        ]
+      },
+      "accessibility.contrast": {
+        "points": 1,
+        "reason": "Reviewed dated-news text is normal 14px #777777 on #ffffff, approximately 4.478:1, below 4.5:1. The repeated small-text defect earns partial sample credit; logos and unverified background images are not counted.",
+        "evidence": [
+          "manual-followup.json#records.homepage.axe.color-contrast",
+          "manual-followup.json#records.homepage.dom.colors"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Carousel controls lack accessible names",
+        "detail": "The normal-browser homepage review confirms unnamed previous/next controls. Name buttons programmatically and review the repeated unnamed image links."
+      },
+      {
+        "title": "Small-text contrast needs adjustment",
+        "detail": "Dated news links use #777777 on white at 14px normal weight, just below the 4.5:1 threshold. Darken these text styles."
+      },
+      {
+        "title": "Competitions page needs task-specific guidance",
+        "detail": "The declared competitions page shows recent-news and archive widgets; the sampled content does not establish clear competition instructions or a completed application journey."
+      }
+    ],
+    "notes": [
+      "No enquiry was submitted. Search, downloadable competition documents, multilingual equivalence and complete citizen-service delivery were not established."
+    ]
+  },
+  "moudjahidine-rights-holders": {
+    "title": "Moudjahidine and Rights Holders",
+    "reviewedAt": "2026-10-20T16:50:26.807Z",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "Reviewed service and organization pages publish a ministry email, physical address and telephone/fax numbers. This confirms an available contact channel, not response delivery or feedback resolution.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The captured homepage and news widgets show explicit 19 and 17 October 2026 publication dates. Date display is established; factual currency is not independently certified.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "The reviewed organization page visibly supplies an organizational-chart image and a short footer description about preserving national memory. Statutory mission details and an equivalent readable chart text were not established; partial information credit only.",
+        "evidence": [
+          "independent-institution-390.png",
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "Navigation explicitly lists complaints, records, formal-correction requests and membership-card services, but the declared services page itself has no detailed catalogue beyond navigation and news widgets. Destinations and service completion were not evaluated; partial listing credit only.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.service-information.dom.links"
+        ]
+      },
+      "content.clarity": {
+        "points": 0.5,
+        "reason": "Contact details and page titles are clear, while the services page is dominated by general news and the organization is image-based. The reviewed sample only partly supports task-specific understanding.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "independent-institution-390.png"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Service information needs a dedicated catalogue",
+        "detail": "The sampled services page relies on navigation labels and general news. Add task-specific service summaries, requirements and next steps."
+      },
+      {
+        "title": "Organization chart needs a readable text equivalent",
+        "detail": "The organization page supplies a detailed chart image that is small at mobile width. Provide an accessible text hierarchy alongside the chart."
+      }
+    ],
+    "notes": [
+      "Primary-domain ownership is not independently confirmed in this campaign. No external service destination, login, form submission or language equivalence was tested. Guarded navigation timeouts are retained separately from the successful normal-browser follow-up."
+    ]
+  },
+  "pharmaceutical-industry": {
+    "title": "Pharmaceutical Industry",
+    "reviewedAt": "2026-10-20T16:51:44.226Z",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "The reviewed contact page supplies a postal address, phone numbers, department-specific email addresses and a named enquiry form. No message was sent and response delivery is not established.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage publishes explicit dates including 17 and 13 October 2026. This credits visible publication dating, not an independent verification of the underlying events.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 2,
+        "reason": "The reviewed homepage and accreditation page explicitly distinguish pharmaceutical import, exploitation, wholesale distribution and manufacturing services, with named digital platforms. This is listing credit only; external platforms were not used.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.procedures": {
+        "points": 1,
+        "reason": "The accreditation page explains the administrative-file requirement and separates import, distribution, exploitation and manufacturing applications. Linked files, eligibility details and end-to-end submission were not tested, so procedural credit is partial.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "Normal DOM inspection confirms the linked ministry header image has no alt attribute and its enclosing link has no text, aria-label or title. The normal-browser axe issue set corroborates the unnamed image link; this concrete accessible-name failure prevents issue-set credit.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.links",
+          "manual-followup.json#records.service-information.axe"
+        ]
+      },
+      "accessibility.alt": {
+        "points": 0,
+        "reason": "The identity header is an informative linked image with no alt attribute or equivalent accessible link name in the reviewed DOM. Decorative-image exceptions do not apply to this ministry-identity link. This is a confirmed defect, not a claim about every image.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.links",
+          "manual-followup.json#records.service-information.axe.image-alt"
+        ]
+      },
+      "accessibility.contrast": {
+        "points": 1,
+        "reason": "Reviewed normal-browser findings identify 16px normal link text #008ed6 on white at about 3.59:1, below 4.5:1. Repeated text-link contrast defects receive partial credit; hidden/background-dependent candidates are not used as additional failures.",
+        "evidence": [
+          "manual-followup.json#records.homepage.axe.color-contrast",
+          "manual-followup.json#records.homepage.dom.colors"
+        ]
+      },
+      "mobile.reflow": {
+        "points": 1,
+        "reason": "The reviewed 390px initial homepage screenshot is covered by a large consent panel, with document width 730px at 320/390. The contact page has 14px overflow at 320, while the service page fits. This confirms partial sample reflow friction without asserting that covered content is unusable after consent.",
+        "evidence": [
+          "independent-homepage-390.png",
+          "manual-followup.json#records.viewports"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Initial mobile consent panel obscures the page",
+        "detail": "The untouched-consent mobile homepage capture shows a large consent panel over the content. Its lower content is clipped in the initial viewport. No consent was granted or dismissed in this read-only sample."
+      },
+      {
+        "title": "Reflow and accessible identity need attention",
+        "detail": "The normal 390px homepage reports a 730px document width, while the service page fits. The ministry header image link lacks alternative text and an accessible name."
+      },
+      {
+        "title": "Link contrast is below the small-text threshold",
+        "detail": "Normal-browser review reproduces blue #008ed6 links on white at approximately 3.59:1. Darken these text styles and distinguish links beyond color."
+      }
+    ],
+    "notes": [
+      "The captured homepage includes a privacy/consent explanation and a privacy contact. Availability of that text is recorded, but legal compliance, consent operation and tracking restraint were not certified.",
+      "The initial consent state was untouched. Offscreen or covered DOM content establishes information presence only, not successful task access.",
+      "External application portals and linked administrative files were not opened or submitted. Independent primary-domain confirmation remains pending."
+    ]
+  },
+  "tourism-handicrafts": {
+    "title": "Tourism and Handicrafts",
+    "reviewedAt": "2026-10-20T16:53:16.513Z",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independently reviewed Education government useful-links page lists the ministry host. Its trusted captured redirect and rendered Tourism and Handicrafts identity agree; directory association is not endorsement.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The contact page publishes a physical address, general email, named department emails and telephone numbers, plus a labelled enquiry form. Message delivery and response quality were not tested.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage shows explicit news/event publication dates including 27 and 15 September 2026. Visitor-counter update times are not treated as editorial update dates.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 2,
+        "reason": "The electronic-services sample names the public-service portal, crafts portal, tourism routes, promotion portal and training institutions with destination labels. This establishes a service listing only; external services were not visited or completed.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.service-information.dom.links"
+        ]
+      },
+      "content.procedures": {
+        "points": 1,
+        "reason": "The homepage explains the tourism-investment administrative/technical dossier routing and committee outcomes. It does not establish complete eligibility, detailed documents or time/cost requirements; partial procedural information only.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "accessibility.wcag": {
+        "points": 0,
+        "reason": "Normal DOM confirms the mobile menu button .vce-sandwich-menu-open-button has no visible text or aria-label; normal-browser axe corroborates no aria-labelledby or title. This primary navigation control-name defect prevents issue-set credit.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.buttons",
+          "manual-followup.json#records.homepage.axe"
+        ]
+      },
+      "accessibility.contrast": {
+        "points": 1,
+        "reason": "Reviewed normal-browser findings identify 13px normal white text on solid #2698e1 at about 3.15:1, below 4.5:1, and service-page text links below the same threshold. Logo/background-image candidates were not used; partial contrast credit only.",
+        "evidence": [
+          "manual-followup.json#records.homepage.axe.color-contrast",
+          "manual-followup.json#records.service-information.axe.color-contrast"
+        ]
+      },
+      "accessibility.semantics": {
+        "points": 0.5,
+        "reason": "The normal heading inventories are populated, but the homepage begins with h3 news headings and the contact page also lacks an h1. Guarded captures show no main landmark on home/services. Some structure exists, with meaningful hierarchy/landmark gaps.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.headings",
+          "manual-followup.json#records.contact.dom.headings",
+          "report.json#pages.observations.semanticLandmarks"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Name the mobile navigation control",
+        "detail": "The normal-browser menu button has no accessible name. Add a clear programmatic label and expose its expanded state."
+      },
+      {
+        "title": "Improve small-text contrast and page structure",
+        "detail": "The reviewed date text has approximately 3.15:1 contrast. The sampled homepage/contact heading outlines lack an h1; home/services captures also lack a main landmark."
+      }
+    ],
+    "notes": [
+      "Useful external portal names are recorded, but destinations, downloads, service completion and useful multilingual equivalence remain untested.",
+      "The declared service entry is an observed HTTP link that redirects to HTTPS. Redirect evidence, rather than an invented upgraded URL, is retained."
+    ]
+  },
+  "foreign-trade-export-promotion": {
+    "title": "Foreign Trade and Export Promotion",
+    "reviewedAt": "2026-10-20T16:55:48.821Z",
+    "rows": {
+      "accessibility.language-aria": {
+        "points": 0,
+        "reason": "All three normal-browser samples contain predominantly Arabic content, but the homepage/institution declare html lang=en and the complaints page declares lang=fr. This confirmed page-language mismatch affects screen-reader pronunciation; valid language syntax alone is not correctness.",
+        "evidence": [
+          "manual-followup.json#records.dom.lang",
+          "manual-followup.json#records.dom.text",
+          "report.json#pages.observations.lang"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "The duties page supplies substantive ministry responsibilities and a dated decree extract, but a complete organization/department structure was not established in the declared sample. Partial mission-and-organization credit only.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 2,
+        "reason": "The reviewed complaints page clearly lists five categories covering manufacturing imports, resale imports, imported services, exporters and technical issues. Listing credit does not establish submission or processing functionality.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.procedures": {
+        "points": 1,
+        "reason": "The complaints page describes authentication, identity, activity classification, supporting reason/attachments and receipt steps, but its introduction advertises six steps while the displayed process contains five. Eligibility, delivery and processing were not verified; partial procedural credit.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The duties sample explicitly dates the reproduced Official Gazette extract to 20 May 2026. Credit covers document dating only, not an independently verified publication/update history.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.clarity": {
+        "points": 0.5,
+        "reason": "The complaints categories and responsibilities are readable, but the six-step claim conflicts with the displayed five-step process, and technical language declarations conflict with the Arabic text. The sample has partial cross-page clarity.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.dom.lang"
+        ]
+      },
+      "technical.metadata": {
+        "points": 0.5,
+        "reason": "All three pages share the same generic ministry title despite different tasks; homepage/institution guarded observations have no description, while the complaints page has a generic ministry description. Metadata exists but is not task-specific across the sample.",
+        "evidence": [
+          "manual-followup.json#records.dom.title",
+          "report.json#pages.observations.description"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Correct the declared page language",
+        "detail": "Arabic sample pages declare English or French as their primary HTML language. Set the actual document language and mark inline language changes where needed."
+      },
+      {
+        "title": "Reconcile the complaints instructions",
+        "detail": "The complaints introduction advertises six steps, while the displayed process lists five. Make the instructions and progress labels agree."
+      },
+      {
+        "title": "Make page metadata task-specific",
+        "detail": "The same generic title is reused for the homepage, complaints page and ministerial duties page. Give each page a descriptive title and summary."
+      }
+    ],
+    "notes": [
+      "No complaints were submitted, identifiers entered, authentication initiated or case records requested. The listed process is information, not demonstrated service success.",
+      "Independent domain ownership and complete multilingual equivalence remain unverified."
+    ]
+  },
+  "agriculture-rural-development-fisheries": {
+    "title": "Agriculture, Rural Development and Fisheries",
+    "reviewedAt": "2026-10-20T16:57:04.044Z",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independently reviewed Education government directory links the Agriculture host; trusted capture and rendered institutional identity agree. Older directory portfolio wording may differ from the project title and does not imply endorsement.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The reviewed telephone directory lists regional administrative addresses, telephone and fax contacts, while the footer supplies ministry contact details. No call, message or feedback submission was made.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "The duties page provides detailed responsibilities spanning agricultural land, irrigation, production and rural development. A complete organization structure was not established within the declared three-page sample; partial combined mission/organization credit.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage supplies explicit publication dates including 16, 8 and 7 October 2026. Visible dating is established; factual recency and all-page update practice are not certified.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "accessibility.semantics": {
+        "points": 0.5,
+        "reason": "The normal heading inventories use h2 headings for the page titles and repeated dates; the sampled contact/duties outlines have no h1. Content is structured, but the top-level page hierarchy is incomplete.",
+        "evidence": [
+          "manual-followup.json#records.dom.headings"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Small horizontal overflow is reproduced",
+        "detail": "Separate normal-browser captures report document widths 331/401/853 for viewports 320/390/844 on the homepage. Resolve the extra horizontal width and review the contact directory on narrow screens."
+      },
+      {
+        "title": "Improve the top-level heading hierarchy",
+        "detail": "The sampled contact and ministerial-duties pages use h2 page headings without an h1 in the recorded outline."
+      }
+    ],
+    "notes": [
+      "The directory and duties samples establish information presence. Application requirements, downloads, service transactions, multilingual equivalence and complete keyboard journeys remain unmeasured."
+    ]
+  },
+  "internal-trade-market-regulation": {
+    "title": "Internal Trade and Market Regulation",
+    "reviewedAt": "2026-10-20T16:58:01.951Z",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independently reviewed Foreign Affairs government directory links the Commerce host; its trusted redirect and rendered ministry identity agree. Directory association is not endorsement or a claim that historical portfolio titles are current.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The reviewed contact page provides an enquiry form addressed to named ministerial departments and explicitly invites questions. No message was submitted and delivery or response quality remains untested.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.service-list": {
+        "points": 2,
+        "reason": "The reviewed navigation separates regulated activities, commercial-register guidance, consumer information and named digital services, including commercial registration and origin certificates. Listing credit does not certify destinations or transaction success.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "Central administration and regional, wilaya, border and territorial services are explicitly listed. Detailed statutory mission and complete organization coverage were not both established; partial information credit.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage explicitly dates news entries, including 6 September and 22 June 2026. Displayed dating is credited without asserting the accuracy or completeness of editorial updates.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "accessibility.language-aria": {
+        "points": 0,
+        "reason": "The homepage and contact page contain predominantly Arabic content yet declare html lang=fr. The institutional page correctly declares ar, demonstrating inconsistent primary-language metadata across the sample. French cookie-notice text does not make the Arabic document French.",
+        "evidence": [
+          "manual-followup.json#records.dom.lang",
+          "manual-followup.json#records.dom.text"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Match the HTML language to the Arabic content",
+        "detail": "Normal-browser home/contact captures declare French while the main content is Arabic; the institutional sample correctly declares Arabic. Correct the document language and mark French notice text separately."
+      }
+    ],
+    "notes": [
+      "The cookie notice was left untouched. No enquiry, search, service authentication, commercial registration or external transaction was submitted.",
+      "Normal-browser content was available despite guarded navigation timeouts on home/contact. Those constrained failures remain separate from intrinsic site defects."
+    ]
+  },
+  "housing-spatial-planning": {
+    "title": "Housing and Spatial Planning",
+    "reviewedAt": "2026-10-20T16:58:46.694Z",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independently reviewed Foreign Affairs government directory links the Housing host. Its trusted captured redirect and institutional identity agree, without implying government endorsement of this evaluation.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "The reviewed sample identifies public rental, subsidised promotional and rural housing categories through the service article and shared related-service links. This is partial listing evidence, not a verified complete housing-service catalogue.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.procedures": {
+        "points": 1,
+        "reason": "The rental-housing article supplies eligibility exclusions, submission routing, receipt and appeal guidance. It also includes historic transfer/purchase deadlines ending in 2015 without establishing their present applicability. Procedural information exists, but currency and complete current requirements are not verified; partial credit.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.documents": {
+        "points": 1,
+        "reason": "The reviewed rental article explicitly lists civil-status, residence, income and property-status evidence and an undertaking. A usable downloadable application form and the current complete dossier were not verified, so only partial document/instruction availability is credited.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.clarity": {
+        "points": 0.5,
+        "reason": "The housing article has useful question-led eligibility and application guidance, but mixes it with historic purchase/transfer deadlines. Contact headings exist in the DOM while the initial mobile capture does not establish visible contact details. Current task clarity is only partially established.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.contact.dom.headings",
+          "independent-contact-390.png"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Clarify the currency of housing guidance",
+        "detail": "The rental-housing sample combines application guidance with historic purchase/transfer deadlines ending in 2015. Separate historical provisions and show when current instructions were last reviewed."
+      }
+    ],
+    "notes": [
+      "The contact-page DOM contains an email/address heading, but the initial mobile screenshot does not establish its visible availability. Contact-channel credit is withheld pending a specific follow-up.",
+      "An external embedded document is excluded by the collector. Its blocked rendering is not scored as an intrinsic broken resource or a ministry outage.",
+      "No housing eligibility rule was independently verified as current, and no form, payment, purchase request or application was submitted."
+    ]
+  },
+  "vocational-training": {
+    "title": "Vocational Training and Education",
+    "reviewedAt": "2026-10-20T16:59:19.356Z",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "The primary ministry contact page and homepage publish telephone/fax numbers and a physical address. The normal contact capture displays an unresolved enquiry-form shortcode, so no functioning online enquiry is claimed; a telephone/postal channel is still available.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "The training-information sample explicitly lists training modes, specialities, foreign trainees, examinations and vocational education, but detailed requirements and destinations were not evaluated. Partial service-information listing credit only.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage shows explicit publication dates including 1 September and 23 August 2026. This credits visible dating, not current enrollment eligibility or complete update history.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "content.clarity": {
+        "points": 0.5,
+        "reason": "Training categories and contact numbers are understandable, but the normal contact page displays raw [ditty] and [contact-form-7] shortcodes and an old webtest.mfp.gov.dz address. The sample therefore has partial cross-page clarity.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "technical.cross-page": {
+        "points": 0.5,
+        "reason": "The normal-browser contact template exposes unrendered widget/form shortcodes while home and training information render content normally. A separate guarded desktop capture rendered a contact form, so this is recorded as an inconsistent capture rather than an always-broken form.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms",
+          "report.json#pages.manual"
+        ]
+      },
+      "technical.metadata": {
+        "points": 0.5,
+        "reason": "Page titles identify the ministry and contact/training tasks, but the captured contact description includes a raw widget shortcode and an old test-domain reference. Metadata is present yet needs editorial cleanup; full usefulness is not established.",
+        "evidence": [
+          "report.json#pages.observations.description",
+          "manual-followup.json#records.dom.title"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Repair inconsistent contact-page rendering",
+        "detail": "The normal-browser contact page displays unrendered widget and enquiry-form shortcodes; a guarded desktop capture rendered the form. Review template/plugin rendering and remove the old test-domain reference."
+      }
+    ],
+    "notes": [
+      "The originally discovered mvet.dz page is a service-link portal. Before timings, the declared scored sample was moved to its linked primary ministry site mvet.gov.dz. Original portal observations are retained separately and are not substituted for primary-site timings.",
+      "Phone/address availability is credited; no enquiry form, registration, login, certificate process or external service was submitted. Independent primary-domain confirmation remains pending."
+    ]
+  },
+  "religious-affairs-wakfs": {
+    "title": "Religious Affairs and Wakfs",
+    "reviewedAt": "2026-10-20T17:02:20.998Z",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "The reviewed pages publish a ministry email, postal address, telephone/fax numbers and a freephone line, alongside a clearly named electronic question channel. Contact delivery was not tested.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.mission": {
+        "points": 1,
+        "reason": "The reviewed structure-and-missions page gives named directorates/subdirectorates and substantive responsibilities, including mosque administration and Quranic education. This establishes available organization/mission information within the sample, not a legal verification of each duty.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 2,
+        "reason": "A clearly named electronic-services list includes the electronic fatwa channel, manuscripts, prayer times, mobile applications and Quran resources. Service-list credit is separate from actual delivery or external service functionality.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage news and announcements show explicit dated entries, including September and August 2026. The live calendar display is not used as evidence that editorial content is updated.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "accessibility.form-access": {
+        "points": 1,
+        "reason": "The normal-browser electronic question form has programmatically associated Arabic labels for name, sex, wilaya, phone, email, question and CAPTCHA input; required fields are identified in DOM attributes. Error handling, CAPTCHA alternatives and completed submission accessibility were not tested, so only partial credit.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.forms",
+          "manual-followup.json#records.service-information.axe"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Complete the electronic-form accessibility review",
+        "detail": "The sampled question form has labelled controls, but CAPTCHA alternatives, error handling and successful submission remain untested. These checks are needed before claiming complete-process accessibility."
+      }
+    ],
+    "notes": [
+      "The electronic-question form was inspected only. No name, contact details, question, CAPTCHA answer or other personal information was entered or submitted.",
+      "All guarded navigation samples timed out; separate normal-browser captures supplied the reviewed content and form evidence. Those collector timeouts are not treated as a ministry outage.",
+      "Independent domain ownership and complete multilingual equivalence remain pending."
+    ]
+  },
+  "knowledge-economy-startups": {
+    "title": "Knowledge Economy, Startups and Micro-Enterprises",
+    "reviewedAt": "2026-10-20T17:03:33.796Z",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "Both reviewed holding pages provide email, telephone and postal contacts, with a contact form present in the DOM. This credits contact availability only; no enquiry was submitted.",
+        "evidence": [
+          "manual-followup.json#records.dom.text",
+          "manual-followup.json#records.dom.forms"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "Both language samples state the ministry mission and name supervised entities, but a complete organization structure or substantive department responsibilities are not supplied. Partial mission/organization availability only.",
+        "evidence": [
+          "manual-followup.json#records.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 0,
+        "reason": "Both declared primary pages explicitly state that the website is under development and contain holding/contact information and related-entity links, without a ministry service catalogue. This is a confirmed absence in the narrow holding-page sample, not a conclusion that linked external agencies have no services.",
+        "evidence": [
+          "manual-followup.json#records.dom.text",
+          "manual-followup.json#records.dom.links"
+        ]
+      },
+      "content.procedures": {
+        "points": 0,
+        "reason": "The English and Arabic holding samples do not provide application steps or eligibility instructions for ministry services. The development notice explains the limited content; external service procedures were not inspected.",
+        "evidence": [
+          "manual-followup.json#records.dom.text"
+        ]
+      },
+      "content.documents": {
+        "points": 0,
+        "reason": "No required-service document list, application pack or downloadable ministry application form is supplied in either declared holding sample. The contact-enquiry form is not a substitute for service application documentation. External entities remain outside this sample.",
+        "evidence": [
+          "manual-followup.json#records.dom.text",
+          "manual-followup.json#records.dom.links"
+        ]
+      },
+      "content.multilingual": {
+        "points": 1,
+        "reason": "The English and Arabic samples convey the same development notice, mission, contact channels and related-entity information with appropriate en/ar document language. This limited holding-content equivalence earns partial credit; complete multilingual services are not established.",
+        "evidence": [
+          "manual-followup.json#records.dom.text",
+          "manual-followup.json#records.dom.lang"
+        ]
+      },
+      "content.clarity": {
+        "points": 1,
+        "reason": "Both holding pages clearly explain that the site is being developed and give consistent contact channels. The declared current purpose is understandable; this does not award service availability or completion.",
+        "evidence": [
+          "manual-followup.json#records.dom.text"
+        ]
+      },
+      "technical.links": {
+        "points": 1,
+        "reason": "The Privacy policy link in both languages has href=\"#\", returning to the same holding document rather than opening a policy. This confirmed contextual-navigation placeholder earns partial sampled-link credit; no complete crawl or external-link check was performed.",
+        "evidence": [
+          "manual-followup.json#records.dom.links"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "The primary website is a holding page",
+        "detail": "English and Arabic pages explicitly say the website is under development. Contact information is available, but this sample does not supply a ministry service catalogue, application procedures or required documents."
+      },
+      {
+        "title": "Replace the privacy-policy placeholder",
+        "detail": "Both language versions link Privacy policy to # on the same holding page. Supply a meaningful policy destination before relying on this link for the contact form."
+      }
+    ],
+    "notes": [
+      "Only two distinct holding pages were declared because the observed primary site directs visitors to development notices. This narrower sample cannot be compared as equivalent to a complete three-page institutional/service sample.",
+      "The December 2026 conference dates describe an event; they are not treated as evidence of an editorial publication/update history.",
+      "External agency/fund/startup links were not visited, used or scored. The contact form was not submitted and independent domain confirmation remains pending."
+    ]
+  },
+  "public-works-basic-infrastructure": {
+    "title": "Public Works and Basic Infrastructure",
+    "reviewedAt": "2026-10-20T17:06:37.863Z",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "The contact sample has an enquiry interface and publishes a physical ministry address with telephone numbers. This establishes a contact channel; no message or CAPTCHA was submitted.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage explicitly dates procurement/news items to 19 October 2026. The future exhibition dates and footer copyright are not used as editorial-update evidence.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "The selected service page explicitly identifies company qualification/classification and study-office accreditation, but the reviewed sample does not establish a complete service catalogue. Listing credit is partial and separate from application/result-table functionality.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      }
+    },
+    "findings": [],
+    "notes": [
+      "The sampled qualification-results table showed processing/loading text in the captured DOM. Its eventual data, filtering and search functionality were not established, so no functional-service or site-search credit is awarded. This is not a claim that the table is permanently broken.",
+      "No enquiry, CAPTCHA, registration, procurement request or external platform was submitted. Independent primary-domain verification remains pending."
+    ]
+  },
+  "hydraulics": {
+    "title": "Hydraulics",
+    "reviewedAt": "2026-10-20T17:06:37.864Z",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "The reviewed contact page supplies a named enquiry form, ministry email, telephone and postal address. No question, attachment, personal data or other form value was entered or sent.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "The strategy sample explains sector priorities including nonconventional water resources, desalination, reuse, regional supply and digital transformation. A complete organization structure was not established, so combined mission/organization availability receives partial credit.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage publishes explicit news dates, including 16 September 2026. This credits date display only, not verified sector statistics, event truth or complete update history.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "technical.metadata": {
+        "points": 0.5,
+        "reason": "The normal homepage, contact and strategy samples all reuse the generic ministry title. Institutional identity is present but task-specific page metadata is weak; partial usefulness credit rather than a full metadata pass.",
+        "evidence": [
+          "manual-followup.json#records.dom.title"
+        ]
+      },
+      "mobile.reflow": {
+        "points": 1,
+        "reason": "Reviewed normal homepage screenshot shows a clipped header and wrapped navigation, with 1275px document width at 320/390/844 widths. Contact/strategy recorded widths fit. This corroborates localized homepage reflow friction, not a fully blocked service or a failure of every page.",
+        "evidence": [
+          "independent-homepage-390.png",
+          "manual-followup.json#records.viewports"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Resolve homepage horizontal overflow",
+        "detail": "The normal-browser homepage has a 1275px document width at 320, 390 and 844px viewports. The contact and strategy pages fit those widths. Review the homepage layout while preserving usable navigation."
+      }
+    ],
+    "notes": [
+      "Homepage screenshots show wrapped navigation and a clipped heading alongside the measured horizontal overflow; this is localized homepage friction, not proof that every page or citizen task is blocked.",
+      "No water-service request, form submission, attachment, login or external digital platform was used. Independent primary-domain verification remains pending."
+    ]
+  },
+  "labour-employment-social-security": {
+    "title": "Labour, Employment and Social Security",
+    "reviewedAt": "2026-10-20T17:15:00.201Z",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independently reviewed government Foreign Affairs directory links the sampled ministry host; captured identity agrees. This establishes host association, not endorsement.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The sampled contact page identifies a reception and social-listening office, telephone/fax and an enquiry form; the shared footer gives a postal address and telephone numbers. No message was submitted.",
+        "evidence": [
+          "manual-followup.json#records.contact.dom.text",
+          "manual-followup.json#records.contact.dom.forms"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The reviewed homepage explicitly dates news, including 19 October 2026. Credit concerns visible dating only, not the accuracy of all content.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "content.procedures": {
+        "points": 1,
+        "reason": "The sampled labour-legislation guide explains several employment situations and procedural steps, including written resignation/notice. This is partial procedural information; legal currency, eligibility across services and completed transactions were not verified.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Contact form needs a separate process review",
+        "detail": "The captured form asks for personal details, including a social-security number. No data was entered; validation, necessity of fields, privacy explanations and successful delivery remain unmeasured."
+      }
+    ],
+    "notes": [
+      "Reviewed homepage, contact and labour-legislation text offline after normal-browser capture. Displayed legal information is not a legal-accuracy or current-law certification."
+    ]
+  },
+  "national-solidarity-family": {
+    "title": "National Solidarity and Family",
+    "reviewedAt": "2026-10-20T17:15:00.201Z",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "Independent government-directory host association agrees with the captured ministry identity. This is not endorsement.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The sampled pages display a postal address, telephone, ministry email and a separate corruption-reporting telephone. Availability of contact information is credited; response or delivery was not tested.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage includes dated activities and the procurement page explicitly dates notices and awards, including October 2026. This verifies displayed dates, not procurement accuracy.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "The homepage labels recruitment, corruption reporting and digital solidarity services. These are useful entry labels, but this three-page sample does not establish a complete task-oriented citizen-service catalogue.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Accessibility findings require targeted remediation review",
+        "detail": "Normal-browser axe flags unnamed controls and an untitled frame. These remain recorded automated findings; no comprehensive keyboard or assistive-technology pass is claimed."
+      }
+    ],
+    "notes": [
+      "Guarded navigation timeouts are retained separately from the successful normal-browser content captures. They are not treated as evidence of national outage.",
+      "The declared service-information page is procurement information; citizen-service completion and document requirements remain unmeasured."
+    ]
+  },
+  "sports": {
+    "title": "Sports",
+    "reviewedAt": "2026-10-20T17:15:00.201Z",
+    "rows": {
+      "content.contact": {
+        "points": 1,
+        "reason": "The shared footer supplies the ministry postal address and telephone numbers on all three reviewed pages. Contact response and delivery were not tested.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "Homepage news and sporting-result excerpts show explicit publication dates. This credits dating only; it does not establish that all sections are up to date.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "The sampled institution page identifies directorates, training establishments, the national sports observatory, anti-doping agency and sports-medicine centre. Organization is partly described, but a complete ministry mission and responsibilities were not reviewed.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.service-list": {
+        "points": 1,
+        "reason": "The sampled sports page labels national, international and other sporting events, while the institution page identifies sector bodies. These are partial information entry points rather than a demonstrated complete citizen-service directory.",
+        "evidence": [
+          "manual-followup.json#records.service-information.dom.text",
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Service information is limited in the declared sample",
+        "detail": "The sports page mainly contains event-category labels. Eligibility, documents and end-to-end service steps remain unmeasured."
+      },
+      {
+        "title": "Automated accessibility issues retained for review",
+        "detail": "The captures flag unnamed social links and low-contrast text. These supporting observations do not constitute a complete WCAG, keyboard or mobile-process assessment."
+      }
+    ],
+    "notes": [
+      "Institutional branding alone does not independently verify domain ownership; identity credit remains pending.",
+      "No full reflow credit is inferred solely from fitting viewport dimensions."
+    ]
+  },
+  "relations-parliament": {
+    "title": "Relations with Parliament",
+    "reviewedAt": "2026-10-20T17:16:17.375Z",
+    "rows": {
+      "content.identity": {
+        "points": 1,
+        "reason": "The independent Foreign Affairs government directory associates the sampled host with this ministry and the captured identity agrees. No endorsement is implied.",
+        "evidence": [
+          "report.json#ownership"
+        ]
+      },
+      "content.contact": {
+        "points": 1,
+        "reason": "The reviewed sample consistently displays a postal address, ministry email and telephone numbers. No enquiry was sent and response was not tested.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.mission": {
+        "points": 0.5,
+        "reason": "The responsibilities page gives detailed coordination and legislative-follow-up duties with a decree citation. A complete organizational structure was not reviewed, so only partial mission/organization credit is supported. This does not certify the current legal position.",
+        "evidence": [
+          "manual-followup.json#records.institution.dom.text"
+        ]
+      },
+      "content.dates": {
+        "points": 1,
+        "reason": "The homepage explicitly dates recent items, including 20 October 2026. The legislative page identifies parliamentary sessions and archive periods. Dating is credited without certifying completeness or currency.",
+        "evidence": [
+          "manual-followup.json#records.homepage.dom.text",
+          "manual-followup.json#records.service-information.dom.text"
+        ]
+      },
+      "technical.metadata": {
+        "points": 0.5,
+        "reason": "All three declared pages use the same generic ministry title and lack a captured meta description, although body headings identify their different roles. Page-specific search descriptions and document titles are incomplete.",
+        "evidence": [
+          "report.json#pages.observations",
+          "manual-followup.json#records.dom.title"
+        ]
+      },
+      "accessibility.semantics": {
+        "points": 0.5,
+        "reason": "The captured pages have topical H2 headings but no H1; guarded DOM inventories also record no main landmark. The structure is partial rather than a fully reviewed semantic outline.",
+        "evidence": [
+          "manual-followup.json#records.dom.headings",
+          "report.json#pages.observations.semanticLandmarks"
+        ]
+      }
+    },
+    "findings": [
+      {
+        "title": "Different pages share a generic document title",
+        "detail": "Responsibilities and legislative tracking have distinct visible headings, but the captured document title is identical and meta descriptions are absent."
+      },
+      {
+        "title": "Small horizontal overflow needs responsive review",
+        "detail": "Normal-browser captures record 12 pixels of document overflow at 320, 390 and 844 pixels. The reviewed 390-pixel responsibilities screenshot still shows readable content; complete mobile task success is not inferred."
+      }
+    ],
+    "notes": [
+      "The legislative-tracking capture shows session headings and archive entry points; its downstream records and downloads were not opened, so service/document functionality remains unmeasured.",
+      "No legal accuracy, successful search, keyboard completion or full WCAG claim is made."
+    ]
+  }
+}
